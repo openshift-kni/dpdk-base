@@ -9,6 +9,7 @@ LABEL com.redhat.component="dpdk-base-container" \
     io.openshift.expose-services="" \
     io.openshift.tags="< tags >" \
     io.k8s.display-name="dpdk-base" \
+    io.k8s.description="Base image for dpdk" \
     io.openshift.s2i.scripts-url=image:///usr/libexec/s2i \
     io.s2i.scripts-url=image:///usr/libexec/s2i \
     description="dpdk-base"
