@@ -9,6 +9,7 @@ LABEL com.redhat.component="dpdk-base-container" \
     io.openshift.expose-services="" \
     io.openshift.tags="< tags >" \
     io.k8s.display-name="dpdk-base" \
+    io.k8s.description="Base image for dpdk" \
     io.openshift.s2i.scripts-url=image:///usr/libexec/s2i \
     io.s2i.scripts-url=image:///usr/libexec/s2i \
     description="dpdk-base"
@@ -50,16 +51,9 @@ RUN INSTALL_PKGS="bsdtar \
   expect" && \
   mkdir -p ${HOME}/.pki/nssdb && \
   chown -R 1001:0 ${HOME}/.pki && \
-  microdnf --setopt=tsflags=nodocs -y install subscription-manager && \
-  subscription-manager register --org $(cat "/activation-key/org") --activationkey $(cat "/activation-key/activationkey") && \
-  subscription-manager release --set=${RHEL_VERSION} && \
-  microdnf --disablerepo=* --enablerepo=*eus-rpms* makecache || DISABLED_EUS_REPOS="--disablerepo=*eus-rpms*" && \
-  sed -i 's/enabled *= *1/enabled=0/g' /etc/yum.repos.d/ubi.repo && \
-  microdnf $DISABLED_EUS_REPOS --setopt=tsflags=nodocs -y distro-sync && \
-  microdnf $DISABLED_EUS_REPOS --setopt=tsflags=nodocs -y install $INSTALL_PKGS && \
+  microdnf --setopt=tsflags=nodocs -y install $INSTALL_PKGS && \
   rpm -V $INSTALL_PKGS && \
-  microdnf -y clean all --enablerepo='*' && \
-  subscription-manager unregister
+  microdnf -y clean all --enablerepo='*'
 
 # in dpdk 20.11 the testpmd bin changed to dpdk-testpmd
 # for backport support we add a symlink
