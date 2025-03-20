@@ -57,7 +57,7 @@ spec:
 
         function inspect_image() {
           local authFile="$1"
-          skopeo inspect --authfile "${authFile}" --format "Coverity Image Digest: {{.Digest}}"
+          skopeo inspect --authfile "${authFile}" --format "Coverity Image Digest: {{.Digest}}" docker://quay.io/redhat-services-prod/sast/coverity:202412.5
         }
 
         # Checking Coverity license
