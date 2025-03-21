@@ -29,6 +29,12 @@ spec:
     value: 5d
   - name: dockerfile
     value: Dockerfile
+  - name: build-source-image
+    value: "true"
+  - name: hermetic
+    value: "true"
+  - name: prefetch-input
+    value: '{"type": "rpm", "path": "."}'
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while reducing network traffic.
@@ -190,6 +196,8 @@ spec:
       params:
       - name: input
         value: $(params.prefetch-input)
+      - name: dev-package-managers
+        value: "true"
       runAfter:
       - clone-repository
       taskRef:
@@ -446,14 +454,7 @@ spec:
       runAfter:
       - coverity-availability-check
       taskRef:
-        params:
-        - name: name
-          value: sast-coverity-check
-        - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-sast-coverity-check:0.2@sha256:d4fa3576baa2a7066d2a1840057836b90caee4d7ddf302bc1e93949cf8c12e04
-        - name: kind
-          value: task
-        resolver: bundles
+        name: sast-coverity-check-2
       when:
       - input: $(params.skip-checks)
         operator: in

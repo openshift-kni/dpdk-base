@@ -1,0 +1,62 @@
+contentOrigin:
+  repos:
+    - repoid: rhel-9-for-$basearch-baseos-rpms
+      baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/baseos/os
+      varsFromContainerfile: Dockerfile
+      sslverify: 1
+      sslcacert: /etc/rhsm/ca/redhat-uep.pem
+      sslclientkey: /etc/pki/entitlement/7011177788604968496-key.pem
+      sslclientcert: /etc/pki/entitlement/7011177788604968496.pem
+    - repoid: rhel-9-for-$basearch-appstream-rpms
+      baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/appstream/os
+      varsFromContainerfile: Dockerfile
+      sslverify: 1
+      sslcacert: /etc/rhsm/ca/redhat-uep.pem
+      sslclientkey: /etc/pki/entitlement/7011177788604968496-key.pem
+      sslclientcert: /etc/pki/entitlement/7011177788604968496.pem
+    # skip RHEL EUS repositories if unavailable (i.e. non-EUS release)
+    - repoid: rhel-9-for-$basearch-baseos-eus-rpms
+      baseurl: https://cdn.redhat.com/content/eus/rhel9/{version}/$basearch/baseos/os
+      varsFromContainerfile: Dockerfile
+      sslverify: 1
+      sslcacert: /etc/rhsm/ca/redhat-uep.pem
+      sslclientkey: /etc/pki/entitlement/7011177788604968496-key.pem
+      sslclientcert: /etc/pki/entitlement/7011177788604968496.pem
+      skip_if_unavailable: true
+    - repoid: rhel-9-for-$basearch-appstream-eus-rpms
+      baseurl: https://cdn.redhat.com/content/eus/rhel9/{version}/$basearch/appstream/os
+      varsFromContainerfile: Dockerfile
+      sslverify: 1
+      sslcacert: /etc/rhsm/ca/redhat-uep.pem
+      sslclientkey: /etc/pki/entitlement/7011177788604968496-key.pem
+      sslclientcert: /etc/pki/entitlement/7011177788604968496.pem
+      skip_if_unavailable: true
+
+packages:
+  - bsdtar
+  - findutils
+  - groff-base
+  - glibc-locale-source
+  - glibc-langpack-en
+  - gettext
+  - rsync
+  - scl-utils
+  - tar
+  - unzip
+  - xz
+  - yum
+  - dpdk
+  - dpdk-devel
+  - dpdk-tools
+  - make
+  - rdma-core
+  - libibverbs
+  - git
+  - gcc
+  - expect
+
+arches:
+  - x86_64
+
+context:
+    containerfile: Dockerfile
