@@ -5,31 +5,38 @@ contentOrigin:
       varsFromContainerfile: Dockerfile
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
-      sslclientkey: /etc/pki/entitlement/7011177788604968496-key.pem
-      sslclientcert: /etc/pki/entitlement/7011177788604968496.pem
+      sslclientkey: $SSL_CLIENT_KEY
+      sslclientcert: $SSL_CLIENT_CERT
     - repoid: rhel-9-for-$basearch-appstream-rpms
       baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/appstream/os
       varsFromContainerfile: Dockerfile
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
-      sslclientkey: /etc/pki/entitlement/7011177788604968496-key.pem
-      sslclientcert: /etc/pki/entitlement/7011177788604968496.pem
+      sslclientkey: $SSL_CLIENT_KEY
+      sslclientcert: $SSL_CLIENT_CERT
+    - repoid: codeready-builder-for-rhel-9-$basearch-rpms
+      baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/codeready-builder/os
+      varsFromContainerfile: Dockerfile
+      sslverify: 1
+      sslcacert: /etc/rhsm/ca/redhat-uep.pem
+      sslclientkey: $SSL_CLIENT_KEY
+      sslclientcert: $SSL_CLIENT_CERT
     # skip RHEL EUS repositories if unavailable (i.e. non-EUS release)
     - repoid: rhel-9-for-$basearch-baseos-eus-rpms
       baseurl: https://cdn.redhat.com/content/eus/rhel9/{version}/$basearch/baseos/os
       varsFromContainerfile: Dockerfile
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
-      sslclientkey: /etc/pki/entitlement/7011177788604968496-key.pem
-      sslclientcert: /etc/pki/entitlement/7011177788604968496.pem
+      sslclientkey: $SSL_CLIENT_KEY
+      sslclientcert: $SSL_CLIENT_CERT
       skip_if_unavailable: true
     - repoid: rhel-9-for-$basearch-appstream-eus-rpms
       baseurl: https://cdn.redhat.com/content/eus/rhel9/{version}/$basearch/appstream/os
       varsFromContainerfile: Dockerfile
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
-      sslclientkey: /etc/pki/entitlement/7011177788604968496-key.pem
-      sslclientcert: /etc/pki/entitlement/7011177788604968496.pem
+      sslclientkey: $SSL_CLIENT_KEY
+      sslclientcert: $SSL_CLIENT_CERT
       skip_if_unavailable: true
 
 packages:
