@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi9/ubi-minimal:9.4
+FROM registry.redhat.io/ubi9/ubi-minimal:9.5
 
 LABEL com.redhat.component="dpdk-base-container" \
     name="dpdk-base" \
