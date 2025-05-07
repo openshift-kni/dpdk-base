@@ -1,6 +1,4 @@
-ARG RHEL_VERSION=9.4
-FROM registry.redhat.io/ubi9/ubi-minimal:${RHEL_VERSION}
-ARG RHEL_VERSION
+FROM registry.redhat.io/ubi9/ubi-minimal:9.4
 
 LABEL com.redhat.component="dpdk-base-container" \
     name="dpdk-base" \
