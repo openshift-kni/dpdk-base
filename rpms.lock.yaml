@@ -1115,14 +1115,14 @@ arches:
     size: 563021
     checksum: sha256:d2d976db2cc6c111d313db36afbf947352b57331839774cbb0758b172e82c05b
     name: glibc-devel
-    evr: 2.34-100.el9_4.7
+    evr: 2.34-100.el9_4.10
     sourcerpm: glibc-2.34-100.el9_4.7.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/glibc-locale-source-2.34-100.el9_4.7.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 4361234
     checksum: sha256:b38900c62f6e5a4adc9ad8d4c38e636c846bc692ee84c7e88b997e71a51613e3
     name: glibc-locale-source
-    evr: 2.34-100.el9_4.7
+    evr: 2.34-100.el9_4.10
     sourcerpm: glibc-2.34-100.el9_4.7.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.67.1.el9_4.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
