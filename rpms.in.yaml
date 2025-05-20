@@ -1,19 +1,19 @@
 contentOrigin:
   repos:
-    - repoid: rhel-8-for-$basearch-baseos-rpms
-      baseurl: https://cdn.redhat.com/content/dist/rhel8/8/$basearch/baseos/os
+    - repoid: rhel-8-for-$basearch-baseos-aus-rpms
+      baseurl: https://cdn.redhat.com/content/aus/rhel8/8.6/$basearch/baseos/os
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
       sslclientkey: $SSL_CLIENT_KEY
       sslclientcert: $SSL_CLIENT_CERT
-    - repoid: rhel-8-for-$basearch-appstream-rpms
-      baseurl: https://cdn.redhat.com/content/dist/rhel8/8/$basearch/appstream/os
+    - repoid: rhel-8-for-$basearch-appstream-aus-rpms
+      baseurl: https://cdn.redhat.com/content/aus/rhel8/8.6/$basearch/appstream/os
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
       sslclientkey: $SSL_CLIENT_KEY
       sslclientcert: $SSL_CLIENT_CERT
     - repoid: codeready-builder-for-rhel-8-$basearch-rpms
-      baseurl: https://cdn.redhat.com/content/dist/rhel8/8/$basearch/codeready-builder/os
+      baseurl: https://cdn.redhat.com/content/eus/rhel8/8.6/$basearch/codeready-builder/os
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
       sslclientkey: $SSL_CLIENT_KEY
@@ -24,7 +24,7 @@ packages:
   - findutils
   - groff-base
   - glibc-locale-source
-  - glibc-minimal-langpack
+  - glibc-langpack-en
   - gettext
   - rsync
   - scl-utils
