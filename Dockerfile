@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8/ubi-minimal
+FROM registry.redhat.io/rhel8-6-els/rhel:8.6
 
 LABEL com.redhat.component="dpdk-base-container" \
     name="dpdk-base" \
@@ -17,7 +17,7 @@ ENV \
     # The $HOME is not set by default, but some applications needs this variable
     HOME=/opt/app-root/src \
     PATH=$PATH:/opt/app-root/src/bin:/opt/app-root/bin \
-    PLATFORM="el9"
+    PLATFORM="el8"
 
 ENV BUILDER_VERSION 0.1
 ENV DPDK_VER 23.11-1
@@ -30,7 +30,7 @@ RUN INSTALL_PKGS="bsdtar \
   findutils \
   groff-base \
   glibc-locale-source \
-  glibc-minimal-langpack \
+  glibc-langpack-en \
   gettext \
   rsync \
   scl-utils \
@@ -49,9 +49,9 @@ RUN INSTALL_PKGS="bsdtar \
   expect" && \
   mkdir -p ${HOME}/.pki/nssdb && \
   chown -R 1001:0 ${HOME}/.pki && \
-  microdnf --setopt=tsflags=nodocs -y install $INSTALL_PKGS && \
+  dnf --setopt=tsflags=nodocs -y install $INSTALL_PKGS && \
   rpm -V $INSTALL_PKGS && \
-  microdnf -y clean all --enablerepo='*'
+  dnf -y clean all --enablerepo='*'
 
 # in dpdk 20.11 the testpmd bin changed to dpdk-testpmd
 # for backport support we add a symlink
@@ -71,17 +71,9 @@ COPY ./s2i/bin/ /usr/libexec/s2i
 RUN setcap cap_ipc_lock=+ep /usr/libexec/s2i/run \
     && setcap cap_sys_resource=+ep /usr/libexec/s2i/run
 
-# Allows non-root users to use dpdk-testpmd
-RUN setcap cap_sys_resource,cap_ipc_lock,cap_net_raw+ep /usr/bin/dpdk-testpmd
-RUN setcap cap_sys_resource,cap_ipc_lock,cap_net_raw+ep /usr/bin/dpdk-test-bbdev
-
-# Add supplementary group 801 to user 1001 in order to use the VFIO device in a non-privileged pod.
-RUN groupadd -g 801 hugetlbfs
-RUN usermod -aG hugetlbfs default
-
 # This is needed for the s2i to work
 # in the pod yaml we still use the runAsUser:0 we w/a the ulimit issue
-USER default
+USER 1001
 
 CMD ["/usr/libexec/s2i/usage"]
 
