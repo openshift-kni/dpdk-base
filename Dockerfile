@@ -1,4 +1,5 @@
 FROM registry.redhat.io/rhel9-4-els/rhel-minimal:9.4
+#
 
 LABEL com.redhat.component="dpdk-base-container" \
     name="dpdk-base" \
