@@ -1,5 +1,6 @@
 FROM registry.redhat.io/ubi8/ubi-minimal
 
+
 LABEL com.redhat.component="dpdk-base-container" \
     name="dpdk-base" \
     version="${CI_CONTAINER_VERSION}" \
