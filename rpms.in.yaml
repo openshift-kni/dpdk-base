@@ -1,43 +1,23 @@
 contentOrigin:
   repos:
-    - repoid: rhel-9-for-$basearch-baseos-rpms
-      baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/baseos/os
-      varsFromContainerfile: Dockerfile
+    - repoid: rhel-8-for-$basearch-baseos-rpms
+      baseurl: https://cdn.redhat.com/content/dist/rhel8/8/$basearch/baseos/os
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
       sslclientkey: $SSL_CLIENT_KEY
       sslclientcert: $SSL_CLIENT_CERT
-    - repoid: rhel-9-for-$basearch-appstream-rpms
-      baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/appstream/os
-      varsFromContainerfile: Dockerfile
+    - repoid: rhel-8-for-$basearch-appstream-rpms
+      baseurl: https://cdn.redhat.com/content/dist/rhel8/8/$basearch/appstream/os
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
       sslclientkey: $SSL_CLIENT_KEY
       sslclientcert: $SSL_CLIENT_CERT
-    - repoid: codeready-builder-for-rhel-9-$basearch-rpms
-      baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/codeready-builder/os
-      varsFromContainerfile: Dockerfile
+    - repoid: codeready-builder-for-rhel-8-$basearch-rpms
+      baseurl: https://cdn.redhat.com/content/dist/rhel8/8/$basearch/codeready-builder/os
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
       sslclientkey: $SSL_CLIENT_KEY
       sslclientcert: $SSL_CLIENT_CERT
-    # skip RHEL EUS repositories if unavailable (i.e. non-EUS release)
-    - repoid: rhel-9-for-$basearch-baseos-eus-rpms
-      baseurl: https://cdn.redhat.com/content/eus/rhel9/{version}/$basearch/baseos/os
-      varsFromContainerfile: Dockerfile
-      sslverify: 1
-      sslcacert: /etc/rhsm/ca/redhat-uep.pem
-      sslclientkey: $SSL_CLIENT_KEY
-      sslclientcert: $SSL_CLIENT_CERT
-      skip_if_unavailable: true
-    - repoid: rhel-9-for-$basearch-appstream-eus-rpms
-      baseurl: https://cdn.redhat.com/content/eus/rhel9/{version}/$basearch/appstream/os
-      varsFromContainerfile: Dockerfile
-      sslverify: 1
-      sslcacert: /etc/rhsm/ca/redhat-uep.pem
-      sslclientkey: $SSL_CLIENT_KEY
-      sslclientcert: $SSL_CLIENT_CERT
-      skip_if_unavailable: true
 
 packages:
   - bsdtar
