@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi9/ubi-minimal:9.4
+FROM registry.redhat.io/rhel9-4-els/rhel-minimal:9.4
 
 LABEL com.redhat.component="dpdk-base-container" \
     name="dpdk-base" \
@@ -30,7 +30,7 @@ RUN INSTALL_PKGS="bsdtar \
   findutils \
   groff-base \
   glibc-locale-source \
-  glibc-langpack-en \
+  glibc-minimal-langpack \
   gettext \
   rsync \
   scl-utils \
