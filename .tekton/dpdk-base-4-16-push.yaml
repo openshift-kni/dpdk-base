@@ -4,18 +4,17 @@ metadata:
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/openshift-kni/dpdk-base?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
-    build.appstudio.redhat.com/pull_request_number: '{{pull_request_number}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
-    pipelinesascode.tekton.dev/cancel-in-progress: "true"
+    pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
-      == "release-4.17"
+    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
+      == "release-4.16"
   creationTimestamp: null
   labels:
-    appstudio.openshift.io/application: dpdk-base-4-17
-    appstudio.openshift.io/component: dpdk-base-4-17
+    appstudio.openshift.io/application: dpdk-base-4-16
+    appstudio.openshift.io/component: dpdk-base-4-16
     pipelines.appstudio.openshift.io/type: build
-  name: dpdk-base-4-17-on-pull-request
+  name: dpdk-base-4-16-on-push
   namespace: telco-5g-tenant
 spec:
   params:
@@ -24,9 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/telco-5g-tenant/dpdk-base-4-17:on-pr-{{revision}}
-  - name: image-expires-after
-    value: 5d
+    value: quay.io/redhat-user-workloads/telco-5g-tenant/dpdk-base-4-16:{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
@@ -619,7 +616,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-dpdk-base-4-17
+    serviceAccountName: build-pipeline-dpdk-base-4-16
   workspaces:
   - name: git-auth
     secret:
