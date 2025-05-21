@@ -1159,13 +1159,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.10
     sourcerpm: glibc-2.34-100.el9_4.10.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.68.1.el9_4.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.68.2.el9_4.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 4702353
-    checksum: sha256:fd9bf3c9c1593754b1ba99baf4320e21c03ed12fa3d1876c6490d2b10e4bb207
+    size: 4516713
+    checksum: sha256:2c89ad34eeb3e5ed3145d0fc547398b4eecf710c0d62c36bbcb1df3643a10361
     name: kernel-headers
-    evr: 5.14.0-427.68.1.el9_4
-    sourcerpm: kernel-5.14.0-427.68.1.el9_4.src.rpm
+    evr: 5.14.0-427.68.2.el9_4
+    sourcerpm: kernel-5.14.0-427.68.2.el9_4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/perl-Git-2.43.5-1.el9_4.1.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 38619
@@ -1187,34 +1187,6 @@ arches:
     name: expat
     evr: 2.5.0-2.el9_4.2
     sourcerpm: expat-2.5.0-2.el9_4.2.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/g/glibc-2.34-100.el9_4.10.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 2060439
-    checksum: sha256:09380cd7ee7d25f88494d610aa9d0a041085b2453e22c3beac883d7843ea5b6a
-    name: glibc
-    evr: 2.34-100.el9_4.10
-    sourcerpm: glibc-2.34-100.el9_4.10.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/g/glibc-common-2.34-100.el9_4.10.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 308335
-    checksum: sha256:972c46efa3aef834fb9d06316161bcbf8700a71d69cf694b919231a5838f6224
-    name: glibc-common
-    evr: 2.34-100.el9_4.10
-    sourcerpm: glibc-2.34-100.el9_4.10.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-100.el9_4.10.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 669013
-    checksum: sha256:f999fb6eba4b37770ad233bc7595605204428bc1813f0942586898a019bcd691
-    name: glibc-langpack-en
-    evr: 2.34-100.el9_4.10
-    sourcerpm: glibc-2.34-100.el9_4.10.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-100.el9_4.10.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 15125
-    checksum: sha256:e8751fff7bc5e8a222bd306eed5ea283b10730d77709a937cd94e8952e5ef64d
-    name: glibc-minimal-langpack
-    evr: 2.34-100.el9_4.10
-    sourcerpm: glibc-2.34-100.el9_4.10.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/l/libgomp-11.4.1-4.el9_4.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 266308
