@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-5.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/85dd04fa1ccbf9c93b6f45e96afeb8a7e61a2630173f0152d55fd8b06df89395-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/f58767fc6e108df29c7676237e46897fc01e0e74f05215dca96b11936f7b17ad-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 730550
-    checksum: sha256:85dd04fa1ccbf9c93b6f45e96afeb8a7e61a2630173f0152d55fd8b06df89395
+    checksum: sha256:f58767fc6e108df29c7676237e46897fc01e0e74f05215dca96b11936f7b17ad
