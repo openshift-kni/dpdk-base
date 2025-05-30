@@ -1019,6 +1019,13 @@ arches:
     name: vim-filesystem
     evr: 2:8.2.2637-20.el9_1
     sourcerpm: vim-8.2.2637-20.el9_1.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.4/aarch64/baseos/os/Packages/w/which-2.21-29.el9.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 45104
+    checksum: sha256:61eef3ee2dcd3d2e3b784464e801cbea2e8e668271b4aff97529110b45915191
+    name: which
+    evr: 2.21-29.el9
+    sourcerpm: which-2.21-29.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.4/aarch64/baseos/os/Packages/x/xz-5.2.5-8.el9_0.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 235798
@@ -1117,13 +1124,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.10
     sourcerpm: glibc-2.34-100.el9_4.10.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.70.1.el9_4.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.72.1.el9_4.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 4411285
-    checksum: sha256:a10e5b3e242a1bf1d167828530eb36317f5629512449b44767803613124e8b0f
+    size: 4287837
+    checksum: sha256:55144b8ff1e5c06dc5e72cbb90b21bce31ceb00c3c614919745f685c56110457
     name: kernel-headers
-    evr: 5.14.0-427.70.1.el9_4
-    sourcerpm: kernel-5.14.0-427.70.1.el9_4.src.rpm
+    evr: 5.14.0-427.72.1.el9_4
+    sourcerpm: kernel-5.14.0-427.72.1.el9_4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/l/libasan-11.4.1-4.el9_4.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 410341
@@ -2269,6 +2276,13 @@ arches:
     name: vim-filesystem
     evr: 2:8.2.2637-20.el9_1
     sourcerpm: vim-8.2.2637-20.el9_1.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/baseos/os/Packages/w/which-2.21-29.el9.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 45737
+    checksum: sha256:ecfb8a10701375e0f7936825c920113842d63537f1994d915e7f77ec271d2ffb
+    name: which
+    evr: 2.21-29.el9
+    sourcerpm: which-2.21-29.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/baseos/os/Packages/x/xz-5.2.5-8.el9_0.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 235693
