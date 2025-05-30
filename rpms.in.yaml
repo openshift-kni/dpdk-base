@@ -60,6 +60,7 @@ packages:
   - libibverbs
   - git
   - gcc
+  - which
   - expect
 
 arches:
