@@ -46,6 +46,7 @@ RUN INSTALL_PKGS="bsdtar \
   libibverbs \
   git \
   gcc \
+  which \
   expect" && \
   mkdir -p ${HOME}/.pki/nssdb && \
   chown -R 1001:0 ${HOME}/.pki && \
