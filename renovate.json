@@ -6,12 +6,16 @@
     "pruneBranchAfterAutomerge": true,
     "rpm": {
         "autoApprove": true,
-        "automerge": true,
         "enabled": true,
         "ignoreTests": false,
-        "addLabels": ["approved", "lgtm"],
         "includePaths": ["rpms.lock.yaml"],
-        "matchUpdateTypes": ["minor","patch"],
+	"packageRules": [
+          {
+            "matchUpdateTypes": ["minor", "patch"],
+            "automerge": true,
+            "addLabels": ["lgtm", "approved"]
+          }
+        ],
         "platformAutomerge": true
     },
     "tekton": {
