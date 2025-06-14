@@ -1117,13 +1117,13 @@ arches:
     name: systemd-pam
     evr: 239-82.el8_10.5
     sourcerpm: systemd-239-82.el8_10.5.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/t/tar-1.30-9.el8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/t/tar-1.30-10.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 858812
-    checksum: sha256:6b0dc7341d743c89fa038292a7e04761ebb6cc98208ebc26dee9f01e2c1a9529
+    size: 859244
+    checksum: sha256:471485af8599f7176f357867dc952e587cffb223dec3455f97d8e40a854515ac
     name: tar
-    evr: 2:1.30-9.el8
-    sourcerpm: tar-1.30-9.el8.src.rpm
+    evr: 2:1.30-10.el8_10
+    sourcerpm: tar-1.30-10.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/t/tcl-8.6.8-2.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 1163572
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-5.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/de71ec1dc5310164d6c3ff03f175dca2435b6a7b950990a844d9212c70326b06-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/f4ebc7cae4cb3ebec3efff6bcd35ff8d0b0c3873de6dfe2b738f85f2496bc3e8-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 734511
-    checksum: sha256:de71ec1dc5310164d6c3ff03f175dca2435b6a7b950990a844d9212c70326b06
+    checksum: sha256:f4ebc7cae4cb3ebec3efff6bcd35ff8d0b0c3873de6dfe2b738f85f2496bc3e8
