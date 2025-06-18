@@ -2,6 +2,7 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "automergeStrategy": "rebase",
     "automergeType": "pr",
+    "automergeSchedule": ["* * * * 1-4"],
     "prConcurrentLimit": 0,
     "pruneBranchAfterAutomerge": true,
     "rpm": {
