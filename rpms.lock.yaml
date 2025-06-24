@@ -4,13 +4,13 @@ lockfileVendor: redhat
 arches:
 - arch: aarch64
   packages:
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/b/bsdtar-3.5.3-4.el9.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/b/bsdtar-3.5.3-5.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 66320
-    checksum: sha256:ea360e40d326d2a629ba085da403e6d4cd78ce57fda1f9db308202c2bee17edf
+    size: 63053
+    checksum: sha256:18abe9f07e70f24c11761e6534667fd308252b8ab1c58ae98156fb6af2ea98ff
     name: bsdtar
-    evr: 3.5.3-4.el9
-    sourcerpm: libarchive-3.5.3-4.el9.src.rpm
+    evr: 3.5.3-5.el9_6
+    sourcerpm: libarchive-3.5.3-5.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/c/cpp-11.5.0-5.el9_5.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 10795955
@@ -39,13 +39,13 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.1-2.el9
     sourcerpm: dpdk-24.11.1-2.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/e/emacs-filesystem-27.2-13.el9_6.noarch.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/e/emacs-filesystem-27.2-14.el9_6.2.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 9758
-    checksum: sha256:624b6683efb3e254eb8f44a927772ec251a841803b7f693f9c6ad0651e694557
+    size: 9099
+    checksum: sha256:49bb85cb79889ae677f6961f4582eb28620864257abfe5b00a05ae0073cb2dd6
     name: emacs-filesystem
-    evr: 1:27.2-13.el9_6
-    sourcerpm: emacs-27.2-13.el9_6.src.rpm
+    evr: 1:27.2-14.el9_6.2
+    sourcerpm: emacs-27.2-14.el9_6.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/e/expect-5.45.4-16.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 263489
@@ -102,13 +102,13 @@ arches:
     name: kernel-headers
     evr: 5.14.0-570.23.1.el9_6
     sourcerpm: kernel-5.14.0-570.23.1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-4.el9.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-5.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 138612
-    checksum: sha256:0dffdaf496bd0bb1b320be053b6366f0fcb522e59d27301bd76e26c95925ba78
+    size: 133339
+    checksum: sha256:7ef6699deaf7fecf544304c43fe5643566e0a4752cd79295da3bfdecbd972198
     name: libarchive-devel
-    evr: 3.5.3-4.el9
-    sourcerpm: libarchive-3.5.3-4.el9.src.rpm
+    evr: 3.5.3-5.el9_6
+    sourcerpm: libarchive-3.5.3-5.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/l/libasan-11.5.0-5.el9_5.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 413819
@@ -802,6 +802,13 @@ arches:
     name: less
     evr: 590-5.el9
     sourcerpm: less-590-5.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/l/libarchive-3.5.3-5.el9_6.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-rpms
+    size: 394917
+    checksum: sha256:7145bd3c15393260cd9ab815f7e97e7c5a438067b407e3815065a9a9e6b5be61
+    name: libarchive
+    evr: 3.5.3-5.el9_6
+    sourcerpm: libarchive-3.5.3-5.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/l/libbpf-1.5.0-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 191251
@@ -1219,13 +1226,13 @@ arches:
   module_metadata: []
 - arch: x86_64
   packages:
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/b/bsdtar-3.5.3-4.el9.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/b/bsdtar-3.5.3-5.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 67365
-    checksum: sha256:df015c061e8a5e4df56be71d1730f13a5dd17f937e232276af1861c2ebeace39
+    size: 63991
+    checksum: sha256:753e6f073eb7b1ba74522e119f345d949a697ccaabf466599b708629db71c65e
     name: bsdtar
-    evr: 3.5.3-4.el9
-    sourcerpm: libarchive-3.5.3-4.el9.src.rpm
+    evr: 3.5.3-5.el9_6
+    sourcerpm: libarchive-3.5.3-5.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/c/cpp-11.5.0-5.el9_5.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 11229073
@@ -1254,13 +1261,13 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.1-2.el9
     sourcerpm: dpdk-24.11.1-2.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/e/emacs-filesystem-27.2-13.el9_6.noarch.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/e/emacs-filesystem-27.2-14.el9_6.2.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 9758
-    checksum: sha256:624b6683efb3e254eb8f44a927772ec251a841803b7f693f9c6ad0651e694557
+    size: 9099
+    checksum: sha256:49bb85cb79889ae677f6961f4582eb28620864257abfe5b00a05ae0073cb2dd6
     name: emacs-filesystem
-    evr: 1:27.2-13.el9_6
-    sourcerpm: emacs-27.2-13.el9_6.src.rpm
+    evr: 1:27.2-14.el9_6.2
+    sourcerpm: emacs-27.2-14.el9_6.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/e/expect-5.45.4-16.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 260241
@@ -1331,13 +1338,13 @@ arches:
     name: kernel-headers
     evr: 5.14.0-570.23.1.el9_6
     sourcerpm: kernel-5.14.0-570.23.1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-4.el9.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-5.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 138653
-    checksum: sha256:9bb8330d80109adcd2f6049cc376bdce41d330982ccd07c19f0e97641c21edd7
+    size: 133376
+    checksum: sha256:f1294bed0fd7adf33aef4a04f13585e898885f485ab6ade9e846c32edb9ca440
     name: libarchive-devel
-    evr: 3.5.3-4.el9
-    sourcerpm: libarchive-3.5.3-4.el9.src.rpm
+    evr: 3.5.3-5.el9_6
+    sourcerpm: libarchive-3.5.3-5.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 66075
@@ -2031,6 +2038,13 @@ arches:
     name: less
     evr: 590-5.el9
     sourcerpm: less-590-5.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/l/libarchive-3.5.3-5.el9_6.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-rpms
+    size: 397257
+    checksum: sha256:bc2d73548101552dbe12d5496bd46f9448f4ff67f543392a3b828e3422ead1fb
+    name: libarchive
+    evr: 3.5.3-5.el9_6
+    sourcerpm: libarchive-3.5.3-5.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/l/libbpf-1.5.0-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 191098
