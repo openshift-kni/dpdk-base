@@ -648,13 +648,13 @@ arches:
     name: openssl
     evr: 1:1.1.1k-14.el8_6
     sourcerpm: openssl-1.1.1k-14.el8_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/pam-1.3.1-36.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/pam-1.3.1-37.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 765548
-    checksum: sha256:92bb7478c5945f4c83f748197ffb3ead918ba55e2d08448be6bafdbafbc2c821
+    size: 766164
+    checksum: sha256:d7f579aabd177461ce0c3ffe08fa2881f2f6f623ac2379c06f68fd69e5a2a2e4
     name: pam
-    evr: 1.3.1-36.el8_10
-    sourcerpm: pam-1.3.1-36.el8_10.src.rpm
+    evr: 1.3.1-37.el8_10
+    sourcerpm: pam-1.3.1-37.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/pciutils-3.7.0-3.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 107780
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-5.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/3ba3c6f8920575a1bbb1801be5df6214434bf94d944caaef659c93a3ba8724e4-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/34a3a8ae3197809e87dd659ef59d68844a6a5c07aa57497a6cda6340723d38cd-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 739499
-    checksum: sha256:3ba3c6f8920575a1bbb1801be5df6214434bf94d944caaef659c93a3ba8724e4
+    checksum: sha256:34a3a8ae3197809e87dd659ef59d68844a6a5c07aa57497a6cda6340723d38cd
