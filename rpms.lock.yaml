@@ -879,27 +879,27 @@ arches:
     name: gcc
     evr: 11.4.1-4.el9_4
     sourcerpm: gcc-11.4.1-4.el9_4.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/git-2.43.5-1.el9_4.1.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/git-2.43.5-1.el9_4.2.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 51741
-    checksum: sha256:db59dce5887da2d91e9320c6bf5c75d49100722cc1e220e457e4844019b67c75
+    size: 51869
+    checksum: sha256:39c006a4769ec9913932d595920c9ee1006e9f2c4af374268d87364ddf9dc2e9
     name: git
-    evr: 2.43.5-1.el9_4.1
-    sourcerpm: git-2.43.5-1.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/git-core-2.43.5-1.el9_4.1.aarch64.rpm
+    evr: 2.43.5-1.el9_4.2
+    sourcerpm: git-2.43.5-1.el9_4.2.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/git-core-2.43.5-1.el9_4.2.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 4734183
-    checksum: sha256:32c6a224025a579a2858182097eff2700e3765967ca0214ec01b3a517d6048a3
+    size: 4734129
+    checksum: sha256:f513b9cbf24a0a8ec2ed3792815e6fbf6c36c524834d71818fa628b639bad6ff
     name: git-core
-    evr: 2.43.5-1.el9_4.1
-    sourcerpm: git-2.43.5-1.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/git-core-doc-2.43.5-1.el9_4.1.noarch.rpm
+    evr: 2.43.5-1.el9_4.2
+    sourcerpm: git-2.43.5-1.el9_4.2.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/git-core-doc-2.43.5-1.el9_4.2.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3075181
-    checksum: sha256:7a1fbab9fe6b7e6de67b7d1e1ec10c985396e60001e3a9cf8015f4470716bb94
+    size: 3075319
+    checksum: sha256:d799cac1505eccc72b5ede14d513014329a8ce6654d51bc0fc8710d57dd8d534
     name: git-core-doc
-    evr: 2.43.5-1.el9_4.1
-    sourcerpm: git-2.43.5-1.el9_4.1.src.rpm
+    evr: 2.43.5-1.el9_4.2
+    sourcerpm: git-2.43.5-1.el9_4.2.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/g/glibc-devel-2.34-100.el9_4.12.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 551742
@@ -1012,13 +1012,13 @@ arches:
     name: perl-Getopt-Std
     evr: 1.12-481.el9_4.1
     sourcerpm: perl-5.32.1-481.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/p/perl-Git-2.43.5-1.el9_4.1.noarch.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/p/perl-Git-2.43.5-1.el9_4.2.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 38619
-    checksum: sha256:a69b55fef7675e204d88435984c4443d34b7964dfc8e06d1bbce355b8dcf5efa
+    size: 38737
+    checksum: sha256:8b12d38dbcbb12b730939ad232b01fdeea95d6a76657d45a354fd15843a095ac
     name: perl-Git
-    evr: 2.43.5-1.el9_4.1
-    sourcerpm: git-2.43.5-1.el9_4.1.src.rpm
+    evr: 2.43.5-1.el9_4.2
+    sourcerpm: git-2.43.5-1.el9_4.2.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/p/perl-IO-1.43-481.el9_4.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 90529
@@ -2136,27 +2136,27 @@ arches:
     name: gcc
     evr: 11.4.1-4.el9_4
     sourcerpm: gcc-11.4.1-4.el9_4.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/git-2.43.5-1.el9_4.1.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/git-2.43.5-1.el9_4.2.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 51765
-    checksum: sha256:6e4b1f14afecec2bf0eb506eaf6412beb9d9269dfabfa17c79ece9c3474c1394
+    size: 51894
+    checksum: sha256:2c9ce4d548afbc24545633bf669810071ed674dd6a05bb254898b3f56494f71c
     name: git
-    evr: 2.43.5-1.el9_4.1
-    sourcerpm: git-2.43.5-1.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/git-core-2.43.5-1.el9_4.1.x86_64.rpm
+    evr: 2.43.5-1.el9_4.2
+    sourcerpm: git-2.43.5-1.el9_4.2.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/git-core-2.43.5-1.el9_4.2.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 4647661
-    checksum: sha256:3674abe07d8a5aa2b5dfc1b887bc03dedf316fad27122da0699d8acc4678fea4
+    size: 4640923
+    checksum: sha256:f0cb30b2ce3ced9e2a3e7d07b895d65ae5e16882dfce25e56f48e6bafa1b083a
     name: git-core
-    evr: 2.43.5-1.el9_4.1
-    sourcerpm: git-2.43.5-1.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/git-core-doc-2.43.5-1.el9_4.1.noarch.rpm
+    evr: 2.43.5-1.el9_4.2
+    sourcerpm: git-2.43.5-1.el9_4.2.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/git-core-doc-2.43.5-1.el9_4.2.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3075181
-    checksum: sha256:7a1fbab9fe6b7e6de67b7d1e1ec10c985396e60001e3a9cf8015f4470716bb94
+    size: 3075319
+    checksum: sha256:d799cac1505eccc72b5ede14d513014329a8ce6654d51bc0fc8710d57dd8d534
     name: git-core-doc
-    evr: 2.43.5-1.el9_4.1
-    sourcerpm: git-2.43.5-1.el9_4.1.src.rpm
+    evr: 2.43.5-1.el9_4.2
+    sourcerpm: git-2.43.5-1.el9_4.2.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/g/glibc-devel-2.34-100.el9_4.12.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 25115
@@ -2262,13 +2262,13 @@ arches:
     name: perl-Getopt-Std
     evr: 1.12-481.el9_4.1
     sourcerpm: perl-5.32.1-481.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/perl-Git-2.43.5-1.el9_4.1.noarch.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/perl-Git-2.43.5-1.el9_4.2.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 38619
-    checksum: sha256:a69b55fef7675e204d88435984c4443d34b7964dfc8e06d1bbce355b8dcf5efa
+    size: 38737
+    checksum: sha256:8b12d38dbcbb12b730939ad232b01fdeea95d6a76657d45a354fd15843a095ac
     name: perl-Git
-    evr: 2.43.5-1.el9_4.1
-    sourcerpm: git-2.43.5-1.el9_4.1.src.rpm
+    evr: 2.43.5-1.el9_4.2
+    sourcerpm: git-2.43.5-1.el9_4.2.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/perl-IO-1.43-481.el9_4.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 90526
