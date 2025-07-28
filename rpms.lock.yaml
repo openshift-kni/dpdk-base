@@ -711,13 +711,13 @@ arches:
     name: psmisc
     evr: 23.1-5.el8
     sourcerpm: psmisc-23.1-5.el8.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/p/python3-setuptools-39.2.0-7.el8_6.1.noarch.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/p/python3-setuptools-39.2.0-7.el8_6.2.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 166812
-    checksum: sha256:4f5706323e63fa7db5c64969fe27d023aa8451ca87f2b10bbc8c23db25e81445
+    size: 166936
+    checksum: sha256:6742fc061fc512f37cb042cb411cc63cea19aeacfceae33f06ee6004330d57c7
     name: python3-setuptools
-    evr: 39.2.0-7.el8_6.1
-    sourcerpm: python-setuptools-39.2.0-7.el8_6.1.src.rpm
+    evr: 39.2.0-7.el8_6.2
+    sourcerpm: python-setuptools-39.2.0-7.el8_6.2.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/r/rdma-core-37.2-1.el8_6.1.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 60892
