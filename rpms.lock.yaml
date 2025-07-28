@@ -123,13 +123,13 @@ arches:
     name: python3-pip
     evr: 9.0.3-24.el8
     sourcerpm: python-pip-9.0.3-24.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/python3-unbound-1.16.2-5.8.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/python3-unbound-1.16.2-5.9.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 133380
-    checksum: sha256:488bd635a2a16cca6eb597691b5f59e2323be28620aee0ca7ef375ee5fdc14b9
+    size: 132360
+    checksum: sha256:68c1b48a2e2dbcca6b7ca9efa620536ba74b1f9a12e673187f4bedff17e44430
     name: python3-unbound
-    evr: 1.16.2-5.8.el8_10
-    sourcerpm: unbound-1.16.2-5.8.el8_10.src.rpm
+    evr: 1.16.2-5.9.el8_10
+    sourcerpm: unbound-1.16.2-5.9.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/p/python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 20010
@@ -144,13 +144,13 @@ arches:
     name: scl-utils
     evr: 1:2.0.2-16.el8
     sourcerpm: scl-utils-2.0.2-16.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/u/unbound-libs-1.16.2-5.8.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/u/unbound-libs-1.16.2-5.9.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 591000
-    checksum: sha256:77ddd674fa4e3a1f63bff42844b93f41711e4caf0939c92f2e92a79275ec6bd0
+    size: 590640
+    checksum: sha256:2177752b635d0b0f463a3047055270e2a134297b1bc9a50a0c349d593633a6d7
     name: unbound-libs
-    evr: 1.16.2-5.8.el8_10
-    sourcerpm: unbound-1.16.2-5.8.el8_10.src.rpm
+    evr: 1.16.2-5.9.el8_10
+    sourcerpm: unbound-1.16.2-5.9.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/x/xkeyboard-config-2.28-1.el8.noarch.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 801000
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-5.el8.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/fca13f47c85196ee0b65630b3d2c85af3e44474a3b9cd3b9d1a8392d99e01596-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/866ae249154825f64f77e016f483df9ee21d1641f535061ee4852e32f57755c8-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 742090
-    checksum: sha256:fca13f47c85196ee0b65630b3d2c85af3e44474a3b9cd3b9d1a8392d99e01596
+    checksum: sha256:866ae249154825f64f77e016f483df9ee21d1641f535061ee4852e32f57755c8
