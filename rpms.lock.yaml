@@ -914,13 +914,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.12
     sourcerpm: glibc-2.34-100.el9_4.12.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.77.1.el9_4.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.79.1.el9_4.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3769181
-    checksum: sha256:a21b6a02a16e0ba3f7a742ddc058703ff5b8dd593b86e5e447a4e08ab177c03e
+    size: 3724901
+    checksum: sha256:0d7ee67a76d59014d8526e5e23f12be3e15c482491612a3371f7a155224d82c8
     name: kernel-headers
-    evr: 5.14.0-427.77.1.el9_4
-    sourcerpm: kernel-5.14.0-427.77.1.el9_4.src.rpm
+    evr: 5.14.0-427.79.1.el9_4
+    sourcerpm: kernel-5.14.0-427.79.1.el9_4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/l/libasan-11.4.1-4.el9_4.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 410341
@@ -2178,13 +2178,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.12
     sourcerpm: glibc-2.34-100.el9_4.12.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.77.1.el9_4.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.79.1.el9_4.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3806249
-    checksum: sha256:f9767537b2af95c7e3836c2dc34d990161a30ab131e6a1ebc5aaa3938253a95a
+    size: 3761933
+    checksum: sha256:0a4fd2b2c20fe11263e5c9ac15e4cf89079fb66adb92ef4d6fde17cecf8fa04e
     name: kernel-headers
-    evr: 5.14.0-427.77.1.el9_4
-    sourcerpm: kernel-5.14.0-427.77.1.el9_4.src.rpm
+    evr: 5.14.0-427.79.1.el9_4
+    sourcerpm: kernel-5.14.0-427.79.1.el9_4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/perl-AutoLoader-5.74-481.el9_4.1.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 21361
