@@ -39,27 +39,27 @@ arches:
     name: gcc
     evr: 8.5.0-10.4.el8_6
     sourcerpm: gcc-8.5.0-10.4.el8_6.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/g/git-2.31.8-3.el8_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/g/git-2.31.8-3.el8_6.1.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
-    size: 166212
-    checksum: sha256:1315729a9b780978870d1fa774aa0fc971606d364010b1cc9c45b32d2b080ced
+    size: 166308
+    checksum: sha256:1713959d41feed072b0ebe7d1048b2c5e8a01e2388c946832ca945968e3d7347
     name: git
-    evr: 2.31.8-3.el8_6
-    sourcerpm: git-2.31.8-3.el8_6.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/g/git-core-2.31.8-3.el8_6.x86_64.rpm
+    evr: 2.31.8-3.el8_6.1
+    sourcerpm: git-2.31.8-3.el8_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/g/git-core-2.31.8-3.el8_6.1.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
-    size: 5058208
-    checksum: sha256:1406550952415580044a49a2376c8043948b3e08f40daa24040401905c9ce3cd
+    size: 5059156
+    checksum: sha256:1c02c3b7f7dd50201e9ebd7a75c018594d81ea1e608da0be1647d8e45b3b454c
     name: git-core
-    evr: 2.31.8-3.el8_6
-    sourcerpm: git-2.31.8-3.el8_6.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/g/git-core-doc-2.31.8-3.el8_6.noarch.rpm
+    evr: 2.31.8-3.el8_6.1
+    sourcerpm: git-2.31.8-3.el8_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/g/git-core-doc-2.31.8-3.el8_6.1.noarch.rpm
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
-    size: 2784320
-    checksum: sha256:03d12bb52e7f9956a37123ab49c8594cb37e4be8305feb491af5723a7979cefa
+    size: 2784440
+    checksum: sha256:6d4588b4b261b3ef0376c15d229a7413060ac76eab6d1c08a0ea5edc4c9ab6c8
     name: git-core-doc
-    evr: 2.31.8-3.el8_6
-    sourcerpm: git-2.31.8-3.el8_6.src.rpm
+    evr: 2.31.8-3.el8_6.1
+    sourcerpm: git-2.31.8-3.el8_6.1.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/i/isl-0.16.1-6.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
     size: 861300
@@ -95,13 +95,13 @@ arches:
     name: perl-Error
     evr: 1:0.17025-2.el8
     sourcerpm: perl-Error-0.17025-2.el8.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/p/perl-Git-2.31.8-3.el8_6.noarch.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/p/perl-Git-2.31.8-3.el8_6.1.noarch.rpm
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
-    size: 80816
-    checksum: sha256:2a112a64f84a026cf9fc6357ba011ecec5b034a0bcc6b6b3dbb7d39d1c7608da
+    size: 80916
+    checksum: sha256:06b5ce78304f9ac8f05beca38d26c517e66efa6f02af0f1f1211e44e15da4f60
     name: perl-Git
-    evr: 2.31.8-3.el8_6
-    sourcerpm: git-2.31.8-3.el8_6.src.rpm
+    evr: 2.31.8-3.el8_6.1
+    sourcerpm: git-2.31.8-3.el8_6.1.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/Packages/p/perl-IO-Socket-IP-0.39-5.el8.noarch.rpm
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
     size: 47972
@@ -762,7 +762,7 @@ arches:
     sourcerpm: xz-5.2.4-4.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/cc4aeffde25f434ae06987dad2e37f0374cafbd4d5fd3c61ab7c14fe1ed511ee-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/396d9fdb3ed295429c3693e6d1b575e5a361b254fd89d8c77982cb2da05454ab-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
     size: 541908
-    checksum: sha256:cc4aeffde25f434ae06987dad2e37f0374cafbd4d5fd3c61ab7c14fe1ed511ee
+    checksum: sha256:396d9fdb3ed295429c3693e6d1b575e5a361b254fd89d8c77982cb2da05454ab
