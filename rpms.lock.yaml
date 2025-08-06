@@ -935,13 +935,13 @@ arches:
     name: man-db
     evr: 2.9.3-7.el9
     sourcerpm: man-db-2.9.3-7.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/n/ncurses-6.2-10.20210508.el9.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/n/ncurses-6.2-10.20210508.el9_6.2.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 418858
-    checksum: sha256:5d646286b1f79fa893c17c50605566682a70d924492b769ae2f288ed9dd30947
+    size: 414358
+    checksum: sha256:549675f7fd1d4538ddc3b1e15910449c711af664d6d73fbbb7f7addb7e7e9634
     name: ncurses
-    evr: 6.2-10.20210508.el9
-    sourcerpm: ncurses-6.2-10.20210508.el9.src.rpm
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/n/numactl-libs-2.0.19-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 32996
@@ -2178,13 +2178,13 @@ arches:
     name: man-db
     evr: 2.9.3-7.el9
     sourcerpm: man-db-2.9.3-7.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/n/ncurses-6.2-10.20210508.el9.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/n/ncurses-6.2-10.20210508.el9_6.2.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 420158
-    checksum: sha256:1b5e5805334bc78c977d7acf02256021a9216e26348a5383cf86dfb0b0c91101
+    size: 416227
+    checksum: sha256:4f1dbaed64ecaf650d47613b86ea787d92b7fad23e8a75e8b86cc436ee949f49
     name: ncurses
-    evr: 6.2-10.20210508.el9
-    sourcerpm: ncurses-6.2-10.20210508.el9.src.rpm
+    evr: 6.2-10.20210508.el9_6.2
+    sourcerpm: ncurses-6.2-10.20210508.el9_6.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/n/numactl-libs-2.0.19-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 33709
