@@ -942,13 +942,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.12
     sourcerpm: glibc-2.34-100.el9_4.12.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.81.1.el9_4.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.83.1.el9_4.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3643625
-    checksum: sha256:7b691b1111ea57c347b6476a5c0a6153a0d1b8cb0fd2b88a98e2aea536013993
+    size: 3612353
+    checksum: sha256:56ba92fb6d36f9efcad7f711b45566480cd1dc77143900d5ffae349ac5f4f9ef
     name: kernel-headers
-    evr: 5.14.0-427.81.1.el9_4
-    sourcerpm: kernel-5.14.0-427.81.1.el9_4.src.rpm
+    evr: 5.14.0-427.83.1.el9_4
+    sourcerpm: kernel-5.14.0-427.83.1.el9_4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/perl-AutoLoader-5.74-481.el9_4.1.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 21361
