@@ -4,13 +4,6 @@ lockfileVendor: redhat
 arches:
 - arch: aarch64
   packages:
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.4/aarch64/appstream/os/Packages/b/bsdtar-3.5.3-4.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 66320
-    checksum: sha256:ea360e40d326d2a629ba085da403e6d4cd78ce57fda1f9db308202c2bee17edf
-    name: bsdtar
-    evr: 3.5.3-4.el9
-    sourcerpm: libarchive-3.5.3-4.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.4/aarch64/appstream/os/Packages/e/expect-5.45.4-16.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 263489
@@ -823,13 +816,13 @@ arches:
     name: yum
     evr: 4.14.0-9.el9
     sourcerpm: dnf-4.14.0-9.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.4/aarch64/codeready-builder/os/Packages/l/libarchive-devel-3.5.3-4.el9.aarch64.rpm
-    repoid: codeready-builder-for-rhel-9-aarch64-rpms
-    size: 138612
-    checksum: sha256:0dffdaf496bd0bb1b320be053b6366f0fcb522e59d27301bd76e26c95925ba78
-    name: libarchive-devel
-    evr: 3.5.3-4.el9
-    sourcerpm: libarchive-3.5.3-4.el9.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/b/bsdtar-3.5.3-4.el9_4.1.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms
+    size: 62005
+    checksum: sha256:fd5d094316b1a29ab072e48ea2939477b13ca4a858169c3e1889fad4d62b1db3
+    name: bsdtar
+    evr: 3.5.3-4.el9_4.1
+    sourcerpm: libarchive-3.5.3-4.el9_4.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/c/cpp-11.4.1-4.el9_4.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 10793089
@@ -907,13 +900,20 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.12
     sourcerpm: glibc-2.34-100.el9_4.12.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.83.1.el9_4.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-427.84.1.el9_4.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3575345
-    checksum: sha256:19cbab278c9ffaaec32851895432b69d1252cf1f48ab6d0145cfb788a3fddc77
+    size: 3570377
+    checksum: sha256:bf3cf56b78465bb09b12712df290fcbb29ac7324e8effa0653e39ad81123bbb7
     name: kernel-headers
-    evr: 5.14.0-427.83.1.el9_4
-    sourcerpm: kernel-5.14.0-427.83.1.el9_4.src.rpm
+    evr: 5.14.0-427.84.1.el9_4
+    sourcerpm: kernel-5.14.0-427.84.1.el9_4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-4.el9_4.1.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms
+    size: 132839
+    checksum: sha256:7c1a373069452e6aec015271611e4e5a4804f07762622bcdb096fa7a1a0437dc
+    name: libarchive-devel
+    evr: 3.5.3-4.el9_4.1
+    sourcerpm: libarchive-3.5.3-4.el9_4.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/appstream/os/Packages/l/libasan-11.4.1-4.el9_4.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 410341
@@ -1226,13 +1226,6 @@ arches:
   module_metadata: []
 - arch: x86_64
   packages:
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/appstream/os/Packages/b/bsdtar-3.5.3-4.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 67365
-    checksum: sha256:df015c061e8a5e4df56be71d1730f13a5dd17f937e232276af1861c2ebeace39
-    name: bsdtar
-    evr: 3.5.3-4.el9
-    sourcerpm: libarchive-3.5.3-4.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/appstream/os/Packages/e/expect-5.45.4-16.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 260241
@@ -2080,13 +2073,13 @@ arches:
     name: yum
     evr: 4.14.0-9.el9
     sourcerpm: dnf-4.14.0-9.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/codeready-builder/os/Packages/l/libarchive-devel-3.5.3-4.el9.x86_64.rpm
-    repoid: codeready-builder-for-rhel-9-x86_64-rpms
-    size: 138653
-    checksum: sha256:9bb8330d80109adcd2f6049cc376bdce41d330982ccd07c19f0e97641c21edd7
-    name: libarchive-devel
-    evr: 3.5.3-4.el9
-    sourcerpm: libarchive-3.5.3-4.el9.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/b/bsdtar-3.5.3-4.el9_4.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 63068
+    checksum: sha256:599bc5f45db603c642e119cdff2344540c7389a208d64a466fd25af391367e5d
+    name: bsdtar
+    evr: 3.5.3-4.el9_4.1
+    sourcerpm: libarchive-3.5.3-4.el9_4.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/c/cpp-11.4.1-4.el9_4.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 11143019
@@ -2171,13 +2164,20 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.12
     sourcerpm: glibc-2.34-100.el9_4.12.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.83.1.el9_4.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.84.1.el9_4.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3612353
-    checksum: sha256:56ba92fb6d36f9efcad7f711b45566480cd1dc77143900d5ffae349ac5f4f9ef
+    size: 3607369
+    checksum: sha256:2616ce55dab25083466add9b21904eab06687dafa473cce9b61f3421b73e20bb
     name: kernel-headers
-    evr: 5.14.0-427.83.1.el9_4
-    sourcerpm: kernel-5.14.0-427.83.1.el9_4.src.rpm
+    evr: 5.14.0-427.84.1.el9_4
+    sourcerpm: kernel-5.14.0-427.84.1.el9_4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-4.el9_4.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 132861
+    checksum: sha256:3be1018fe50e98f73ed9311930abccc5171f3a76b238ab0182a09566966adbb3
+    name: libarchive-devel
+    evr: 3.5.3-4.el9_4.1
+    sourcerpm: libarchive-3.5.3-4.el9_4.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/perl-AutoLoader-5.74-481.el9_4.1.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 21361
