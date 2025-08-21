@@ -172,13 +172,13 @@ arches:
     name: binutils
     evr: 2.30-125.el8_10
     sourcerpm: binutils-2.30-125.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-5.el8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-6.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 72652
-    checksum: sha256:98ed76e66849c97f4398d6686171a4ea04e6beef229f7b02872eacae6b2bc085
+    size: 71760
+    checksum: sha256:907c4f95e0078837717a30f25ece542b2f68468f8da7f1f634239b76d8b78706
     name: bsdtar
-    evr: 3.3.3-5.el8
-    sourcerpm: libarchive-3.3.3-5.el8.src.rpm
+    evr: 3.3.3-6.el8_10
+    sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/c/cracklib-2.9.6-15.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 95532
@@ -1173,16 +1173,16 @@ arches:
     name: dpdk-devel
     evr: 23.11-2.el8_10
     sourcerpm: dpdk-23.11-2.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/codeready-builder/os/Packages/l/libarchive-devel-3.3.3-5.el8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/codeready-builder/os/Packages/l/libarchive-devel-3.3.3-6.el8_10.x86_64.rpm
     repoid: codeready-builder-for-rhel-8-x86_64-rpms
-    size: 134948
-    checksum: sha256:79e3a10e092f761a0df2683c31b944ce72c9079e08c9c49d8b3e655f0ce125cc
+    size: 134056
+    checksum: sha256:5450c70210cdbb3ed885da8ac6b9a4143b10b61eeb3410c246687b5b667be747
     name: libarchive-devel
-    evr: 3.3.3-5.el8
-    sourcerpm: libarchive-3.3.3-5.el8.src.rpm
+    evr: 3.3.3-6.el8_10
+    sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/f045508d7226b602a6fae281b8d617cb15e65deda32f4360f0763696444c999d-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/98f6a86e7d3ff08c9ecc64bc07c60855991cb2a80ed8f20a1f468c5769702f6b-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 744752
-    checksum: sha256:f045508d7226b602a6fae281b8d617cb15e65deda32f4360f0763696444c999d
+    size: 746790
+    checksum: sha256:98f6a86e7d3ff08c9ecc64bc07c60855991cb2a80ed8f20a1f468c5769702f6b
