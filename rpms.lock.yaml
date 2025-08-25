@@ -95,13 +95,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-168.el9_6.23
     sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.35.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.37.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 3667373
-    checksum: sha256:062c0872333408b52aab8e7c6bc948b138cebd85032c68fd83726de8de8deea2
+    size: 3668185
+    checksum: sha256:e89600d4c00fc468251dfa7fb9aee3249b6c29e61224148422f9914ac9f8bf8c
     name: kernel-headers
-    evr: 5.14.0-570.35.1.el9_6
-    sourcerpm: kernel-5.14.0-570.35.1.el9_6.src.rpm
+    evr: 5.14.0-570.37.1.el9_6
+    sourcerpm: kernel-5.14.0-570.37.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 132861
@@ -1324,13 +1324,13 @@ arches:
     name: infiniband-diags
     evr: 54.0-1.el9
     sourcerpm: rdma-core-54.0-1.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.35.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.37.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 3705741
-    checksum: sha256:0e183ddf666087ee3f3eceb99840cc7b6cbc1237cc3cdf78b5c7e9533741ac1a
+    size: 3706529
+    checksum: sha256:cdf3b0f400321b66101af9ed94a830a1b4f5e82c8c47d6c5342b4f81c605b245
     name: kernel-headers
-    evr: 5.14.0-570.35.1.el9_6
-    sourcerpm: kernel-5.14.0-570.35.1.el9_6.src.rpm
+    evr: 5.14.0-570.37.1.el9_6
+    sourcerpm: kernel-5.14.0-570.37.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 132893
