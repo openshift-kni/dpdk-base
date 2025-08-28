@@ -179,13 +179,13 @@ arches:
     name: binutils
     evr: 2.30-113.el8_6.3
     sourcerpm: binutils-2.30-113.el8_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-4.el8_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-6.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 72780
-    checksum: sha256:219356c78735f53029b722a644b9a76838f1ff15a08b05e3139f7387f63c1a9e
+    size: 71920
+    checksum: sha256:b4c49c4e46b3ff32f3b512ec8162586432eb975f320929dde9ef2bab96670ee6
     name: bsdtar
-    evr: 3.3.3-4.el8_6
-    sourcerpm: libarchive-3.3.3-4.el8_6.src.rpm
+    evr: 3.3.3-6.el8_6
+    sourcerpm: libarchive-3.3.3-6.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/e/emacs-filesystem-26.1-7.el8_6.6.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 72188
@@ -298,6 +298,13 @@ arches:
     name: less
     evr: 530-3.el8_6
     sourcerpm: less-530-3.el8_6.src.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/l/libarchive-3.3.3-6.el8_6.x86_64.rpm
+    repoid: rhel-8-for-x86_64-baseos-aus-rpms
+    size: 367992
+    checksum: sha256:fd8409e981fcf70a92284798832d8a4e23c648833b89054c86fe8f7d5f90b4dc
+    name: libarchive
+    evr: 3.3.3-6.el8_6
+    sourcerpm: libarchive-3.3.3-6.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/l/libbpf-0.4.0-3.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 127916
