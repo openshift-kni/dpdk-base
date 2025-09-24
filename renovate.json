@@ -8,13 +8,21 @@
         "autoApprove": true,
         "enabled": true,
         "ignoreTests": false,
-        "includePaths": ["rpms.lock.yaml"],
-	"packageRules": [
-          {
-            "matchUpdateTypes": ["minor", "patch"],
-            "automerge": true,
-            "addLabels": ["lgtm", "approved"]
-          }
+        "includePaths": [
+            "rpms.lock.yaml"
+        ],
+        "packageRules": [
+            {
+                "matchUpdateTypes": [
+                    "minor",
+                    "patch"
+                ],
+                "automerge": true,
+                "addLabels": [
+                    "lgtm",
+                    "approved"
+                ]
+            }
         ],
         "platformAutomerge": true
     },
@@ -23,9 +31,17 @@
         "automerge": true,
         "enabled": true,
         "ignoreTests": false,
-        "includePaths": [".tekton/**"],
-        "fileMatch": ["\\.yaml$", "\\.yml$"],
-        "addLabels": ["approved", "lgtm"],
+        "includePaths": [
+            ".tekton/**"
+        ],
+        "managerFilePatterns": [
+            "/\\.yaml$/",
+            "/\\.yml$/"
+        ],
+        "addLabels": [
+            "approved",
+            "lgtm"
+        ],
         "platformAutomerge": true
     }
 }
