@@ -165,13 +165,13 @@ arches:
     name: acl
     evr: 2.2.53-3.el8
     sourcerpm: acl-2.2.53-3.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/binutils-2.30-125.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/binutils-2.30-127.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 6049096
-    checksum: sha256:047fc8bd5bb6def766c46397c8a535faa3634a54832edb301c4d27dd92400cc0
+    size: 6049476
+    checksum: sha256:c5af511a1bb5cf2f4dc2dbd11c7b1a793d0b3669ea8c799adca453a0adcb67ae
     name: binutils
-    evr: 2.30-125.el8_10
-    sourcerpm: binutils-2.30-125.el8_10.src.rpm
+    evr: 2.30-127.el8_10
+    sourcerpm: binutils-2.30-127.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-6.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 71760
@@ -417,13 +417,13 @@ arches:
     name: iproute
     evr: 6.2.0-6.el8_10
     sourcerpm: iproute-6.2.0-6.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.74.1.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.79.1.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 12434884
-    checksum: sha256:99f1d14f868dc54145de1f10ed7832919b14e42eabc6c19003d9df61c41a4849
+    size: 12439324
+    checksum: sha256:5e66158cdc16e7d486468040782202e11a77c7f65ba221a10dc6e931733770fa
     name: kernel-headers
-    evr: 4.18.0-553.74.1.el8_10
-    sourcerpm: kernel-4.18.0-553.74.1.el8_10.src.rpm
+    evr: 4.18.0-553.79.1.el8_10
+    sourcerpm: kernel-4.18.0-553.79.1.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kmod-25-20.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 129356
@@ -627,20 +627,20 @@ arches:
     name: numactl-libs
     evr: 2.0.16-4.el8
     sourcerpm: numactl-2.0.16-4.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssh-8.0p1-25.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssh-8.0p1-26.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 538364
-    checksum: sha256:5a907994ecbd9800a83ffcd9be24fdfe5a8da79784eb14b5a63ac4b30f5da83b
+    size: 537472
+    checksum: sha256:b489b3736df71503ca20b3f510e546f5d723bcb919994d54e8e8179956ca58ac
     name: openssh
-    evr: 8.0p1-25.el8_10
-    sourcerpm: openssh-8.0p1-25.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssh-clients-8.0p1-25.el8_10.x86_64.rpm
+    evr: 8.0p1-26.el8_10
+    sourcerpm: openssh-8.0p1-26.el8_10.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssh-clients-8.0p1-26.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 661916
-    checksum: sha256:ddce4aeedd5f387aeaa4f0f63e79b2288cc456859af502500d78c6270d1d84b5
+    size: 661048
+    checksum: sha256:14bb4b83e3e8cb25945063c06c396058453f2273b4b9079606dfa3f9f517ea08
     name: openssh-clients
-    evr: 8.0p1-25.el8_10
-    sourcerpm: openssh-8.0p1-25.el8_10.src.rpm
+    evr: 8.0p1-26.el8_10
+    sourcerpm: openssh-8.0p1-26.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-1.1.1k-14.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 728108
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/289f01f4a786c4e39f9d911fce0f30d54451d0da63f6a7b8d358cd28208164c7-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/697af789f46ff2f8386eeb9fb8d75e65f85f3781d96d868d84578813bd84ad75-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 752383
-    checksum: sha256:289f01f4a786c4e39f9d911fce0f30d54451d0da63f6a7b8d358cd28208164c7
+    size: 758721
+    checksum: sha256:697af789f46ff2f8386eeb9fb8d75e65f85f3781d96d868d84578813bd84ad75
