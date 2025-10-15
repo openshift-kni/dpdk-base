@@ -760,13 +760,13 @@ arches:
     name: kbd-misc
     evr: 2.0.4-10.el8
     sourcerpm: kbd-2.0.4-10.el8.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-372.162.1.el8_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-372.164.1.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 10038088
-    checksum: sha256:753f2ae1f45de267ea4b620ff430f1ee74395343788664e567d0b170fbba73e7
+    size: 10040060
+    checksum: sha256:7fbd957d35144fc98520c31e686db624ba9f862848de5bbfdbd2b882d79b7300
     name: kernel-headers
-    evr: 4.18.0-372.162.1.el8_6
-    sourcerpm: kernel-4.18.0-372.162.1.el8_6.src.rpm
+    evr: 4.18.0-372.164.1.el8_6
+    sourcerpm: kernel-4.18.0-372.164.1.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/k/keyutils-libs-1.5.10-9.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 34816
@@ -2057,7 +2057,7 @@ arches:
     sourcerpm: zlib-1.2.11-19.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/48fcedbb82c4e41ec00302d1de855ec168c242c003df541f143142d57fad950f-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/ecc6fb1306fad08c581df1838b04e7f68a944d21a3d20dc2522eb5c504bb9e2c-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
-    size: 551814
-    checksum: sha256:48fcedbb82c4e41ec00302d1de855ec168c242c003df541f143142d57fad950f
+    size: 552682
+    checksum: sha256:ecc6fb1306fad08c581df1838b04e7f68a944d21a3d20dc2522eb5c504bb9e2c
