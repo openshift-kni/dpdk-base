@@ -641,13 +641,6 @@ arches:
     name: man-db
     evr: 2.9.3-7.el9
     sourcerpm: man-db-2.9.3-7.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/baseos/os/Packages/n/ncurses-6.2-10.20210508.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 420158
-    checksum: sha256:1b5e5805334bc78c977d7acf02256021a9216e26348a5383cf86dfb0b0c91101
-    name: ncurses
-    evr: 6.2-10.20210508.el9
-    sourcerpm: ncurses-6.2-10.20210508.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/baseos/os/Packages/n/numactl-libs-2.0.16-3.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 31909
@@ -823,13 +816,6 @@ arches:
     name: util-linux-core
     evr: 2.37.4-18.el9
     sourcerpm: util-linux-2.37.4-18.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-20.el9_1.noarch.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 22428
-    checksum: sha256:6f0dbb5a2c675b932a0eb650c83b68eb485e02808b02bb27373eef30a283f5bc
-    name: vim-filesystem
-    evr: 2:8.2.2637-20.el9_1
-    sourcerpm: vim-8.2.2637-20.el9_1.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.4/x86_64/baseos/os/Packages/x/xz-5.2.5-8.el9_0.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 235693
@@ -935,13 +921,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.12
     sourcerpm: glibc-2.34-100.el9_4.12.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.85.1.el9_4.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.94.1.el9_4.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3476709
-    checksum: sha256:07d3f5449897f1eda96d979a716e37461d3c3c199ed011baa19d869c097891b7
+    size: 3197837
+    checksum: sha256:1eb57df33672b8aa6ad708cb1c0c20dff95e98e3f7284d3caa4f933787f6e6a9
     name: kernel-headers
-    evr: 5.14.0-427.85.1.el9_4
-    sourcerpm: kernel-5.14.0-427.85.1.el9_4.src.rpm
+    evr: 5.14.0-427.94.1.el9_4
+    sourcerpm: kernel-5.14.0-427.94.1.el9_4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-4.el9_4.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 132861
@@ -1145,13 +1131,13 @@ arches:
     name: perl-vars
     evr: 1.05-481.el9_4.1
     sourcerpm: perl-5.32.1-481.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/python-unversioned-command-3.9.18-3.el9_4.8.noarch.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/p/python-unversioned-command-3.9.18-3.el9_4.9.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 9635
-    checksum: sha256:6de6690505be11296706abb1632749b74bd28e231bf9bfe0c739b8f81f0b7d14
+    size: 8507
+    checksum: sha256:f4508f49127e2c594295eed7ddcc815ea1b6a8d1c000e1f99f176f8f18ed080d
     name: python-unversioned-command
-    evr: 3.9.18-3.el9_4.8
-    sourcerpm: python3.9-3.9.18-3.el9_4.8.src.rpm
+    evr: 3.9.18-3.el9_4.9
+    sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/e/expat-2.5.0-2.el9_4.2.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 121758
@@ -1166,6 +1152,13 @@ arches:
     name: libgomp
     evr: 11.4.1-4.el9_4
     sourcerpm: gcc-11.4.1-4.el9_4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/n/ncurses-6.2-10.20210508.el9_4.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 416820
+    checksum: sha256:9b567aa8cc1860d4eef32fc81b1def53cfafe38397fcd72e27d37740640852e1
+    name: ncurses
+    evr: 6.2-10.20210508.el9_4.1
+    sourcerpm: ncurses-6.2-10.20210508.el9_4.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/o/openssh-8.7p1-38.el9_4.5.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 474293
@@ -1194,20 +1187,20 @@ arches:
     name: pam
     evr: 1.5.1-24.el9_4.1
     sourcerpm: pam-1.5.1-24.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-3.9.18-3.el9_4.8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-3.9.18-3.el9_4.9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 26890
-    checksum: sha256:7ad8b2db95842feb8696fb4717314e730d49dbf5c8a1781c419b4df811575ec9
+    size: 25766
+    checksum: sha256:e39c71707aa332c29f12991eeb9aaa04c36b04d4c2420be2013921ed86ed1380
     name: python3
-    evr: 3.9.18-3.el9_4.8
-    sourcerpm: python3.9-3.9.18-3.el9_4.8.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.8.x86_64.rpm
+    evr: 3.9.18-3.el9_4.9
+    sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-libs-3.9.18-3.el9_4.9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 8232467
-    checksum: sha256:b08287c540128d6e7420723e6e80bbf0b13b9c543825ef1070f02b01b4ff0d47
+    size: 8231933
+    checksum: sha256:a6d1db6e2fbd5d38f5bbc8a1e35d7cb57718aebba3d30d48a126e5b048b36375
     name: python3-libs
-    evr: 3.9.18-3.el9_4.8
-    sourcerpm: python3.9-3.9.18-3.el9_4.8.src.rpm
+    evr: 3.9.18-3.el9_4.9
+    sourcerpm: python3.9-3.9.18-3.el9_4.9.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/p/python3-setuptools-wheel-53.0.0-12.el9_4.2.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 479123
@@ -1243,5 +1236,12 @@ arches:
     name: systemd-rpm-macros
     evr: 252-32.el9_4.8
     sourcerpm: systemd-252-32.el9_4.8.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-20.el9_4.1.noarch.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 13013
+    checksum: sha256:1cc603ab43d0206de43b353eb6489418c4fa42c4de5f6fedd6b1f2cc0034f9af
+    name: vim-filesystem
+    evr: 2:8.2.2637-20.el9_4.1
+    sourcerpm: vim-8.2.2637-20.el9_4.1.src.rpm
   source: []
   module_metadata: []
