@@ -1215,27 +1215,27 @@ arches:
     name: rsync
     evr: 3.2.3-19.el9_4.1
     sourcerpm: rsync-3.2.3-19.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/s/systemd-252-32.el9_4.8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/s/systemd-252-32.el9_4.10.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 4372458
-    checksum: sha256:9af0561232e1588139fd05dd12aa36d6a87e63e8ca85a4ec198f193d72b7ba65
+    size: 4373466
+    checksum: sha256:dd32183d524ca673ff3ff7f7f042baf966f7b65fedab3bc05c10903306e8adb2
     name: systemd
-    evr: 252-32.el9_4.8
-    sourcerpm: systemd-252-32.el9_4.8.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/s/systemd-pam-252-32.el9_4.8.x86_64.rpm
+    evr: 252-32.el9_4.10
+    sourcerpm: systemd-252-32.el9_4.10.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/s/systemd-pam-252-32.el9_4.10.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 263875
-    checksum: sha256:f761b7b95cc4f0fa92fb753b78e6c7d85959e949172862d866055ffaeb95f20f
+    size: 254566
+    checksum: sha256:259fbb3a19c9c2553a11a241c1426b83510c11430289847545c155b45c64dcd2
     name: systemd-pam
-    evr: 252-32.el9_4.8
-    sourcerpm: systemd-252-32.el9_4.8.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-32.el9_4.8.noarch.rpm
+    evr: 252-32.el9_4.10
+    sourcerpm: systemd-252-32.el9_4.10.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-32.el9_4.10.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 46956
-    checksum: sha256:87b8554f09d28881586b40326e6041a70fd7869c630c5210bd917c0c13f21879
+    size: 37657
+    checksum: sha256:2c3cdb334c69c875ca10c74b46914badf97f80429d78babe78d3964fd99c16d6
     name: systemd-rpm-macros
-    evr: 252-32.el9_4.8
-    sourcerpm: systemd-252-32.el9_4.8.src.rpm
+    evr: 252-32.el9_4.10
+    sourcerpm: systemd-252-32.el9_4.10.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-20.el9_4.1.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 13013
