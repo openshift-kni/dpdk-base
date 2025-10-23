@@ -1,7 +1,8 @@
 FROM registry.redhat.io/ubi8/ubi-minimal
 
 LABEL com.redhat.component="dpdk-base-container" \
-    name="dpdk-base" \
+    name="/openshift4/dpdk-base-rhel8" \
+    cpe="cpe:/a:redhat:openshift:4.15::el8" \
     version="${CI_CONTAINER_VERSION}" \
     summary="dpdk-base" \
     io.openshift.expose-services="" \
