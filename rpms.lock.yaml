@@ -921,13 +921,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-100.el9_4.12
     sourcerpm: glibc-2.34-100.el9_4.12.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.94.1.el9_4.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-427.96.1.el9_4.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3197837
-    checksum: sha256:1eb57df33672b8aa6ad708cb1c0c20dff95e98e3f7284d3caa4f933787f6e6a9
+    size: 3106057
+    checksum: sha256:5833f27f2f6bdef872cd84c987440bdc10276d0266edbf2b042bc62a272c1109
     name: kernel-headers
-    evr: 5.14.0-427.94.1.el9_4
-    sourcerpm: kernel-5.14.0-427.94.1.el9_4.src.rpm
+    evr: 5.14.0-427.96.1.el9_4
+    sourcerpm: kernel-5.14.0-427.96.1.el9_4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-4.el9_4.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 132861
