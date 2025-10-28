@@ -5,6 +5,10 @@
     "prConcurrentLimit": 0,
     "pruneBranchAfterAutomerge": true,
     "rpmVulnerabilityAutomerge": "ALL",
+    "addLabels": [
+        "approve",
+        "lgtm"
+    ],
     "tekton": {
         "autoApprove": true,
         "automerge": true,
