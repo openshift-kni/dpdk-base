@@ -739,34 +739,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/g/glibc-2.34-168.el9_6.24.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 1786734
-    checksum: sha256:acd013408b08fc990bc58735273841475edb0736ec0a5dc932d1d01a73cd23f0
-    name: glibc
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.24.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 298261
-    checksum: sha256:c7d35f66f56489fcd15470cacbda77b6e6ffbe709ee49f7c46f3f403933752f1
-    name: glibc-common
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.24.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 670305
-    checksum: sha256:4a569fc59c5d04fc2166b9b6570d4d80a9fba2dfadf8b26f82226aae1ad92881
-    name: glibc-langpack-en
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.24.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 17281
-    checksum: sha256:4f7cb378501bd7e9a09e5ea4659277d6094086879d9574426f9bff1b77636481
-    name: glibc-minimal-langpack
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/g/groff-base-1.22.4-10.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 1088949
@@ -1152,27 +1124,27 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9
     sourcerpm: rsync-3.2.5-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-252-51.el9_6.2.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-252-51.el9_6.3.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 4157134
-    checksum: sha256:f676868bb7a262c2e6cefdf18fdd5ff78f7cf62b512032fa1cb80efbd8080ac1
+    size: 4153356
+    checksum: sha256:4bc7c421e87dd7b2f01808ed8866d0a029d28c8ed79cdeefa3bd81ec89e3d8be
     name: systemd
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.2.aarch64.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.3.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 274644
-    checksum: sha256:f7cfe19f4ee59f6f484c7f85f9d9613dadcf6c4e7e9d6f3c1cc96a7d64d60dd0
+    size: 270149
+    checksum: sha256:14b9afdc8f071f0f1f8aa582700da1a18ad0db880f272ce6bf5ab5f0ad5c887c
     name: systemd-pam
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.2.noarch.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.3.noarch.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 68125
-    checksum: sha256:a9d98e4240645fa96c953218bc89dbda221e33247f2890790dead31b53adff49
+    size: 63512
+    checksum: sha256:0735a7ac27891726d56502705f25d14ad243d49bf1f097c9dcf3ce0bd5ca7a97
     name: systemd-rpm-macros
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/t/tar-1.34-7.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 900197
@@ -1996,34 +1968,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/g/glibc-2.34-168.el9_6.24.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 2050334
-    checksum: sha256:f72b98242480ee9c2113cdb03b2789e8c3a6ec1d868d6cffa111fc864cb7c198
-    name: glibc
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.24.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 308854
-    checksum: sha256:dfcda240320175ec129ad74a68ea74732fb1c424594f170faab7bb99fec4716e
-    name: glibc-common
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.24.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 670344
-    checksum: sha256:13e98bfd11d3b815c9eee76b5e6d3bfb6cd4645832987efc8f8fe5ef7c8a9cb9
-    name: glibc-langpack-en
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.24.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 17313
-    checksum: sha256:350f6c6596f392d0dffef5c7e8e2844615f2657b33ab961ea97329f4199f0de8
-    name: glibc-minimal-langpack
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/g/groff-base-1.22.4-10.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 1133828
@@ -2423,27 +2367,27 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9
     sourcerpm: rsync-3.2.5-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-252-51.el9_6.2.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-252-51.el9_6.3.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 4397767
-    checksum: sha256:b7acb6861d52c368eeb23afe3413f4de4ba60281598e55f931b2a4882b5ae239
+    size: 4398726
+    checksum: sha256:bdd7e241deb1f78db59971399d169fa08c09318adad9e78c349dba710dc190a5
     name: systemd
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.2.x86_64.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.3.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 285233
-    checksum: sha256:bb438d85cdf5dc7a53cf1309fa48d7be8814e9cfaec846efe8bb559720325fb7
+    size: 280757
+    checksum: sha256:31a6de71fd3640db1af6576382295a0d49278bc3066a71160aae30b2779c6094
     name: systemd-pam
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.2.noarch.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.3.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 68125
-    checksum: sha256:a9d98e4240645fa96c953218bc89dbda221e33247f2890790dead31b53adff49
+    size: 63512
+    checksum: sha256:0735a7ac27891726d56502705f25d14ad243d49bf1f097c9dcf3ce0bd5ca7a97
     name: systemd-rpm-macros
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/t/tar-1.34-7.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 910235
