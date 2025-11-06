@@ -81,20 +81,20 @@ arches:
     name: git-core-doc
     evr: 2.47.3-1.el9_6
     sourcerpm: git-2.47.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.24.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 563020
-    checksum: sha256:df23a305d84fb32a97cab65f941d968900f9c6c1e165d8d3509ec7a328d285ed
+    size: 561564
+    checksum: sha256:775e17a2f79a700ba9c3f2407e6a55b2a356b31ff3484581eb7f5086b2e0bee8
     name: glibc-devel
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/g/glibc-locale-source-2.34-168.el9_6.23.aarch64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/g/glibc-locale-source-2.34-168.el9_6.24.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 4356747
-    checksum: sha256:569c91866f52e610685efc7151f676198fe5e87329c0f3a97ffdf87d42867c45
+    size: 4355311
+    checksum: sha256:fcedbae36b54e29cf12e318856686d8497d5909ab8b3b0a1af7035cbc6ffd2ef
     name: glibc-locale-source
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.60.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 3697533
@@ -1124,27 +1124,27 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9
     sourcerpm: rsync-3.2.5-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-252-51.el9_6.2.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-252-51.el9_6.3.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 4157134
-    checksum: sha256:f676868bb7a262c2e6cefdf18fdd5ff78f7cf62b512032fa1cb80efbd8080ac1
+    size: 4153356
+    checksum: sha256:4bc7c421e87dd7b2f01808ed8866d0a029d28c8ed79cdeefa3bd81ec89e3d8be
     name: systemd
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.2.aarch64.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.3.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 274644
-    checksum: sha256:f7cfe19f4ee59f6f484c7f85f9d9613dadcf6c4e7e9d6f3c1cc96a7d64d60dd0
+    size: 270149
+    checksum: sha256:14b9afdc8f071f0f1f8aa582700da1a18ad0db880f272ce6bf5ab5f0ad5c887c
     name: systemd-pam
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.2.noarch.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.3.noarch.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 68125
-    checksum: sha256:a9d98e4240645fa96c953218bc89dbda221e33247f2890790dead31b53adff49
+    size: 63512
+    checksum: sha256:0735a7ac27891726d56502705f25d14ad243d49bf1f097c9dcf3ce0bd5ca7a97
     name: systemd-rpm-macros
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/t/tar-1.34-7.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 900197
@@ -1296,27 +1296,27 @@ arches:
     name: git-core-doc
     evr: 2.47.3-1.el9_6
     sourcerpm: git-2.47.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.23.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 34295
-    checksum: sha256:0fa11752abf8ee80658e10017c62f7c0301bcae4008e4716fe6f114a7b9e3977
+    size: 32863
+    checksum: sha256:1f4a3d941a70190d74933edd9ee129763c79e1a4166fb11d114ff81d3d699a68
     name: glibc-devel
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.23.x86_64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 553222
-    checksum: sha256:b090ce707af3eb4d6a20e57fe780502d363892ecaaa41bc1575e4c6c5912f2ab
+    size: 551823
+    checksum: sha256:831461d20fcbda28624406dab6f601142c12b870ca07aea95d1c604b1eb82f84
     name: glibc-headers
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-locale-source-2.34-168.el9_6.23.x86_64.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-locale-source-2.34-168.el9_6.24.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 4356630
-    checksum: sha256:2d260f1f73a9ee8308b211778ed1799414e8b96dea0d9d43fcda4197a9bc5bfb
+    size: 4355181
+    checksum: sha256:3bdb36bb928dc6e3005aa8ab4509106a6cd4668a20a41b1aaaf00d2a1bdc4671
     name: glibc-locale-source
-    evr: 2.34-168.el9_6.23
-    sourcerpm: glibc-2.34-168.el9_6.23.src.rpm
+    evr: 2.34-168.el9_6.24
+    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/i/infiniband-diags-54.0-2.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 340878
@@ -2367,27 +2367,27 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9
     sourcerpm: rsync-3.2.5-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-252-51.el9_6.2.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-252-51.el9_6.3.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 4397767
-    checksum: sha256:b7acb6861d52c368eeb23afe3413f4de4ba60281598e55f931b2a4882b5ae239
+    size: 4398726
+    checksum: sha256:bdd7e241deb1f78db59971399d169fa08c09318adad9e78c349dba710dc190a5
     name: systemd
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.2.x86_64.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.3.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 285233
-    checksum: sha256:bb438d85cdf5dc7a53cf1309fa48d7be8814e9cfaec846efe8bb559720325fb7
+    size: 280757
+    checksum: sha256:31a6de71fd3640db1af6576382295a0d49278bc3066a71160aae30b2779c6094
     name: systemd-pam
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.2.noarch.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.3.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 68125
-    checksum: sha256:a9d98e4240645fa96c953218bc89dbda221e33247f2890790dead31b53adff49
+    size: 63512
+    checksum: sha256:0735a7ac27891726d56502705f25d14ad243d49bf1f097c9dcf3ce0bd5ca7a97
     name: systemd-rpm-macros
-    evr: 252-51.el9_6.2
-    sourcerpm: systemd-252-51.el9_6.2.src.rpm
+    evr: 252-51.el9_6.3
+    sourcerpm: systemd-252-51.el9_6.3.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/t/tar-1.34-7.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 910235
