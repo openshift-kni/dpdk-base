@@ -102,13 +102,6 @@ arches:
     name: infiniband-diags
     evr: 54.0-2.el9_6
     sourcerpm: rdma-core-54.0-2.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.62.1.el9_6.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 3705537
-    checksum: sha256:5028c463f66ad29ac525c73cfca06e513fb89e2936144204dbc7917d193cc6f8
-    name: kernel-headers
-    evr: 5.14.0-570.62.1.el9_6
-    sourcerpm: kernel-5.14.0-570.62.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 132861
@@ -1236,6 +1229,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.64.1.el9_6.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms
+    size: 3719045
+    checksum: sha256:2461759cbafc38f18f0e0874d8fae8ab9ff468fd737ad64332ecf2306224d48a
+    name: kernel-headers
+    evr: 5.14.0-570.64.1.el9_6
+    sourcerpm: kernel-5.14.0-570.64.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssl-3.2.2-7.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 1385313
@@ -1352,13 +1352,6 @@ arches:
     name: infiniband-diags
     evr: 54.0-2.el9_6
     sourcerpm: rdma-core-54.0-2.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.62.1.el9_6.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 3743889
-    checksum: sha256:a4929b8d3e70b5d45c0fec63db454b600091433be8a8daa62142a9499a0d2dc6
-    name: kernel-headers
-    evr: 5.14.0-570.62.1.el9_6
-    sourcerpm: kernel-5.14.0-570.62.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 132893
@@ -2479,6 +2472,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.64.1.el9_6.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 3757373
+    checksum: sha256:f037037c1680af89f2207294622fd10532366d55705e425d951d1d47aa25a747
+    name: kernel-headers
+    evr: 5.14.0-570.64.1.el9_6
+    sourcerpm: kernel-5.14.0-570.64.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssl-3.2.2-7.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 1407748
