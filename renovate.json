@@ -9,6 +9,13 @@
         "approved",
         "lgtm"
     ],
+    "packageRules": [
+        {
+            "matchManagers": ["rpm", "dockerfile"],
+            "groupName": "RPM and container image updates",
+            "schedule": ["before 3am on Monday"]
+        }
+    ],
     "tekton": {
         "autoApprove": true,
         "automerge": true,
