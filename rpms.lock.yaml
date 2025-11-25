@@ -81,13 +81,13 @@ arches:
     name: infiniband-diags
     evr: 57.0-2.el9
     sourcerpm: rdma-core-57.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.8.1.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.9.1.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2946465
-    checksum: sha256:f4e0d9a17702ddcdc3a9e5c3a1c1ae2932e74fca0e560dc889965bc4ab835c89
+    size: 2947053
+    checksum: sha256:027e7b92ff011661916bb1ceda09904321fdcd3f2ec59f3b672a4fa0eedea79f
     name: kernel-headers
-    evr: 5.14.0-611.8.1.el9_7
-    sourcerpm: kernel-5.14.0-611.8.1.el9_7.src.rpm
+    evr: 5.14.0-611.9.1.el9_7
+    sourcerpm: kernel-5.14.0-611.9.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libasan-11.5.0-11.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 408716
@@ -1331,13 +1331,13 @@ arches:
     name: infiniband-diags
     evr: 57.0-2.el9
     sourcerpm: rdma-core-57.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.8.1.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.9.1.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 2985529
-    checksum: sha256:c290b18dcacfd513ca4e07279c4e30680345b04da41f85486e0bb107aa12367d
+    size: 2986133
+    checksum: sha256:1220af276eeadf50e03825d4013fffdd571f70a7033e8988f24f5d78b0358187
     name: kernel-headers
-    evr: 5.14.0-611.8.1.el9_7
-    sourcerpm: kernel-5.14.0-611.8.1.el9_7.src.rpm
+    evr: 5.14.0-611.9.1.el9_7
+    sourcerpm: kernel-5.14.0-611.9.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 66075
