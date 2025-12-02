@@ -1215,13 +1215,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.66.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.69.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3744717
-    checksum: sha256:9253c8228be1d8ed25cafc6462c0306cb87c85cdf93c6ff4443009e88f13e80e
+    size: 3747389
+    checksum: sha256:a28ac23698350491a8c69009ef330f210b75ee1c908ad035fed2a420e903ca63
     name: kernel-headers
-    evr: 5.14.0-570.66.1.el9_6
-    sourcerpm: kernel-5.14.0-570.66.1.el9_6.src.rpm
+    evr: 5.14.0-570.69.1.el9_6
+    sourcerpm: kernel-5.14.0-570.69.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/e/expat-2.5.0-5.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 114276
@@ -2451,13 +2451,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.66.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.69.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3783681
-    checksum: sha256:d750429d5b21b5e25c2a262410663a3ceb0fada4ae7d315140cf3cf74e5221f8
+    size: 3786377
+    checksum: sha256:67a9a7b0593709fb70b725e203d163d226339a9d82c51199800fd4aac2c27d58
     name: kernel-headers
-    evr: 5.14.0-570.66.1.el9_6
-    sourcerpm: kernel-5.14.0-570.66.1.el9_6.src.rpm
+    evr: 5.14.0-570.69.1.el9_6
+    sourcerpm: kernel-5.14.0-570.69.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/e/expat-2.5.0-5.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 120247
