@@ -16,6 +16,12 @@
             "schedule": ["before 3am on Monday"]
         }
     ],
+    "dockerfile": {
+        "postUpgradeTasks": {
+            "commands": ["rpm-lockfile-prototype rpms.in.yaml"],
+            "fileFilters": ["rpms.lock.yaml"]
+        }
+    },
     "tekton": {
         "autoApprove": true,
         "automerge": true,
