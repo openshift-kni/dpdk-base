@@ -354,27 +354,27 @@ arches:
     name: gettext-libs
     evr: 0.19.8.1-17.el8
     sourcerpm: gettext-0.19.8.1-17.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-devel-2.28-251.el8_10.25.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-devel-2.28-251.el8_10.27.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 91240
-    checksum: sha256:ab21fa93a185ac02c8600b2ca71706b13a8b2ee0b3e1ad4e4952e393bec1ec63
+    size: 91520
+    checksum: sha256:ffa22c1c95e19754dc67850661813d8c22676fd1ed5279df9a927a55e8863909
     name: glibc-devel
-    evr: 2.28-251.el8_10.25
-    sourcerpm: glibc-2.28-251.el8_10.25.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-headers-2.28-251.el8_10.25.x86_64.rpm
+    evr: 2.28-251.el8_10.27
+    sourcerpm: glibc-2.28-251.el8_10.27.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-headers-2.28-251.el8_10.27.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 506016
-    checksum: sha256:57fb72daf5717a21ccd545645992516d6548638faf37a0956f8e0672f646d4b5
+    size: 506300
+    checksum: sha256:d0d26bd326d41c2910b9def24dc412495df29b909fbcbc92cbee08ba68e071e0
     name: glibc-headers
-    evr: 2.28-251.el8_10.25
-    sourcerpm: glibc-2.28-251.el8_10.25.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-locale-source-2.28-251.el8_10.25.x86_64.rpm
+    evr: 2.28-251.el8_10.27
+    sourcerpm: glibc-2.28-251.el8_10.27.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-locale-source-2.28-251.el8_10.27.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 4418696
-    checksum: sha256:21db1770dd79aec538e82587af9955e7e992119effc4512a6e34a2e5dd95ac1a
+    size: 4418984
+    checksum: sha256:41080a65613378bca18beaff70533d2054aa0088319b628d04fe046eec4bc81c
     name: glibc-locale-source
-    evr: 2.28-251.el8_10.25
-    sourcerpm: glibc-2.28-251.el8_10.25.src.rpm
+    evr: 2.28-251.el8_10.27
+    sourcerpm: glibc-2.28-251.el8_10.27.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/groff-base-1.22.3-18.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 1069536
@@ -417,13 +417,13 @@ arches:
     name: iproute
     evr: 6.2.0-6.el8_10
     sourcerpm: iproute-6.2.0-6.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.87.1.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.89.1.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 12467464
-    checksum: sha256:2eaf1fe2bac157e0822d2df430260eaf03abe853e1ff93219b64a228d5f29f29
+    size: 12468408
+    checksum: sha256:301f64b597865448c085d350f82d31c7cadf37d49264d1348c067c4c1c878a2a
     name: kernel-headers
-    evr: 4.18.0-553.87.1.el8_10
-    sourcerpm: kernel-4.18.0-553.87.1.el8_10.src.rpm
+    evr: 4.18.0-553.89.1.el8_10
+    sourcerpm: kernel-4.18.0-553.89.1.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kmod-25-20.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 129356
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/4e1809aaa652d5aeded2f6e9794faaca82a902a2beff0212b09b8efc0194bcc4-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/4f8bbc8b0459f2031c65e1d28f86df4e87f89f3299cf957ebf46d2399f1e479e-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 766106
-    checksum: sha256:4e1809aaa652d5aeded2f6e9794faaca82a902a2beff0212b09b8efc0194bcc4
+    size: 766779
+    checksum: sha256:4f8bbc8b0459f2031c65e1d28f86df4e87f89f3299cf957ebf46d2399f1e479e
