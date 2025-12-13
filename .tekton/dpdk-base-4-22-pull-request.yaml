@@ -11,10 +11,10 @@ metadata:
     pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch == "main"
   creationTimestamp:
   labels:
-    appstudio.openshift.io/application: dpdk-base-4-21
-    appstudio.openshift.io/component: dpdk-base-4-21
+    appstudio.openshift.io/application: dpdk-base-4-22
+    appstudio.openshift.io/component: dpdk-base-4-22
     pipelines.appstudio.openshift.io/type: build
-  name: dpdk-base-4-21-on-pull-request
+  name: dpdk-base-4-22-on-pull-request
   namespace: telco-5g-tenant
 spec:
   params:
@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/telco-5g-tenant/dpdk-base-4-21:on-pr-{{revision}}
+    value: quay.io/redhat-user-workloads/telco-5g-tenant/dpdk-base-4-22:on-pr-{{revision}}
   - name: image-expires-after
     value: 5d
   - name: build-platforms
@@ -650,7 +650,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-dpdk-base-4-21
+    serviceAccountName: build-pipeline-dpdk-base-4-22
   workspaces:
   - name: git-auth
     secret:
