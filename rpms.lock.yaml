@@ -2451,13 +2451,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.72.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.73.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3786945
-    checksum: sha256:3f4c339bce3b6426d2324a0d9c95441912a30cfc4c6e4fe084a9f44a215c1bd5
+    size: 3787461
+    checksum: sha256:edd6752efae8952c734be632881965593860d57e05de0a63501725e96a166c0d
     name: kernel-headers
-    evr: 5.14.0-570.72.1.el9_6
-    sourcerpm: kernel-5.14.0-570.72.1.el9_6.src.rpm
+    evr: 5.14.0-570.73.1.el9_6
+    sourcerpm: kernel-5.14.0-570.73.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/e/expat-2.5.0-5.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 120247
