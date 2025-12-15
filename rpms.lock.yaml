@@ -1180,13 +1180,13 @@ arches:
     name: rdma-core
     evr: 48.0-2.el9_4
     sourcerpm: rdma-core-48.0-2.el9_4.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/r/rsync-3.2.3-19.el9_4.1.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/r/rsync-3.2.3-19.el9_4.2.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
-    size: 404393
-    checksum: sha256:86802e6f9fa68bcef00aabe04bcf601201292cf9bf79370992d11dbb853ddc1c
+    size: 399969
+    checksum: sha256:075335b5af437ff116c596a55b9dcd7210bf024e14db333c454eccbf0274d403
     name: rsync
-    evr: 3.2.3-19.el9_4.1
-    sourcerpm: rsync-3.2.3-19.el9_4.1.src.rpm
+    evr: 3.2.3-19.el9_4.2
+    sourcerpm: rsync-3.2.3-19.el9_4.2.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/s/systemd-252-32.el9_4.10.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 4125178
@@ -2423,13 +2423,13 @@ arches:
     name: rdma-core
     evr: 48.0-2.el9_4
     sourcerpm: rdma-core-48.0-2.el9_4.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/r/rsync-3.2.3-19.el9_4.1.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/r/rsync-3.2.3-19.el9_4.2.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 409798
-    checksum: sha256:9202697f872c6bce4e3be7ed61eaa15fc48bf76673ce8f3a48fe94c414a5f783
+    size: 405273
+    checksum: sha256:beba49279d0219794d6dd19edf38957eb8be2b56803eb101a0aa625a81dbaaff
     name: rsync
-    evr: 3.2.3-19.el9_4.1
-    sourcerpm: rsync-3.2.3-19.el9_4.1.src.rpm
+    evr: 3.2.3-19.el9_4.2
+    sourcerpm: rsync-3.2.3-19.el9_4.2.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/s/systemd-252-32.el9_4.10.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 4373466
