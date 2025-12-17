@@ -81,13 +81,13 @@ arches:
     name: infiniband-diags
     evr: 57.0-2.el9
     sourcerpm: rdma-core-57.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.13.1.el9_7.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-611.16.1.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 2952325
-    checksum: sha256:849dd02144b0fc4ef8e81f744500e4b201e73f5ceb77563135a1f0ec483ed327
+    size: 2954321
+    checksum: sha256:5a84209a984621593b8efb51c6101af6f48bbc26192840a3baebf4fda1ecdc19
     name: kernel-headers
-    evr: 5.14.0-611.13.1.el9_7
-    sourcerpm: kernel-5.14.0-611.13.1.el9_7.src.rpm
+    evr: 5.14.0-611.16.1.el9_7
+    sourcerpm: kernel-5.14.0-611.16.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/l/libasan-11.5.0-11.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 408716
@@ -949,20 +949,20 @@ arches:
     name: numactl-libs
     evr: 2.0.19-3.el9
     sourcerpm: numactl-2.0.19-3.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssh-8.7p1-46.el9.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssh-8.7p1-47.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 457771
-    checksum: sha256:71b112b493a770c81e108afd8ce6616c8a941c6f4332cc5db75731d9b830ccaf
+    size: 457197
+    checksum: sha256:80f3b5be41982ee637ffba3354170b4873c46c47460149c82f9821cd3a1ebf8e
     name: openssh
-    evr: 8.7p1-46.el9
-    sourcerpm: openssh-8.7p1-46.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssh-clients-8.7p1-46.el9.aarch64.rpm
+    evr: 8.7p1-47.el9_7
+    sourcerpm: openssh-8.7p1-47.el9_7.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssh-clients-8.7p1-47.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 697157
-    checksum: sha256:2f94f61ef0cfd8089ce58040586e894ec3c0f1d7aa46e63659901d4c0eea9287
+    size: 696884
+    checksum: sha256:5c294f4427bb2f80b699d6f8c6163659413b2821ac6db38cc8fa21c544694503
     name: openssh-clients
-    evr: 8.7p1-46.el9
-    sourcerpm: openssh-8.7p1-46.el9.src.rpm
+    evr: 8.7p1-47.el9_7
+    sourcerpm: openssh-8.7p1-47.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssl-3.5.1-4.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 1531255
@@ -1331,13 +1331,13 @@ arches:
     name: infiniband-diags
     evr: 57.0-2.el9
     sourcerpm: rdma-core-57.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.13.1.el9_7.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-611.16.1.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 2991381
-    checksum: sha256:c144c57a9804a2a98f6f34f0769e0cfadfedd9d1f9a7b1e5ad0e548b108355ff
+    size: 2993337
+    checksum: sha256:3b3c3dd0e7e442f8d44d33e9c8c5d2989045626b53977de2c28ff174b3b26c5b
     name: kernel-headers
-    evr: 5.14.0-611.13.1.el9_7
-    sourcerpm: kernel-5.14.0-611.13.1.el9_7.src.rpm
+    evr: 5.14.0-611.16.1.el9_7
+    sourcerpm: kernel-5.14.0-611.16.1.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/l/libmpc-1.2.1-4.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 66075
