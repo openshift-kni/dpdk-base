@@ -165,13 +165,13 @@ arches:
     name: acl
     evr: 2.2.53-3.el8
     sourcerpm: acl-2.2.53-3.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/binutils-2.30-127.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/binutils-2.30-128.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 6049476
-    checksum: sha256:c5af511a1bb5cf2f4dc2dbd11c7b1a793d0b3669ea8c799adca453a0adcb67ae
+    size: 6049224
+    checksum: sha256:84f90619616730e638ced667144225b3d6467ce90a155433e4f041e8744ae5ff
     name: binutils
-    evr: 2.30-127.el8_10
-    sourcerpm: binutils-2.30-127.el8_10.src.rpm
+    evr: 2.30-128.el8_10
+    sourcerpm: binutils-2.30-128.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-6.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 71760
@@ -319,13 +319,13 @@ arches:
     name: expect
     evr: 5.45.4-5.el8
     sourcerpm: expect-5.45.4-5.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/f/findutils-4.6.0-23.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/f/findutils-4.6.0-24.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 540248
-    checksum: sha256:cb645de7da1bd495a6df969de4b0f84f10ccf8d299c26099f1cd9075ed9c32cb
+    size: 538912
+    checksum: sha256:d41cc52d67548b14a2cb4984073bbf4c6451126e5f11bf51c6e61565439ab0c7
     name: findutils
-    evr: 1:4.6.0-23.el8_10
-    sourcerpm: findutils-4.6.0-23.el8_10.src.rpm
+    evr: 1:4.6.0-24.el8_10
+    sourcerpm: findutils-4.6.0-24.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/gdbm-1.18-2.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 132820
@@ -1096,13 +1096,13 @@ arches:
     name: rsync
     evr: 3.1.3-23.el8_10
     sourcerpm: rsync-3.1.3-23.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/shadow-utils-4.6-22.el8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/shadow-utils-4.6-23.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 1292332
-    checksum: sha256:ea73ee201451bbca0d6d14ca434c93800f01c8fb1b9daef727a5af1a27356d07
+    size: 1292212
+    checksum: sha256:14c51c9595e5af1b0949b230b03fd83becd05560f6e380a737436246d267b9a5
     name: shadow-utils
-    evr: 2:4.6-22.el8
-    sourcerpm: shadow-utils-4.6-22.el8.src.rpm
+    evr: 2:4.6-23.el8_10
+    sourcerpm: shadow-utils-4.6-23.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/systemd-239-82.el8_10.8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 3828188
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/3b2731accf83661cd2a6d2ecb1953c4b34ca432f70e79769175aca130be882f4-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/73ace75c234edfd5b5c6b06cda69a408b613cd52c50bebb6280d16434b29844b-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 775467
-    checksum: sha256:3b2731accf83661cd2a6d2ecb1953c4b34ca432f70e79769175aca130be882f4
+    checksum: sha256:73ace75c234edfd5b5c6b06cda69a408b613cd52c50bebb6280d16434b29844b
