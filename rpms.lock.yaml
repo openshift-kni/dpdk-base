@@ -620,20 +620,6 @@ arches:
     name: attr
     evr: 2.5.1-3.el9
     sourcerpm: attr-2.5.1-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/b/binutils-2.35.2-63.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 5023899
-    checksum: sha256:c0daaed62bf2dc4ff0f3a30e3f0c538170c998c2b805acf931b7e8b77accf087
-    name: binutils
-    evr: 2.35.2-63.el9
-    sourcerpm: binutils-2.35.2-63.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/b/binutils-gold-2.35.2-63.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 903496
-    checksum: sha256:71c324de618542f894eb113644b2082d2f0e8d648d31a32f8a5fe14a78a5d295
-    name: binutils-gold
-    evr: 2.35.2-63.el9
-    sourcerpm: binutils-2.35.2-63.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/c/cracklib-2.9.6-27.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 100995
@@ -1222,6 +1208,20 @@ arches:
     name: kernel-headers
     evr: 5.14.0-570.73.1.el9_6
     sourcerpm: kernel-5.14.0-570.73.1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 5018051
+    checksum: sha256:20efd1dc9369ac73f70517add633750f642de16def4bb0c9ca1ec41fdcd1ba38
+    name: binutils
+    evr: 2.35.2-63.el9_6.1
+    sourcerpm: binutils-2.35.2-63.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/b/binutils-gold-2.35.2-63.el9_6.1.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 901490
+    checksum: sha256:2578225a6e1c7e4f245fa10c6782c7c62baba7069eda90d1010a07217fb60814
+    name: binutils-gold
+    evr: 2.35.2-63.el9_6.1
+    sourcerpm: binutils-2.35.2-63.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/e/expat-2.5.0-5.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 114276
@@ -1856,20 +1856,6 @@ arches:
     name: attr
     evr: 2.5.1-3.el9
     sourcerpm: attr-2.5.1-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/b/binutils-2.35.2-63.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 4818636
-    checksum: sha256:4eb918b63dee7daf32117df2e3fcb02ad4ba3d96cb25677cf55315deceb7e22a
-    name: binutils
-    evr: 2.35.2-63.el9
-    sourcerpm: binutils-2.35.2-63.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/b/binutils-gold-2.35.2-63.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 753176
-    checksum: sha256:339d9bb2dc0e41c4756f1a4f82e82f6654818b72de74f1f0377c76277617352b
-    name: binutils-gold
-    evr: 2.35.2-63.el9
-    sourcerpm: binutils-2.35.2-63.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/c/cracklib-2.9.6-27.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 100903
@@ -2458,6 +2444,20 @@ arches:
     name: kernel-headers
     evr: 5.14.0-570.73.1.el9_6
     sourcerpm: kernel-5.14.0-570.73.1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 4814390
+    checksum: sha256:f4e9c69737d83be539a8979fbe087b53f18d624f6b1e9f1d994d580510593a6a
+    name: binutils
+    evr: 2.35.2-63.el9_6.1
+    sourcerpm: binutils-2.35.2-63.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/b/binutils-gold-2.35.2-63.el9_6.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 751188
+    checksum: sha256:cbcfbd4ff91e4d946f7f58607984fe522341dbbbb264113df531c14d18387461
+    name: binutils-gold
+    evr: 2.35.2-63.el9_6.1
+    sourcerpm: binutils-2.35.2-63.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/e/expat-2.5.0-5.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 120247
