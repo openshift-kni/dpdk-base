@@ -480,13 +480,13 @@ arches:
     name: libevent
     evr: 2.1.8-5.el8
     sourcerpm: libevent-2.1.8-5.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libfdisk-2.32.1-46.el8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libfdisk-2.32.1-47.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 260128
-    checksum: sha256:e7793c66af8f2cdd7893527bc81971e50f985f27c67dc22bbf118e3e0468f1a9
+    size: 259176
+    checksum: sha256:93d94607b800a70cffe242fdaf13ebcf9a62eb77aa98564bab7087f86a8e0832
     name: libfdisk
-    evr: 2.32.1-46.el8
-    sourcerpm: util-linux-2.32.1-46.el8.src.rpm
+    evr: 2.32.1-47.el8_10
+    sourcerpm: util-linux-2.32.1-47.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libgomp-8.5.0-28.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 213900
@@ -1145,13 +1145,13 @@ arches:
     name: unzip
     evr: 6.0-48.el8_10
     sourcerpm: unzip-6.0-48.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/u/util-linux-2.32.1-46.el8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/u/util-linux-2.32.1-47.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 2597616
-    checksum: sha256:1accef88d06655139903a7b4aa6a01cab62b3c899a93d297cb7ac92a476abed6
+    size: 2596592
+    checksum: sha256:4861ff37cf00bd0bab78a81004dfed1e7b0ee5355403510b9e78e2a90fc7226c
     name: util-linux
-    evr: 2.32.1-46.el8
-    sourcerpm: util-linux-2.32.1-46.el8.src.rpm
+    evr: 2.32.1-47.el8_10
+    sourcerpm: util-linux-2.32.1-47.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/x/xz-5.2.4-4.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 156884
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/73ace75c234edfd5b5c6b06cda69a408b613cd52c50bebb6280d16434b29844b-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/25c01686fab717781b7988c30dc1d355e88917206ded25402e2961a114d3a4d2-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 775467
-    checksum: sha256:73ace75c234edfd5b5c6b06cda69a408b613cd52c50bebb6280d16434b29844b
+    checksum: sha256:25c01686fab717781b7988c30dc1d355e88917206ded25402e2961a114d3a4d2
