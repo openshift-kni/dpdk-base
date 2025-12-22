@@ -732,13 +732,13 @@ arches:
     name: rdma-core-devel
     evr: 37.2-1.el8_6.1
     sourcerpm: rdma-core-37.2-1.el8_6.1.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/r/rsync-3.1.3-14.el8_6.8.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/r/rsync-3.1.3-14.el8_6.9.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 419976
-    checksum: sha256:e745251b7b4e1ce969f0758c7facea100a6866e318e2bcbcee981d5973957680
+    size: 418992
+    checksum: sha256:47390edfbee48ecb704f734a678d69a88d023cef956f7f6bb64a71f821b87deb
     name: rsync
-    evr: 3.1.3-14.el8_6.8
-    sourcerpm: rsync-3.1.3-14.el8_6.8.src.rpm
+    evr: 3.1.3-14.el8_6.9
+    sourcerpm: rsync-3.1.3-14.el8_6.9.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/t/tcl-8.6.8-2.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 1163572
@@ -762,7 +762,7 @@ arches:
     sourcerpm: xz-5.2.4-4.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/8c6378d134c27a88d265e8dd1061798d9072cdba1dcb52dd1687a421d830b9f2-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/d289154ad2e7dbf119587e3ea7bd61184d7360a76ff0a417c638657a34dc80bc-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
-    size: 554846
-    checksum: sha256:8c6378d134c27a88d265e8dd1061798d9072cdba1dcb52dd1687a421d830b9f2
+    size: 555192
+    checksum: sha256:d289154ad2e7dbf119587e3ea7bd61184d7360a76ff0a417c638657a34dc80bc
