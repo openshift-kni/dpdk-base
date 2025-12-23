@@ -1110,27 +1110,6 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9
     sourcerpm: rsync-3.2.5-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-252-51.el9_6.3.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 4153356
-    checksum: sha256:4bc7c421e87dd7b2f01808ed8866d0a029d28c8ed79cdeefa3bd81ec89e3d8be
-    name: systemd
-    evr: 252-51.el9_6.3
-    sourcerpm: systemd-252-51.el9_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.3.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 270149
-    checksum: sha256:14b9afdc8f071f0f1f8aa582700da1a18ad0db880f272ce6bf5ab5f0ad5c887c
-    name: systemd-pam
-    evr: 252-51.el9_6.3
-    sourcerpm: systemd-252-51.el9_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.3.noarch.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 63512
-    checksum: sha256:0735a7ac27891726d56502705f25d14ad243d49bf1f097c9dcf3ce0bd5ca7a97
-    name: systemd-rpm-macros
-    evr: 252-51.el9_6.3
-    sourcerpm: systemd-252-51.el9_6.3.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/t/tar-1.34-7.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 900197
@@ -1201,13 +1180,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.73.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.76.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3748493
-    checksum: sha256:ceb80a1dcd93f5ab4a294cca649c449e9e1e69a7c9c2b3498bd28a7296913f8f
+    size: 3750589
+    checksum: sha256:1922da0041b60a233c5efda927866b24460621d2adc639488b42a4987fd547a5
     name: kernel-headers
-    evr: 5.14.0-570.73.1.el9_6
-    sourcerpm: kernel-5.14.0-570.73.1.el9_6.src.rpm
+    evr: 5.14.0-570.76.1.el9_6
+    sourcerpm: kernel-5.14.0-570.76.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 5018051
@@ -1236,6 +1215,27 @@ arches:
     name: openssl
     evr: 1:3.2.2-7.el9_6.1
     sourcerpm: openssl-3.2.2-7.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-252-51.el9_6.4.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 4153453
+    checksum: sha256:b5aea886e072ba7cc1c575c99117ccc777e616d0731406f61e7cb0efd50c3daf
+    name: systemd
+    evr: 252-51.el9_6.4
+    sourcerpm: systemd-252-51.el9_6.4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.4.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 269426
+    checksum: sha256:18637605d736e22b70341b2baa8d578d56a92301eee2d237dd898278f8ea1d05
+    name: systemd-pam
+    evr: 252-51.el9_6.4
+    sourcerpm: systemd-252-51.el9_6.4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.4.noarch.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 62787
+    checksum: sha256:96fa8cf07e84e172156c7229a95cb74de5f1980389730d8fa5c4ef4113fe4ded
+    name: systemd-rpm-macros
+    evr: 252-51.el9_6.4
+    sourcerpm: systemd-252-51.el9_6.4.src.rpm
   source: []
   module_metadata: []
 - arch: x86_64
@@ -2346,27 +2346,6 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9
     sourcerpm: rsync-3.2.5-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-252-51.el9_6.3.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 4398726
-    checksum: sha256:bdd7e241deb1f78db59971399d169fa08c09318adad9e78c349dba710dc190a5
-    name: systemd
-    evr: 252-51.el9_6.3
-    sourcerpm: systemd-252-51.el9_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.3.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 280757
-    checksum: sha256:31a6de71fd3640db1af6576382295a0d49278bc3066a71160aae30b2779c6094
-    name: systemd-pam
-    evr: 252-51.el9_6.3
-    sourcerpm: systemd-252-51.el9_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.3.noarch.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 63512
-    checksum: sha256:0735a7ac27891726d56502705f25d14ad243d49bf1f097c9dcf3ce0bd5ca7a97
-    name: systemd-rpm-macros
-    evr: 252-51.el9_6.3
-    sourcerpm: systemd-252-51.el9_6.3.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/t/tar-1.34-7.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 910235
@@ -2437,13 +2416,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.73.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.76.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3787461
-    checksum: sha256:edd6752efae8952c734be632881965593860d57e05de0a63501725e96a166c0d
+    size: 3789585
+    checksum: sha256:b692b227724759aeafb8ce4f9da201db117bfc5346d8c68c45b99f82e7d20518
     name: kernel-headers
-    evr: 5.14.0-570.73.1.el9_6
-    sourcerpm: kernel-5.14.0-570.73.1.el9_6.src.rpm
+    evr: 5.14.0-570.76.1.el9_6
+    sourcerpm: kernel-5.14.0-570.76.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 4814390
@@ -2472,5 +2451,26 @@ arches:
     name: openssl
     evr: 1:3.2.2-7.el9_6.1
     sourcerpm: openssl-3.2.2-7.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-252-51.el9_6.4.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 4399245
+    checksum: sha256:15f33c171629a004c1efd2b7262461864b324226c2629b53087cc8f0642c7328
+    name: systemd
+    evr: 252-51.el9_6.4
+    sourcerpm: systemd-252-51.el9_6.4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.4.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 279893
+    checksum: sha256:1627696029f24cfb429859d6d85db8eebc9fa91ae0a9635ce2623f9afc75b0a6
+    name: systemd-pam
+    evr: 252-51.el9_6.4
+    sourcerpm: systemd-252-51.el9_6.4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.4.noarch.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 62787
+    checksum: sha256:96fa8cf07e84e172156c7229a95cb74de5f1980389730d8fa5c4ef4113fe4ded
+    name: systemd-rpm-macros
+    evr: 252-51.el9_6.4
+    sourcerpm: systemd-252-51.el9_6.4.src.rpm
   source: []
   module_metadata: []
