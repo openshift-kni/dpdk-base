@@ -172,13 +172,13 @@ arches:
     name: scl-utils
     evr: 1:2.0.2-15.el8
     sourcerpm: scl-utils-2.0.2-15.el8.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/b/binutils-2.30-113.el8_6.3.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/b/binutils-2.30-113.el8_6.4.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 6091560
-    checksum: sha256:3c8444389c439c5c0d1eea67624cc7e64eb600557d998c3ce82f076a7e75be62
+    size: 6090424
+    checksum: sha256:541eae5e8d5a051e7cd43541b7ec76ae18cf15e48c0bf4bd33c55d7302efd902
     name: binutils
-    evr: 2.30-113.el8_6.3
-    sourcerpm: binutils-2.30-113.el8_6.3.src.rpm
+    evr: 2.30-113.el8_6.4
+    sourcerpm: binutils-2.30-113.el8_6.4.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-6.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 71920
@@ -762,7 +762,7 @@ arches:
     sourcerpm: xz-5.2.4-4.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/d289154ad2e7dbf119587e3ea7bd61184d7360a76ff0a417c638657a34dc80bc-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/f9a1876ea073be8f6f0a14446f31ec73661fe6d35f7435ecb1785fd2e07904bc-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
-    size: 555192
-    checksum: sha256:d289154ad2e7dbf119587e3ea7bd61184d7360a76ff0a417c638657a34dc80bc
+    size: 557896
+    checksum: sha256:f9a1876ea073be8f6f0a14446f31ec73661fe6d35f7435ecb1785fd2e07904bc
