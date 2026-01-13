@@ -1110,13 +1110,6 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9
     sourcerpm: rsync-3.2.5-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/t/tar-1.34-7.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 900197
-    checksum: sha256:44552dea889d350403c3074a33d7cb274b3f57553e47db998745df13f931b458
-    name: tar
-    evr: 2:1.34-7.el9
-    sourcerpm: tar-1.34-7.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/t/tcl-8.6.10-7.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 1137015
@@ -1180,13 +1173,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.76.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.77.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3750589
-    checksum: sha256:1922da0041b60a233c5efda927866b24460621d2adc639488b42a4987fd547a5
+    size: 3752269
+    checksum: sha256:ad5e0dee446bad393db7f2532cde50913e0d2d71235768742e803f98b5075b3b
     name: kernel-headers
-    evr: 5.14.0-570.76.1.el9_6
-    sourcerpm: kernel-5.14.0-570.76.1.el9_6.src.rpm
+    evr: 5.14.0-570.77.1.el9_6
+    sourcerpm: kernel-5.14.0-570.77.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 5018051
@@ -1236,6 +1229,13 @@ arches:
     name: systemd-rpm-macros
     evr: 252-51.el9_6.4
     sourcerpm: systemd-252-51.el9_6.4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/t/tar-1.34-7.el9_6.2.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 897893
+    checksum: sha256:15e888c97b5d59cfd48b813b7dec65f73b9ca8f06154ec56b500fefcf6447aef
+    name: tar
+    evr: 2:1.34-7.el9_6.2
+    sourcerpm: tar-1.34-7.el9_6.2.src.rpm
   source: []
   module_metadata: []
 - arch: x86_64
@@ -2346,13 +2346,6 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9
     sourcerpm: rsync-3.2.5-3.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/t/tar-1.34-7.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 910235
-    checksum: sha256:17f2e592a2c04c050b690afeb9042e02521a0b5ee3288dad837463f4acf542c3
-    name: tar
-    evr: 2:1.34-7.el9
-    sourcerpm: tar-1.34-7.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/t/tcl-8.6.10-7.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 1152092
@@ -2416,13 +2409,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.76.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.77.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3789585
-    checksum: sha256:b692b227724759aeafb8ce4f9da201db117bfc5346d8c68c45b99f82e7d20518
+    size: 3791273
+    checksum: sha256:dd8f9bee921734fe78fd394de822c226e43803e3e7657d45d37225abaeca589e
     name: kernel-headers
-    evr: 5.14.0-570.76.1.el9_6
-    sourcerpm: kernel-5.14.0-570.76.1.el9_6.src.rpm
+    evr: 5.14.0-570.77.1.el9_6
+    sourcerpm: kernel-5.14.0-570.77.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 4814390
@@ -2472,5 +2465,12 @@ arches:
     name: systemd-rpm-macros
     evr: 252-51.el9_6.4
     sourcerpm: systemd-252-51.el9_6.4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/t/tar-1.34-7.el9_6.2.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 906275
+    checksum: sha256:c8a8c68f036de31548baeba3c7bb6bce1fad2aa170c76d6aff00fde859943663
+    name: tar
+    evr: 2:1.34-7.el9_6.2
+    sourcerpm: tar-1.34-7.el9_6.2.src.rpm
   source: []
   module_metadata: []
