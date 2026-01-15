@@ -942,20 +942,6 @@ arches:
     name: numactl-libs
     evr: 2.0.19-1.el9
     sourcerpm: numactl-2.0.19-1.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-8.7p1-45.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 463778
-    checksum: sha256:61e5df0df8802317203a9f4d4a2e928521905fe5a7f527130ab1f1dedfde2ef0
-    name: openssh
-    evr: 8.7p1-45.el9
-    sourcerpm: openssh-8.7p1-45.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-clients-8.7p1-45.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 705047
-    checksum: sha256:c8588d3934dd98ad635e0cafade53b522a9f0984f0d22cfa438b10742f345e22
-    name: openssh-clients
-    evr: 8.7p1-45.el9
-    sourcerpm: openssh-8.7p1-45.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/p/pam-1.5.1-26.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 636107
@@ -1201,6 +1187,20 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.1.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 457126
+    checksum: sha256:9bed761e927092380441d229490832c3fb5e39ec9d821612e4ef359a93da13a5
+    name: openssh
+    evr: 8.7p1-45.el9_6.1
+    sourcerpm: openssh-8.7p1-45.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-clients-8.7p1-45.el9_6.1.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 699232
+    checksum: sha256:2ee0cfda008cc274702e6d289f4e372f6eec87f8f6ac48de413f2be9151173c0
+    name: openssh-clients
+    evr: 8.7p1-45.el9_6.1
+    sourcerpm: openssh-8.7p1-45.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssl-3.2.2-7.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 1385313
@@ -2178,20 +2178,6 @@ arches:
     name: numactl-libs
     evr: 2.0.19-1.el9
     sourcerpm: numactl-2.0.19-1.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-8.7p1-45.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 474534
-    checksum: sha256:d43f19d3e736943bdadbda47db016e9da81ce1900f50ecfe470f7a8bc9bce243
-    name: openssh
-    evr: 8.7p1-45.el9
-    sourcerpm: openssh-8.7p1-45.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-clients-8.7p1-45.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 735750
-    checksum: sha256:309d1c9c176bf35b494c8b31a0f3eeceddd0b27be1dfc9defbe9838b9d5a707c
-    name: openssh-clients
-    evr: 8.7p1-45.el9
-    sourcerpm: openssh-8.7p1-45.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/p/pam-1.5.1-26.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 636788
@@ -2437,6 +2423,20 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 467993
+    checksum: sha256:316d4917ca9c6556586fb793b4a8d522a5e32ab9dc9a62c3b996b81b78ead853
+    name: openssh
+    evr: 8.7p1-45.el9_6.1
+    sourcerpm: openssh-8.7p1-45.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-clients-8.7p1-45.el9_6.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 729152
+    checksum: sha256:5d16021c1b498b23852558d9460f59b21159a135a0b1a3590082c7bc7137dca6
+    name: openssh-clients
+    evr: 8.7p1-45.el9_6.1
+    sourcerpm: openssh-8.7p1-45.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssl-3.2.2-7.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 1407748
