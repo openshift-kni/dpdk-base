@@ -417,13 +417,13 @@ arches:
     name: openssh-clients
     evr: 8.0p1-15.el8_6.3
     sourcerpm: openssh-8.0p1-15.el8_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/o/openssl-1.1.1k-14.el8_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/o/openssl-1.1.1k-14.el8_6.1.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 728108
-    checksum: sha256:a8e4ff3346cfa24713f54d2a9e2b53ad7f3c9d84a6c639ba2150b7cb09550af0
+    size: 727032
+    checksum: sha256:c3c661229a1a71a45bc50a2d8a2185c456586b5dcbfde1253f3d0e2ab30af95d
     name: openssl
-    evr: 1:1.1.1k-14.el8_6
-    sourcerpm: openssl-1.1.1k-14.el8_6.src.rpm
+    evr: 1:1.1.1k-14.el8_6.1
+    sourcerpm: openssl-1.1.1k-14.el8_6.1.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/p/pciutils-3.7.0-1.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 107612
@@ -762,7 +762,7 @@ arches:
     sourcerpm: xz-5.2.4-4.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/f9a1876ea073be8f6f0a14446f31ec73661fe6d35f7435ecb1785fd2e07904bc-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/7d91bbdf8459381e38d0e970f08d366ce5bab6260a209a822a9972260002f00f-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
     size: 557896
-    checksum: sha256:f9a1876ea073be8f6f0a14446f31ec73661fe6d35f7435ecb1785fd2e07904bc
+    checksum: sha256:7d91bbdf8459381e38d0e970f08d366ce5bab6260a209a822a9972260002f00f
