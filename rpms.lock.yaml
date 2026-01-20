@@ -1159,13 +1159,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.77.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.79.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3752269
-    checksum: sha256:ad5e0dee446bad393db7f2532cde50913e0d2d71235768742e803f98b5075b3b
+    size: 3756569
+    checksum: sha256:c294d901b0a449c24587b30605c73fec2c5ea3732fbbffce235770a020cbe8e9
     name: kernel-headers
-    evr: 5.14.0-570.77.1.el9_6
-    sourcerpm: kernel-5.14.0-570.77.1.el9_6.src.rpm
+    evr: 5.14.0-570.79.1.el9_6
+    sourcerpm: kernel-5.14.0-570.79.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 5018051
@@ -2395,13 +2395,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.77.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.79.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3791273
-    checksum: sha256:dd8f9bee921734fe78fd394de822c226e43803e3e7657d45d37225abaeca589e
+    size: 3795593
+    checksum: sha256:baf02c7c01716d5d423a7c91389f8e578098bb7df878b72d4518bb66298631a7
     name: kernel-headers
-    evr: 5.14.0-570.77.1.el9_6
-    sourcerpm: kernel-5.14.0-570.77.1.el9_6.src.rpm
+    evr: 5.14.0-570.79.1.el9_6
+    sourcerpm: kernel-5.14.0-570.79.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 4814390
