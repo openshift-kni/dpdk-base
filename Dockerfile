@@ -1,7 +1,7 @@
 FROM registry.redhat.io/rhel9-4-els/rhel-minimal:9.4
 
 LABEL com.redhat.component="dpdk-base-container" \
-    name="/openshift4/dpdk-base-rhel9" \
+    name="openshift4/dpdk-base-rhel9" \
     cpe="cpe:/a:redhat:openshift:4.17::el9" \
     version="${CI_CONTAINER_VERSION}" \
     summary="dpdk-base" \
