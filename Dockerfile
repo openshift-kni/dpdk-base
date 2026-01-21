@@ -1,7 +1,7 @@
 FROM registry.access.redhat.com/ubi9/ubi-minimal:latest@sha256:6fc28bcb6776e387d7a35a2056d9d2b985dc4e26031e98a2bd35a7137cd6fd71
 
 LABEL com.redhat.component="dpdk-base-container" \
-    name="/openshift4/dpdk-base-rhel9" \
+    name="openshift4/dpdk-base-rhel9" \
     cpe="cpe:/a:redhat:openshift:4.22::el9" \
     version="${CI_CONTAINER_VERSION}" \
     summary="dpdk-base" \
