@@ -1138,20 +1138,20 @@ arches:
     name: ncurses
     evr: 6.2-10.20210508.el9_4.1
     sourcerpm: ncurses-6.2-10.20210508.el9_4.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/o/openssh-8.7p1-38.el9_4.5.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/o/openssh-8.7p1-38.el9_4.6.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 474293
-    checksum: sha256:44c59d9397cfa395e146155a01fdb0fc5b9e87d597a9a9b9fc5fe345a5b46b67
+    size: 467252
+    checksum: sha256:be22659d957d0cedc6d75a3d1b5aae9c97fa00e90be10960d1865c434c6f32ec
     name: openssh
-    evr: 8.7p1-38.el9_4.5
-    sourcerpm: openssh-8.7p1-38.el9_4.5.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/o/openssh-clients-8.7p1-38.el9_4.5.x86_64.rpm
+    evr: 8.7p1-38.el9_4.6
+    sourcerpm: openssh-8.7p1-38.el9_4.6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/o/openssh-clients-8.7p1-38.el9_4.6.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 736808
-    checksum: sha256:3897e45c11ee0c6d9a5ca3d5f02bfa45187aae4628737244d1da73446b29dc14
+    size: 729131
+    checksum: sha256:5dff426059bb929f04acbb293fd1e0cee2771f70694778136041ab38ad39e549
     name: openssh-clients
-    evr: 8.7p1-38.el9_4.5
-    sourcerpm: openssh-8.7p1-38.el9_4.5.src.rpm
+    evr: 8.7p1-38.el9_4.6
+    sourcerpm: openssh-8.7p1-38.el9_4.6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/o/openssl-3.0.7-29.el9_4.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 1253971
