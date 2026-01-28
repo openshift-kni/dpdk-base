@@ -18,27 +18,6 @@ arches:
     name: cpp
     evr: 11.5.0-5.el9_5
     sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/d/dpdk-24.11.2-3.el9_6.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 2355585
-    checksum: sha256:81ee7135c89c6605217188ea1a18686e8dbbac63f1186efd523761403273687b
-    name: dpdk
-    evr: 2:24.11.2-3.el9_6
-    sourcerpm: dpdk-24.11.2-3.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/d/dpdk-devel-24.11.2-3.el9_6.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 4545824
-    checksum: sha256:7c0b97999dfd29d62e05a04cfeb50b317a4289158930663ac7300bb4c65df46e
-    name: dpdk-devel
-    evr: 2:24.11.2-3.el9_6
-    sourcerpm: dpdk-24.11.2-3.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/d/dpdk-tools-24.11.2-3.el9_6.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 32618
-    checksum: sha256:975c9531e1871973ad91c8ed8247749c638b032bcc292794ea99bcdb2dca929b
-    name: dpdk-tools
-    evr: 2:24.11.2-3.el9_6
-    sourcerpm: dpdk-24.11.2-3.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/e/emacs-filesystem-27.2-14.el9_6.2.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 9099
@@ -1159,6 +1138,27 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/d/dpdk-24.11.3-1.el9_6.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms
+    size: 2350944
+    checksum: sha256:bbd70f8ae541e3579c66972dc3f46ae8763a4d5570f09f4fe09703adee140d20
+    name: dpdk
+    evr: 2:24.11.3-1.el9_6
+    sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/d/dpdk-devel-24.11.3-1.el9_6.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms
+    size: 4545319
+    checksum: sha256:aa3970ad9b2ab3a85859ddb2b16df57d738bae0bd2e93af2395d1fb7dd8aba56
+    name: dpdk-devel
+    evr: 2:24.11.3-1.el9_6
+    sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/d/dpdk-tools-24.11.3-1.el9_6.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms
+    size: 32703
+    checksum: sha256:d3eba7f5f620691f99d1cb3e70d753f076382d97b4135b0693cd1fc337add412
+    name: dpdk-tools
+    evr: 2:24.11.3-1.el9_6
+    sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.81.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 3758001
@@ -1254,27 +1254,6 @@ arches:
     name: cpp
     evr: 11.5.0-5.el9_5
     sourcerpm: gcc-11.5.0-5.el9_5.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/d/dpdk-24.11.2-3.el9_6.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 4163567
-    checksum: sha256:67eb8574be92135baa94819f025902afa8b28a9ee0a997c0d8fbc4b5c6b68d7b
-    name: dpdk
-    evr: 2:24.11.2-3.el9_6
-    sourcerpm: dpdk-24.11.2-3.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/d/dpdk-devel-24.11.2-3.el9_6.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 4560792
-    checksum: sha256:60f6d6752889743f36b0b5a8bf41f08b7a09c5484404f4d049f593b21a97b4c4
-    name: dpdk-devel
-    evr: 2:24.11.2-3.el9_6
-    sourcerpm: dpdk-24.11.2-3.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/d/dpdk-tools-24.11.2-3.el9_6.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 32650
-    checksum: sha256:52640977b55f3f404fc59b13b8146c0029215c3d0e90a373574d849e24301c00
-    name: dpdk-tools
-    evr: 2:24.11.2-3.el9_6
-    sourcerpm: dpdk-24.11.2-3.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/e/emacs-filesystem-27.2-14.el9_6.2.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 9099
@@ -2395,6 +2374,27 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/d/dpdk-24.11.3-1.el9_6.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 4161277
+    checksum: sha256:42d6c79095f85968ceede11cc43a7c2de04872ffcb65446ac78e63f26fc59031
+    name: dpdk
+    evr: 2:24.11.3-1.el9_6
+    sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/d/dpdk-devel-24.11.3-1.el9_6.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 4560425
+    checksum: sha256:3167b09b07ca0afed546099b68aad6032e81232438528a3c332127f6bcec1212
+    name: dpdk-devel
+    evr: 2:24.11.3-1.el9_6
+    sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/d/dpdk-tools-24.11.3-1.el9_6.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 32735
+    checksum: sha256:24605e69337cb8182bdcebc8657342e233c9a778f0848bc3e12f944005d1c6e0
+    name: dpdk-tools
+    evr: 2:24.11.3-1.el9_6
+    sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.81.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 3797001
