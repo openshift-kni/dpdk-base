@@ -1159,13 +1159,13 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_6
     sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.81.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.84.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3758001
-    checksum: sha256:753bdf2d4e1b76e6ac18ab0624e274fea7c579fd7c6705d6682ba7c30707bdb7
+    size: 3759097
+    checksum: sha256:cf2118d204a4791db57f6c2879a5398321d3d1c6d359a3a73054885adf15a92f
     name: kernel-headers
-    evr: 5.14.0-570.81.1.el9_6
-    sourcerpm: kernel-5.14.0-570.81.1.el9_6.src.rpm
+    evr: 5.14.0-570.84.1.el9_6
+    sourcerpm: kernel-5.14.0-570.84.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 5018051
@@ -2395,13 +2395,13 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_6
     sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.81.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.84.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3797001
-    checksum: sha256:da661b4097b38a4f1ea0c4abc1f48b0b335faf3208d88059f15af86631b6142d
+    size: 3798129
+    checksum: sha256:caddd96227fbc484023752dcbf8fbd63d344eba191f4c9f5a856cf1abf548b39
     name: kernel-headers
-    evr: 5.14.0-570.81.1.el9_6
-    sourcerpm: kernel-5.14.0-570.81.1.el9_6.src.rpm
+    evr: 5.14.0-570.84.1.el9_6
+    sourcerpm: kernel-5.14.0-570.84.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/b/binutils-2.35.2-63.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 4814390
