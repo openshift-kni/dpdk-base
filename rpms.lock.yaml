@@ -60,6 +60,20 @@ arches:
     name: git-core-doc
     evr: 2.47.3-1.el9_6
     sourcerpm: git-2.47.3-1.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/glibc-devel-2.34-231.el9_7.10.aarch64.rpm
+    repoid: ubi-9-for-aarch64-appstream-rpms
+    size: 574689
+    checksum: sha256:8c65fcccb3edde97d47a2a226cf768476ed4a12a31074a6112925f6569750b20
+    name: glibc-devel
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/g/glibc-locale-source-2.34-231.el9_7.10.aarch64.rpm
+    repoid: ubi-9-for-aarch64-appstream-rpms
+    size: 4369243
+    checksum: sha256:5d6e699b16b704efdcb8818a26dbe35b1579ad33ddeea6afab5a611c0c40b10f
+    name: glibc-locale-source
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/i/infiniband-diags-57.0-2.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 340278
@@ -1033,6 +1047,13 @@ arches:
     name: python3-gpg
     evr: 1.15.1-6.el9
     sourcerpm: gpgme-1.15.1-6.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-hawkey-0.69.0-17.el9_7.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 101085
+    checksum: sha256:437491b2ffa1d30bc19baffe6a2688f3a1797c3d4e516a597864e5cee13d8160
+    name: python3-hawkey
+    evr: 0.69.0-17.el9_7
+    sourcerpm: libdnf-0.69.0-17.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-libcomps-0.1.18-1.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 53332
@@ -1040,6 +1061,13 @@ arches:
     name: python3-libcomps
     evr: 0.1.18-1.el9
     sourcerpm: libcomps-0.1.18-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-libdnf-0.69.0-17.el9_7.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 749164
+    checksum: sha256:21fe8aa97f79db113004cd015afee43c748f5477751089619c8dcf929d46b5af
+    name: python3-libdnf
+    evr: 0.69.0-17.el9_7
+    sourcerpm: libdnf-0.69.0-17.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 8468437
@@ -1201,20 +1229,6 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_7
     sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/g/glibc-devel-2.34-231.el9_7.2.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 568363
-    checksum: sha256:5e3bbdb64dad55fdb07540756c333e0a73afe4ab493de199277a82138c224352
-    name: glibc-devel
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/g/glibc-locale-source-2.34-231.el9_7.2.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 4362702
-    checksum: sha256:cfaa45566e86cf4778da5c61d87db6a03d0256a7862bc5fbe408e77bf0a8223f
-    name: glibc-locale-source
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 132861
@@ -1222,20 +1236,6 @@ arches:
     name: libarchive-devel
     evr: 3.5.3-6.el9_6
     sourcerpm: libarchive-3.5.3-6.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/p/python3-hawkey-0.69.0-16.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 95130
-    checksum: sha256:9f4e7b0059943fbb849d51db34798532c5b72227952d564aa14c3186e8297ae3
-    name: python3-hawkey
-    evr: 0.69.0-16.el9
-    sourcerpm: libdnf-0.69.0-16.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/p/python3-libdnf-0.69.0-16.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 743267
-    checksum: sha256:c8d802fe0572d6609679019211c3160bc09e64f0caf322b6eebf0aeb4715d6de
-    name: python3-libdnf
-    evr: 0.69.0-16.el9
-    sourcerpm: libdnf-0.69.0-16.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/r/rdma-core-57.0-2.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 64388
@@ -1303,6 +1303,27 @@ arches:
     name: git-core-doc
     evr: 2.47.3-1.el9_6
     sourcerpm: git-2.47.3-1.el9_6.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/glibc-devel-2.34-231.el9_7.10.x86_64.rpm
+    repoid: ubi-9-for-x86_64-appstream-rpms
+    size: 44222
+    checksum: sha256:4bf307483b5c6c359b7484804c453ab5c6b0fc65c7cd5368e2572077d804d559
+    name: glibc-devel
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/glibc-headers-2.34-231.el9_7.10.x86_64.rpm
+    repoid: ubi-9-for-x86_64-appstream-rpms
+    size: 564682
+    checksum: sha256:dfabaa79899e36aa920d901851e5c2101d43b91d9f466dc97c35b4c14290d4e7
+    name: glibc-headers
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/g/glibc-locale-source-2.34-231.el9_7.10.x86_64.rpm
+    repoid: ubi-9-for-x86_64-appstream-rpms
+    size: 4366522
+    checksum: sha256:be3ebcf67328d56ff04f405386123fe18372ea584e22b530e17c06c33c0f4145
+    name: glibc-locale-source
+    evr: 2.34-231.el9_7.10
+    sourcerpm: glibc-2.34-231.el9_7.10.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/i/infiniband-diags-57.0-2.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 342889
@@ -2269,6 +2290,13 @@ arches:
     name: python3-gpg
     evr: 1.15.1-6.el9
     sourcerpm: gpgme-1.15.1-6.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-hawkey-0.69.0-17.el9_7.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 110072
+    checksum: sha256:49e2639be323ad6fb732b6dd869dfa352b9ea1ca71a7d228b1d2d97e09a781e0
+    name: python3-hawkey
+    evr: 0.69.0-17.el9_7
+    sourcerpm: libdnf-0.69.0-17.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-libcomps-0.1.18-1.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 53345
@@ -2276,6 +2304,13 @@ arches:
     name: python3-libcomps
     evr: 0.1.18-1.el9
     sourcerpm: libcomps-0.1.18-1.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-libdnf-0.69.0-17.el9_7.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 803964
+    checksum: sha256:4a34924d263c0d516bac1aa79e7b53c9b57a8306c4bb8851f1a5697b254b5f1d
+    name: python3-libdnf
+    evr: 0.69.0-17.el9_7
+    sourcerpm: libdnf-0.69.0-17.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-libs-3.9.25-3.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 8476238
@@ -2437,27 +2472,6 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_7
     sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/g/glibc-devel-2.34-231.el9_7.2.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 37885
-    checksum: sha256:6468a64e723d9fff4921fe05b8b5117b19277999053b20d67416f727b2b8d3dd
-    name: glibc-devel
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/g/glibc-headers-2.34-231.el9_7.2.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 558293
-    checksum: sha256:f4405218c4527e240f0739ba1b63e8a653e74ef48e960c0e164da55eec8c51dc
-    name: glibc-headers
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/g/glibc-locale-source-2.34-231.el9_7.2.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 4360055
-    checksum: sha256:1ce52d254a96b884b0727fbc123c4bce8d06530f63ddde652197d3c0028075ea
-    name: glibc-locale-source
-    evr: 2.34-231.el9_7.2
-    sourcerpm: glibc-2.34-231.el9_7.2.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 132893
@@ -2465,20 +2479,6 @@ arches:
     name: libarchive-devel
     evr: 3.5.3-6.el9_6
     sourcerpm: libarchive-3.5.3-6.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/p/python3-hawkey-0.69.0-16.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 104102
-    checksum: sha256:e105bedb58c63fe28d5536b16560a71297bd70546880ea96c57fdf9ffc50754f
-    name: python3-hawkey
-    evr: 0.69.0-16.el9
-    sourcerpm: libdnf-0.69.0-16.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/p/python3-libdnf-0.69.0-16.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 797961
-    checksum: sha256:5c7b1ed741db2f2b016e3132d50f1d367544bf2ef9ba5b0c0a730f1ec9cb5de6
-    name: python3-libdnf
-    evr: 0.69.0-16.el9
-    sourcerpm: libdnf-0.69.0-16.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/r/rdma-core-57.0-2.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 64615
