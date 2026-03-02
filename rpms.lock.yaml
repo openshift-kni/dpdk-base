@@ -417,13 +417,13 @@ arches:
     name: openssh-clients
     evr: 8.0p1-15.el8_6.3
     sourcerpm: openssh-8.0p1-15.el8_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/o/openssl-1.1.1k-14.el8_6.1.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/o/openssl-1.1.1k-15.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 727032
-    checksum: sha256:c3c661229a1a71a45bc50a2d8a2185c456586b5dcbfde1253f3d0e2ab30af95d
+    size: 727444
+    checksum: sha256:494eba79b38e02a26c6da8e68f638ce36101374596bbcbbf5f616e13d3597791
     name: openssl
-    evr: 1:1.1.1k-14.el8_6.1
-    sourcerpm: openssl-1.1.1k-14.el8_6.1.src.rpm
+    evr: 1:1.1.1k-15.el8_6
+    sourcerpm: openssl-1.1.1k-15.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/p/pciutils-3.7.0-1.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 107612
