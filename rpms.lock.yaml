@@ -1138,13 +1138,13 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_6
     sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.92.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.94.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3766481
-    checksum: sha256:ab8f37382de7849eda291cb681de03e792cf53294a516862bea457e6321f5423
+    size: 3766897
+    checksum: sha256:4d6c86a1cb8bc8279c5a6821dfd736936f882b4a2d1858e673251c09bd8d9721
     name: kernel-headers
-    evr: 5.14.0-570.92.1.el9_6
-    sourcerpm: kernel-5.14.0-570.92.1.el9_6.src.rpm
+    evr: 5.14.0-570.94.1.el9_6
+    sourcerpm: kernel-5.14.0-570.94.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/p/python-unversioned-command-3.9.21-2.el9_6.3.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 8976
@@ -2374,13 +2374,13 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_6
     sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.92.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.94.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3805473
-    checksum: sha256:a07d685695efabf541bac433c6079b8d08485ccd86d0a0dbb67021f2b88843eb
+    size: 3805897
+    checksum: sha256:d6f0b231b9a49ecf8f383ea9e7fa6288b53d69d4475424a903c227b95c59e022
     name: kernel-headers
-    evr: 5.14.0-570.92.1.el9_6
-    sourcerpm: kernel-5.14.0-570.92.1.el9_6.src.rpm
+    evr: 5.14.0-570.94.1.el9_6
+    sourcerpm: kernel-5.14.0-570.94.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/p/python-unversioned-command-3.9.21-2.el9_6.3.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 8976
