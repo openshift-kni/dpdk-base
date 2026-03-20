@@ -4,13 +4,13 @@ lockfileVendor: redhat
 arches:
 - arch: aarch64
   packages:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/b/bsdtar-3.5.3-6.el9_6.aarch64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/b/bsdtar-3.5.3-7.el9_7.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
-    size: 61996
-    checksum: sha256:02713837f71c26cde8ef6ea88934271abdfcdaa4312bf49c3f9b8a04e42bdfef
+    size: 68528
+    checksum: sha256:3e61a202fb59a46ca7e6bc2dc3e35ec7a6a459b85148f6451f4b58982fd0cdba
     name: bsdtar
-    evr: 3.5.3-6.el9_6
-    sourcerpm: libarchive-3.5.3-6.el9_6.src.rpm
+    evr: 3.5.3-7.el9_7
+    sourcerpm: libarchive-3.5.3-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/c/cpp-11.5.0-11.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 10797009
@@ -788,6 +788,13 @@ arches:
     name: less
     evr: 590-6.el9
     sourcerpm: less-590-6.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libarchive-3.5.3-7.el9_7.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 400454
+    checksum: sha256:5b9508503bf6dcd57161bbde6d4da4eb4cf186a225c77de374436618076fce02
+    name: libarchive
+    evr: 3.5.3-7.el9_7
+    sourcerpm: libarchive-3.5.3-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libbpf-1.5.0-2.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 189720
@@ -1229,13 +1236,13 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_7
     sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-7.el9_7.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 132861
-    checksum: sha256:39cc461dc1f25ec67c57e0d1fb540f4cae413cbca4c9b886cd4d61d860154efc
+    size: 140113
+    checksum: sha256:9b3d054998fe94d2f530fc685ab69c9dc52219db01a91930af31b12dcf0b9ace
     name: libarchive-devel
-    evr: 3.5.3-6.el9_6
-    sourcerpm: libarchive-3.5.3-6.el9_6.src.rpm
+    evr: 3.5.3-7.el9_7
+    sourcerpm: libarchive-3.5.3-7.el9_7.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/r/rdma-core-57.0-2.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 64388
@@ -1247,13 +1254,13 @@ arches:
   module_metadata: []
 - arch: x86_64
   packages:
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/b/bsdtar-3.5.3-6.el9_6.x86_64.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/b/bsdtar-3.5.3-7.el9_7.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
-    size: 62947
-    checksum: sha256:d209727edfdabb977bc409d12883b82965eda99407c19c72fa730669851f22dc
+    size: 69461
+    checksum: sha256:94cbc82e4a8a99f99bc0cc6d9bdf8d08f688a4591b2cdb07a59d0c33deaedf64
     name: bsdtar
-    evr: 3.5.3-6.el9_6
-    sourcerpm: libarchive-3.5.3-6.el9_6.src.rpm
+    evr: 3.5.3-7.el9_7
+    sourcerpm: libarchive-3.5.3-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/c/cpp-11.5.0-11.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 11224872
@@ -2031,6 +2038,13 @@ arches:
     name: less
     evr: 590-6.el9
     sourcerpm: less-590-6.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libarchive-3.5.3-7.el9_7.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 402587
+    checksum: sha256:609bfa9ffb43ecd00be7c8bac56f98f4a1861651d3ca9cfbcec647bfb9dcf612
+    name: libarchive
+    evr: 3.5.3-7.el9_7
+    sourcerpm: libarchive-3.5.3-7.el9_7.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libbpf-1.5.0-2.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 190170
@@ -2472,13 +2486,13 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_7
     sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-7.el9_7.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 132893
-    checksum: sha256:7bc28666afaeafa39bd28e1c7d49bc4c849e577c6ed98896021893f8cc54e81c
+    size: 140138
+    checksum: sha256:0914d22edb65cfee5e2f41cf59f388849671fba5b70c29032187b1b2ec51284a
     name: libarchive-devel
-    evr: 3.5.3-6.el9_6
-    sourcerpm: libarchive-3.5.3-6.el9_6.src.rpm
+    evr: 3.5.3-7.el9_7
+    sourcerpm: libarchive-3.5.3-7.el9_7.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/r/rdma-core-57.0-2.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 64615
