@@ -354,20 +354,6 @@ arches:
     name: gettext-libs
     evr: 0.19.8.1-17.el8
     sourcerpm: gettext-0.19.8.1-17.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-2.28-251.el8_10.31.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 2308176
-    checksum: sha256:d27608f03f750c91a5db1d1c3add5c44b29c9aaf34601a24e42177254059d739
-    name: glibc
-    evr: 2.28-251.el8_10.31
-    sourcerpm: glibc-2.28-251.el8_10.31.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-common-2.28-251.el8_10.31.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 1053028
-    checksum: sha256:ce5d8946297b95b59fef4b24545e04743f7982c75b760f4b72b8a636038a2cad
-    name: glibc-common
-    evr: 2.28-251.el8_10.31
-    sourcerpm: glibc-2.28-251.el8_10.31.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-devel-2.28-251.el8_10.31.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 92052
@@ -382,25 +368,11 @@ arches:
     name: glibc-headers
     evr: 2.28-251.el8_10.31
     sourcerpm: glibc-2.28-251.el8_10.31.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.28-251.el8_10.31.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 853316
-    checksum: sha256:4d32362773bfbccccaba6559678a30b307ec1cec606103415461973e75e1ebbc
-    name: glibc-langpack-en
-    evr: 2.28-251.el8_10.31
-    sourcerpm: glibc-2.28-251.el8_10.31.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-locale-source-2.28-251.el8_10.31.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 4419528
     checksum: sha256:f991488826c5e4ef92967a9b20ed244d5d4d4ac16b654d565c0fe4bfecae8da9
     name: glibc-locale-source
-    evr: 2.28-251.el8_10.31
-    sourcerpm: glibc-2.28-251.el8_10.31.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.28-251.el8_10.31.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 73568
-    checksum: sha256:6d43dd2f26efd041d30739221eb614a41ff8534ef042776eee5b94fdf4f169c0
-    name: glibc-minimal-langpack
     evr: 2.28-251.el8_10.31
     sourcerpm: glibc-2.28-251.el8_10.31.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/groff-base-1.22.3-18.el8.x86_64.rpm
@@ -984,13 +956,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.4.2-1.el8
     sourcerpm: pkgconf-1.4.2-1.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/platform-python-3.6.8-73.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/platform-python-3.6.8-74.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 90076
-    checksum: sha256:01e3c8ed4a6879438fd11806643824c65883cfd90f9562ef10f82d31ee57bfcf
+    size: 90184
+    checksum: sha256:11854173f4aadd0ff7efd5b163cb9f90fc79856790043b007c0d8a41a36c1430
     name: platform-python
-    evr: 3.6.8-73.el8_10
-    sourcerpm: python3-3.6.8-73.el8_10.src.rpm
+    evr: 3.6.8-74.el8_10
+    sourcerpm: python3-3.6.8-74.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/platform-python-pip-9.0.3-24.el8.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 1633024
@@ -1054,13 +1026,13 @@ arches:
     name: python3-libdnf
     evr: 0.63.0-21.el8_10
     sourcerpm: libdnf-0.63.0-21.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/python3-libs-3.6.8-73.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/python3-libs-3.6.8-74.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 8252760
-    checksum: sha256:6e343ede74cd599cc8bc8674260e4c7b4b3d1686256522c8c154a771ec0c5314
+    size: 8250676
+    checksum: sha256:942a773e25d31f75be01b02e1f56ca5926e19665c5b74e7aef3724d0001e0fbd
     name: python3-libs
-    evr: 3.6.8-73.el8_10
-    sourcerpm: python3-3.6.8-73.el8_10.src.rpm
+    evr: 3.6.8-74.el8_10
+    sourcerpm: python3-3.6.8-74.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/python3-pip-wheel-9.0.3-24.el8.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 886996
@@ -1210,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/52234510ace810ef4484d71e55a94cbcb32c17ad7e8a53aba76b55d889485e9b-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/e4aae77ba030c1c74e9f6f547c313d0d50c9b6c01370a505ab88f6b40164f820-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 794722
-    checksum: sha256:52234510ace810ef4484d71e55a94cbcb32c17ad7e8a53aba76b55d889485e9b
+    size: 797488
+    checksum: sha256:e4aae77ba030c1c74e9f6f547c313d0d50c9b6c01370a505ab88f6b40164f820
