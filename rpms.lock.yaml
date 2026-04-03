@@ -1208,13 +1208,13 @@ arches:
     name: tar
     evr: 2:1.34-6.el9_4.3
     sourcerpm: tar-1.34-6.el9_4.3.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-20.el9_4.1.noarch.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-20.el9_4.2.noarch.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
-    size: 13013
-    checksum: sha256:1cc603ab43d0206de43b353eb6489418c4fa42c4de5f6fedd6b1f2cc0034f9af
+    size: 13398
+    checksum: sha256:624828cbd85704d2d79229e0c699251faf894cdba6bb4c2fcd6248b7ee9e52dc
     name: vim-filesystem
-    evr: 2:8.2.2637-20.el9_4.1
-    sourcerpm: vim-8.2.2637-20.el9_4.1.src.rpm
+    evr: 2:8.2.2637-20.el9_4.2
+    sourcerpm: vim-8.2.2637-20.el9_4.2.src.rpm
   source: []
   module_metadata: []
 - arch: x86_64
@@ -2451,12 +2451,12 @@ arches:
     name: tar
     evr: 2:1.34-6.el9_4.3
     sourcerpm: tar-1.34-6.el9_4.3.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-20.el9_4.1.noarch.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.4/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-20.el9_4.2.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 13013
-    checksum: sha256:1cc603ab43d0206de43b353eb6489418c4fa42c4de5f6fedd6b1f2cc0034f9af
+    size: 13398
+    checksum: sha256:624828cbd85704d2d79229e0c699251faf894cdba6bb4c2fcd6248b7ee9e52dc
     name: vim-filesystem
-    evr: 2:8.2.2637-20.el9_4.1
-    sourcerpm: vim-8.2.2637-20.el9_4.1.src.rpm
+    evr: 2:8.2.2637-20.el9_4.2
+    sourcerpm: vim-8.2.2637-20.el9_4.2.src.rpm
   source: []
   module_metadata: []
