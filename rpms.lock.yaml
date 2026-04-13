@@ -1166,13 +1166,6 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/l/libarchive-3.5.3-6.el9_6.1.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-eus-rpms
-    size: 393976
-    checksum: sha256:03a26ada1173b8156f3843141f799afd0705aa3e631db449a32eef6ef8dc78a2
-    name: libarchive
-    evr: 3.5.3-6.el9_6.1
-    sourcerpm: libarchive-3.5.3-6.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 457126
@@ -2409,13 +2402,6 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/l/libarchive-3.5.3-6.el9_6.1.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 396083
-    checksum: sha256:0cec770b64736491d1b5c3d1ca01a8c32f4a3206f084b6bb8db62897b474d726
-    name: libarchive
-    evr: 3.5.3-6.el9_6.1
-    sourcerpm: libarchive-3.5.3-6.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 467993
