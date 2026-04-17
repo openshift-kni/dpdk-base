@@ -172,13 +172,13 @@ arches:
     name: binutils
     evr: 2.30-128.el8_10
     sourcerpm: binutils-2.30-128.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-6.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-7.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 71760
-    checksum: sha256:907c4f95e0078837717a30f25ece542b2f68468f8da7f1f634239b76d8b78706
+    size: 71856
+    checksum: sha256:e45ac1b85876a7a215f5e415f3ff2bac5c0da7c80a21c88bc74642c17b671e5e
     name: bsdtar
-    evr: 3.3.3-6.el8_10
-    sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
+    evr: 3.3.3-7.el8_10
+    sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/c/cracklib-2.9.6-15.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 95532
@@ -445,6 +445,13 @@ arches:
     name: less
     evr: 530-3.el8_10
     sourcerpm: less-530-3.el8_10.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libarchive-3.3.3-7.el8_10.x86_64.rpm
+    repoid: rhel-8-for-x86_64-baseos-rpms
+    size: 367896
+    checksum: sha256:d3bd32a9639ad70826818df0ddb7fbdce47c42e2059049d045ef3602edc1f5f3
+    name: libarchive
+    evr: 3.3.3-7.el8_10
+    sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libbpf-0.5.0-1.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 140008
@@ -1173,16 +1180,16 @@ arches:
     name: dpdk-devel
     evr: 23.11-2.el8_10
     sourcerpm: dpdk-23.11-2.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/codeready-builder/os/Packages/l/libarchive-devel-3.3.3-6.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/codeready-builder/os/Packages/l/libarchive-devel-3.3.3-7.el8_10.x86_64.rpm
     repoid: codeready-builder-for-rhel-8-x86_64-rpms
-    size: 134056
-    checksum: sha256:5450c70210cdbb3ed885da8ac6b9a4143b10b61eeb3410c246687b5b667be747
+    size: 134156
+    checksum: sha256:77eefc8f9421e101ebfef613b8206749bbc53afac5c116e815b54e6c210cd757
     name: libarchive-devel
-    evr: 3.3.3-6.el8_10
-    sourcerpm: libarchive-3.3.3-6.el8_10.src.rpm
+    evr: 3.3.3-7.el8_10
+    sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/b97a7393fd253a0fc7973f1f702e3b9300d4579ffd09924ecb466c4077e13864-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/85742f7d1a16374fd3f614fed78dd5755e98e855fa68b93af78ede935f255255-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 798927
-    checksum: sha256:b97a7393fd253a0fc7973f1f702e3b9300d4579ffd09924ecb466c4077e13864
+    size: 809528
+    checksum: sha256:85742f7d1a16374fd3f614fed78dd5755e98e855fa68b93af78ede935f255255
