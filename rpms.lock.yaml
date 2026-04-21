@@ -1096,13 +1096,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/b/bsdtar-3.5.3-6.el9_6.1.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/b/bsdtar-3.5.3-7.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 62118
-    checksum: sha256:61ea6af5666eb8402ef14b19ffd5512618d6f747ce166f225e51238496919136
+    size: 62258
+    checksum: sha256:b402bee490075426c7e2aa13dff18f8de987f1e7a2cce0186dce2ea9046bf2ed
     name: bsdtar
-    evr: 3.5.3-6.el9_6.1
-    sourcerpm: libarchive-3.5.3-6.el9_6.1.src.rpm
+    evr: 3.5.3-7.el9_6.1
+    sourcerpm: libarchive-3.5.3-7.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/d/dpdk-24.11.3-1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 2350944
@@ -1124,20 +1124,20 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_6
     sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.106.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.108.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3785389
-    checksum: sha256:f8035c402f0ac59da57b0f5a4a1103d81b41e0b7009adf7a607026c8f8165fef
+    size: 3787353
+    checksum: sha256:1a8f1b2811a1ca7645293dffc7ff4504bda85997716a11ad3518db6bc242c325
     name: kernel-headers
-    evr: 5.14.0-570.106.1.el9_6
-    sourcerpm: kernel-5.14.0-570.106.1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.1.aarch64.rpm
+    evr: 5.14.0-570.108.1.el9_6
+    sourcerpm: kernel-5.14.0-570.108.1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-7.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 132984
-    checksum: sha256:b8915ecd77e89be9b63d2c8d40e5d3510aae2d4335a80084657beee9a9e67e11
+    size: 133095
+    checksum: sha256:2489b39e92aac3e240c9ec5d5168ccc1e1a2542593ebf925bf5fe7e9752312d5
     name: libarchive-devel
-    evr: 3.5.3-6.el9_6.1
-    sourcerpm: libarchive-3.5.3-6.el9_6.1.src.rpm
+    evr: 3.5.3-7.el9_6.1
+    sourcerpm: libarchive-3.5.3-7.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/p/python-unversioned-command-3.9.21-2.el9_6.4.noarch.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 9047
@@ -1166,6 +1166,13 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/l/libarchive-3.5.3-7.el9_6.1.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 394025
+    checksum: sha256:8c1f5f7ff517776b06cd35b6a1a4ff2f037f45cb7d47ab13a73dbf08072c7e5f
+    name: libarchive
+    evr: 3.5.3-7.el9_6.1
+    sourcerpm: libarchive-3.5.3-7.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 457126
@@ -2332,13 +2339,13 @@ arches:
     name: yum
     evr: 4.14.0-25.el9
     sourcerpm: dnf-4.14.0-25.el9.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/b/bsdtar-3.5.3-6.el9_6.1.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/b/bsdtar-3.5.3-7.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 63076
-    checksum: sha256:57679502d368f86c682a074dce9b0bebc855e8717bcc625542959fd16adfa50a
+    size: 63171
+    checksum: sha256:db3f6eaf606941d613f6303710ad9ae531a958d2c2bc2e1e7d327c4d4d057523
     name: bsdtar
-    evr: 3.5.3-6.el9_6.1
-    sourcerpm: libarchive-3.5.3-6.el9_6.1.src.rpm
+    evr: 3.5.3-7.el9_6.1
+    sourcerpm: libarchive-3.5.3-7.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/d/dpdk-24.11.3-1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 4161277
@@ -2360,20 +2367,20 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_6
     sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.106.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.108.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3824377
-    checksum: sha256:3ef9c35ade7fc8cb964b9969cd95753206f5591dd08993cb0bf6f622095a31fd
+    size: 3826229
+    checksum: sha256:0d58847b7bef734a9fca8fac0db03dfa3201aa891e145af4f75a58c5403728d5
     name: kernel-headers
-    evr: 5.14.0-570.106.1.el9_6
-    sourcerpm: kernel-5.14.0-570.106.1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-6.el9_6.1.x86_64.rpm
+    evr: 5.14.0-570.108.1.el9_6
+    sourcerpm: kernel-5.14.0-570.108.1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-7.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 133008
-    checksum: sha256:a16dbf72c424f18cb2d1036c1f0c3467239c91aad8c48aefb06d3b4f2468e62f
+    size: 133120
+    checksum: sha256:281886665f495ebda45fc5878dda9ed75faaac6a4afa053da314a50146b5c20d
     name: libarchive-devel
-    evr: 3.5.3-6.el9_6.1
-    sourcerpm: libarchive-3.5.3-6.el9_6.1.src.rpm
+    evr: 3.5.3-7.el9_6.1
+    sourcerpm: libarchive-3.5.3-7.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/p/python-unversioned-command-3.9.21-2.el9_6.4.noarch.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 9047
@@ -2402,6 +2409,13 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/l/libarchive-3.5.3-7.el9_6.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 396447
+    checksum: sha256:27ecc3fe1bfcc05aa20ed368f2e070cd76b39c5ef6bbe1a2ebf8a1d761e2d814
+    name: libarchive
+    evr: 3.5.3-7.el9_6.1
+    sourcerpm: libarchive-3.5.3-7.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 467993
