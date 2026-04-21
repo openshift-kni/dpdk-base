@@ -179,13 +179,13 @@ arches:
     name: binutils
     evr: 2.30-113.el8_6.4
     sourcerpm: binutils-2.30-113.el8_6.4.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-6.el8_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/b/bsdtar-3.3.3-6.el8_6.1.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 71920
-    checksum: sha256:b4c49c4e46b3ff32f3b512ec8162586432eb975f320929dde9ef2bab96670ee6
+    size: 72060
+    checksum: sha256:fce6abc69890a47f537652b64b501482c2c922772f330051d7d3269488e08ba3
     name: bsdtar
-    evr: 3.3.3-6.el8_6
-    sourcerpm: libarchive-3.3.3-6.el8_6.src.rpm
+    evr: 3.3.3-6.el8_6.1
+    sourcerpm: libarchive-3.3.3-6.el8_6.1.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/e/emacs-filesystem-26.1-7.el8_6.6.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 72188
@@ -298,6 +298,13 @@ arches:
     name: less
     evr: 530-3.el8_6
     sourcerpm: less-530-3.el8_6.src.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/l/libarchive-3.3.3-6.el8_6.1.x86_64.rpm
+    repoid: rhel-8-for-x86_64-baseos-aus-rpms
+    size: 368120
+    checksum: sha256:bf181ee5e9d9a5b515bb94217f5b9cb1bc35c6f2ffae5f0865719cf8272da025
+    name: libarchive
+    evr: 3.3.3-6.el8_6.1
+    sourcerpm: libarchive-3.3.3-6.el8_6.1.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/l/libbpf-0.4.0-3.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 127916
@@ -762,7 +769,7 @@ arches:
     sourcerpm: xz-5.2.4-4.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/57303f6fb372c766d02ca0a6dca50fd31247ce6e1751bab794e02e31c48231cd-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/1f4ec2081aac8178949efa8ef80117a8b3148b7545de55107e0d60c475279d58-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
     size: 562087
-    checksum: sha256:57303f6fb372c766d02ca0a6dca50fd31247ce6e1751bab794e02e31c48231cd
+    checksum: sha256:1f4ec2081aac8178949efa8ef80117a8b3148b7545de55107e0d60c475279d58
