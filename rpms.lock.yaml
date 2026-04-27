@@ -298,13 +298,6 @@ arches:
     name: less
     evr: 530-3.el8_6
     sourcerpm: less-530-3.el8_6.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/l/libarchive-3.3.3-6.el8_6.1.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 368120
-    checksum: sha256:bf181ee5e9d9a5b515bb94217f5b9cb1bc35c6f2ffae5f0865719cf8272da025
-    name: libarchive
-    evr: 3.3.3-6.el8_6.1
-    sourcerpm: libarchive-3.3.3-6.el8_6.1.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/l/libbpf-0.4.0-3.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 127916
@@ -769,7 +762,7 @@ arches:
     sourcerpm: xz-5.2.4-4.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/6b59df7396623bd51a121a197fddef4e56cff3c45da096ac9a6ef7e542dd6c9f-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/57c892049434174bea29d82430a32e860fb19eccfcbde5486c884ddf6af74fc0-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
-    size: 562087
-    checksum: sha256:6b59df7396623bd51a121a197fddef4e56cff3c45da096ac9a6ef7e542dd6c9f
+    size: 562989
+    checksum: sha256:57c892049434174bea29d82430a32e860fb19eccfcbde5486c884ddf6af74fc0
