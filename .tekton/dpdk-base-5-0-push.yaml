@@ -4,17 +4,16 @@ metadata:
   annotations:
     build.appstudio.openshift.io/repo: https://github.com/openshift-kni/dpdk-base?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
-    build.appstudio.redhat.com/pull_request_number: '{{pull_request_number}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
-    pipelinesascode.tekton.dev/cancel-in-progress: "true"
+    pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch == "main"
+    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch == "main"
   creationTimestamp:
   labels:
-    appstudio.openshift.io/application: dpdk-base-4-22
-    appstudio.openshift.io/component: dpdk-base-4-22
+    appstudio.openshift.io/application: dpdk-base-5-0
+    appstudio.openshift.io/component: dpdk-base-5-0
     pipelines.appstudio.openshift.io/type: build
-  name: dpdk-base-4-22-on-pull-request
+  name: dpdk-base-5-0-on-push
   namespace: telco-5g-tenant
 spec:
   params:
@@ -23,9 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/telco-5g-tenant/dpdk-base-4-22:on-pr-{{revision}}
-  - name: image-expires-after
-    value: 5d
+    value: quay.io/redhat-user-workloads/telco-5g-tenant/dpdk-base-5-0:{{revision}}
   - name: build-platforms
     value:
     - linux/x86_64
@@ -49,6 +46,8 @@ spec:
       params:
       - name: IMAGE_URL
         value: $(tasks.build-image-index.results.IMAGE_URL)
+      - name: ADDITIONAL_TAGS
+        value: [latest]
       taskRef:
         params:
         - name: name
@@ -122,10 +121,6 @@ spec:
       default: docker
       type: string
       description: The format for the resulting image's mediaType. Valid values are oci or docker.
-    - name: enable-cache-proxy
-      default: 'false'
-      description: Enable cache proxy configuration
-      type: string
     - name: enable-package-registry-proxy
       default: 'true'
       description: Use the package registry proxy when prefetching dependencies
@@ -145,9 +140,6 @@ spec:
       value: $(tasks.clone-repository.results.commit)
     tasks:
     - name: init
-      params:
-      - name: enable-cache-proxy
-        value: $(params.enable-cache-proxy)
       taskRef:
         params:
         - name: name
@@ -247,10 +239,6 @@ spec:
         value: "true"
       - name: BUILDAH_FORMAT
         value: $(params.buildah-format)
-      - name: HTTP_PROXY
-        value: $(tasks.init.results.http-proxy)
-      - name: NO_PROXY
-        value: $(tasks.init.results.no-proxy)
       runAfter:
       - prefetch-dependencies
       taskRef:
@@ -623,7 +611,7 @@ spec:
     - name: netrc
       optional: true
   taskRunTemplate:
-    serviceAccountName: build-pipeline-dpdk-base-4-22
+    serviceAccountName: build-pipeline-dpdk-base-5-0
   workspaces:
   - name: git-auth
     secret:
