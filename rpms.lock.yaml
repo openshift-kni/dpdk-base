@@ -956,13 +956,13 @@ arches:
     name: pkgconf-pkg-config
     evr: 1.4.2-1.el8
     sourcerpm: pkgconf-1.4.2-1.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/platform-python-3.6.8-75.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/platform-python-3.6.8-76.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 90288
-    checksum: sha256:4a224dab24a5097761df8a8e74fb7d2e1dfa50cf1ca7d338f32e4a0859973339
+    size: 90432
+    checksum: sha256:2e0de0c42b540f9df3bc9602db9b0519ee2522a34522c67aff29ff47a906cc23
     name: platform-python
-    evr: 3.6.8-75.el8_10
-    sourcerpm: python3-3.6.8-75.el8_10.src.rpm
+    evr: 3.6.8-76.el8_10
+    sourcerpm: python3-3.6.8-76.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/platform-python-pip-9.0.3-24.el8.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 1633024
@@ -1026,13 +1026,13 @@ arches:
     name: python3-libdnf
     evr: 0.63.0-21.el8_10
     sourcerpm: libdnf-0.63.0-21.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/python3-libs-3.6.8-75.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/python3-libs-3.6.8-76.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 8251828
-    checksum: sha256:4d848b0e6a6b9ae286f21507d590433355a83d16b8b580d2ec923fc4b267111d
+    size: 8251740
+    checksum: sha256:e50230219917e30476e0c7edefdabc84744455662af1d86e217dcd4927a37b94
     name: python3-libs
-    evr: 3.6.8-75.el8_10
-    sourcerpm: python3-3.6.8-75.el8_10.src.rpm
+    evr: 3.6.8-76.el8_10
+    sourcerpm: python3-3.6.8-76.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/python3-pip-wheel-9.0.3-24.el8.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 886996
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/3af39890971fb632a019ef9ab6d098934d90d7156022c17208b63f79b31789a1-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/e66221d65ee6d5d1fc8bb4f7962b34fec2591cdc64962ec2e64cbea5decdceb3-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 809528
-    checksum: sha256:3af39890971fb632a019ef9ab6d098934d90d7156022c17208b63f79b31789a1
+    size: 809617
+    checksum: sha256:e66221d65ee6d5d1fc8bb4f7962b34fec2591cdc64962ec2e64cbea5decdceb3
