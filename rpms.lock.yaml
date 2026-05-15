@@ -1089,13 +1089,13 @@ arches:
     name: rpm-plugin-systemd-inhibit
     evr: 4.14.3-32.el8_10
     sourcerpm: rpm-4.14.3-32.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/r/rsync-3.1.3-24.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/r/rsync-3.1.3-25.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 421296
-    checksum: sha256:de11206f6b17495ae1139e137cffbc92ea7a638677a89ffab7dc669a1c8aa9a6
+    size: 421432
+    checksum: sha256:9fb4ac09b7640363c24edae1f1ef2826898721961575de795b487a31e654e944
     name: rsync
-    evr: 3.1.3-24.el8_10
-    sourcerpm: rsync-3.1.3-24.el8_10.src.rpm
+    evr: 3.1.3-25.el8_10
+    sourcerpm: rsync-3.1.3-25.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/shadow-utils-4.6-23.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 1292212
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/cc4cebce380489bcbe77cc9fac094fbdd2f89500fd1b0c76f457b4a45ad7681d-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/ddb804bc06e3df1b98ef9fad5a4b48dd5c2f0faaa9dcb51482055e341220dafb-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 810672
-    checksum: sha256:cc4cebce380489bcbe77cc9fac094fbdd2f89500fd1b0c76f457b4a45ad7681d
+    size: 811216
+    checksum: sha256:ddb804bc06e3df1b98ef9fad5a4b48dd5c2f0faaa9dcb51482055e341220dafb
