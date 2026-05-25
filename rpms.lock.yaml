@@ -557,6 +557,13 @@ arches:
     name: rdma-core-devel
     evr: 61.0-2.el9
     sourcerpm: rdma-core-61.0-2.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/r/rpm-plugin-systemd-inhibit-4.16.1.3-40.el9.aarch64.rpm
+    repoid: ubi-9-for-aarch64-appstream-rpms
+    size: 15595
+    checksum: sha256:fa48f12dd11663ab2ecd088a7f8070b762797eaa4f086785a42beae1433ddf09
+    name: rpm-plugin-systemd-inhibit
+    evr: 4.16.1.3-40.el9
+    sourcerpm: rpm-4.16.1.3-40.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/appstream/os/Packages/s/scl-utils-2.0.3-4.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-appstream-rpms
     size: 42050
@@ -641,13 +648,6 @@ arches:
     name: dnf
     evr: 4.14.0-34.el9_8
     sourcerpm: dnf-4.14.0-34.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/d/dnf-data-4.14.0-34.el9_8.noarch.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 46730
-    checksum: sha256:233dc00ab022eab660d5db4bd87643241cd9a865456ea9b2bef30f8b1e7ab097
-    name: dnf-data
-    evr: 4.14.0-34.el9_8
-    sourcerpm: dnf-4.14.0-34.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/e/elfutils-debuginfod-client-0.194-1.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 42824
@@ -690,13 +690,6 @@ arches:
     name: expat
     evr: 2.5.0-6.el9
     sourcerpm: expat-2.5.0-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/f/findutils-4.8.0-7.el9.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 564807
-    checksum: sha256:158af4d5ecbd8b87f0da762ea1655bd4c86512071a95d8307eda3e0b3991105d
-    name: findutils
-    evr: 1:4.8.0-7.el9
-    sourcerpm: findutils-4.8.0-7.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/gettext-0.21-8.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 1181385
@@ -711,34 +704,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-2.34-266.el9_8.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 1814249
-    checksum: sha256:4696e8d0ab00e16f7089011006ea0b7e86c3039dbe44f46cc3c76ae626df4651
-    name: glibc
-    evr: 2.34-266.el9_8
-    sourcerpm: glibc-2.34-266.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-common-2.34-266.el9_8.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 313062
-    checksum: sha256:ae0b27c81d7dbb44a98ad826f8c1000b10fd460f57cc9d7650cf076fafc34436
-    name: glibc-common
-    evr: 2.34-266.el9_8
-    sourcerpm: glibc-2.34-266.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-langpack-en-2.34-266.el9_8.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 684874
-    checksum: sha256:84d42c2fbbb222caf66430f9d75a6d82d5db11553a910df1ba2180440bf03077
-    name: glibc-langpack-en
-    evr: 2.34-266.el9_8
-    sourcerpm: glibc-2.34-266.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-266.el9_8.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 31465
-    checksum: sha256:17e859422988d9df273264fd704d9b5d33a4a4cf181b376182e16eb9109adb16
-    name: glibc-minimal-langpack
-    evr: 2.34-266.el9_8
-    sourcerpm: glibc-2.34-266.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/g/groff-base-1.22.4-10.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 1088949
@@ -830,13 +795,6 @@ arches:
     name: libdb
     evr: 5.3.28-57.el9_6
     sourcerpm: libdb-5.3.28-57.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libdnf-0.69.0-18.el9.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 636146
-    checksum: sha256:7046c8274d1f6cbc7ebb94125c41f8cb0378e96798da09227b0dd7c063f6e73f
-    name: libdnf
-    evr: 0.69.0-18.el9
-    sourcerpm: libdnf-0.69.0-18.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libeconf-0.4.1-5.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 25806
@@ -851,6 +809,13 @@ arches:
     name: libedit
     evr: 3.1-39.20210216cvs.el9
     sourcerpm: libedit-3.1-39.20210216cvs.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libfdisk-2.37.4-25.el9.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 156711
+    checksum: sha256:af043918fc50ce5b3de50c48c3de0143140b692fbf639db6f259270c4211a776
+    name: libfdisk
+    evr: 2.37.4-25.el9
+    sourcerpm: util-linux-2.37.4-25.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libfido2-1.13.0-2.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 100573
@@ -858,13 +823,6 @@ arches:
     name: libfido2
     evr: 1.13.0-2.el9
     sourcerpm: libfido2-1.13.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libgcc-11.5.0-14.el9.aarch64.rpm
-    repoid: ubi-9-for-aarch64-baseos-rpms
-    size: 81211
-    checksum: sha256:6923218fdef581189a4b51c7ba158083597f1c6df08cae021a1d90e9d61938a9
-    name: libgcc
-    evr: 11.5.0-14.el9
-    sourcerpm: gcc-11.5.0-14.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/l/libgomp-11.5.0-14.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 262138
@@ -984,6 +942,13 @@ arches:
     name: openssh-clients
     evr: 9.9p1-7.el9_8
     sourcerpm: openssh-9.9p1-7.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/o/openssl-3.5.5-2.el9_8.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 1540395
+    checksum: sha256:403f167e9b16b32c64f5bedb7676c46e026d16540a4f1671e420e8cfc4b32ae0
+    name: openssl
+    evr: 1:3.5.5-2.el9_8
+    sourcerpm: openssl-3.5.5-2.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/pam-1.5.1-28.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 635826
@@ -1096,6 +1061,13 @@ arches:
     name: python3-pip-wheel
     evr: 21.3.1-2.el9_8
     sourcerpm: python-pip-21.3.1-2.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-rpm-4.16.1.3-40.el9.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 65551
+    checksum: sha256:9482b4b998835205e6c88a97699ae8a6ddec31a82b0496d7ed809ea0b3910306
+    name: python3-rpm
+    evr: 4.16.1.3-40.el9
+    sourcerpm: rpm-4.16.1.3-40.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/p/python3-setuptools-wheel-53.0.0-15.el9.noarch.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 479203
@@ -1103,6 +1075,20 @@ arches:
     name: python3-setuptools-wheel
     evr: 53.0.0-15.el9
     sourcerpm: python-setuptools-53.0.0-15.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/r/rpm-build-libs-4.16.1.3-40.el9.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 87022
+    checksum: sha256:48990dee18ec14c093668fa0ff72cddd87021a112aafe9a5d02acfeb0df490eb
+    name: rpm-build-libs
+    evr: 4.16.1.3-40.el9
+    sourcerpm: rpm-4.16.1.3-40.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/r/rpm-sign-libs-4.16.1.3-40.el9.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 19323
+    checksum: sha256:f2781fcf44184e1b20f3d2611ff2923eb3cfb8914da9a353f20b0b28f09da4f6
+    name: rpm-sign-libs
+    evr: 4.16.1.3-40.el9
+    sourcerpm: rpm-4.16.1.3-40.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/r/rsync-3.2.5-7.el9_8.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 420142
@@ -1110,6 +1096,27 @@ arches:
     name: rsync
     evr: 3.2.5-7.el9_8
     sourcerpm: rsync-3.2.5-7.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/s/systemd-252-67.el9_8.2.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 4155781
+    checksum: sha256:2052a9bbb59b77d20fd8e402e5f798d2498792e60e239e56ce963b460cd97c93
+    name: systemd
+    evr: 252-67.el9_8.2
+    sourcerpm: systemd-252-67.el9_8.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/s/systemd-pam-252-67.el9_8.2.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 267038
+    checksum: sha256:f828175f86e78f6df0dd0a84cb84487b6d731299d948fad360ce073743173492
+    name: systemd-pam
+    evr: 252-67.el9_8.2
+    sourcerpm: systemd-252-67.el9_8.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-67.el9_8.2.noarch.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 60014
+    checksum: sha256:40414d69836b9e6b409c63ff8fa3b443321bfe5f5074e1ca90367d215f9b5afc
+    name: systemd-rpm-macros
+    evr: 252-67.el9_8.2
+    sourcerpm: systemd-252-67.el9_8.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/t/tar-1.34-11.el9.aarch64.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 904777
@@ -1138,6 +1145,20 @@ arches:
     name: unzip
     evr: 6.0-60.el9
     sourcerpm: unzip-6.0-60.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/u/util-linux-2.37.4-25.el9.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 2390152
+    checksum: sha256:3681bbe37d46309673f366135787f5713f0ef575e3cd413cd221af2512e3634b
+    name: util-linux
+    evr: 2.37.4-25.el9
+    sourcerpm: util-linux-2.37.4-25.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/u/util-linux-core-2.37.4-25.el9.aarch64.rpm
+    repoid: ubi-9-for-aarch64-baseos-rpms
+    size: 472949
+    checksum: sha256:de7ad826dd42b383d93f6dc6b720a26d4cd4815d00c0f093c2e28037a8881424
+    name: util-linux-core
+    evr: 2.37.4-25.el9
+    sourcerpm: util-linux-2.37.4-25.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/aarch64/baseos/os/Packages/v/vim-filesystem-8.2.2637-26.el9_8.4.noarch.rpm
     repoid: ubi-9-for-aarch64-baseos-rpms
     size: 21472
@@ -1166,118 +1187,41 @@ arches:
     name: yum
     evr: 4.14.0-34.el9_8
     sourcerpm: dnf-4.14.0-34.el9_8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/d/dpdk-24.11.3-1.el9_7.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/aarch64/appstream/os/Packages/d/dpdk-25.11-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 2351281
-    checksum: sha256:bb257cdc5c4ad6524cd8a2cf2413587980f6278e4f309432c8a09d8d30f08e2e
+    size: 2456578
+    checksum: sha256:fe2a98774c07dd8987fec0638839e1f0cccb6633704aaf8d17d7b438e51a16e7
     name: dpdk
-    evr: 2:24.11.3-1.el9_7
-    sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/d/dpdk-devel-24.11.3-1.el9_7.aarch64.rpm
+    evr: 2:25.11-1.el9
+    sourcerpm: dpdk-25.11-1.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/aarch64/appstream/os/Packages/d/dpdk-devel-25.11-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 4546400
-    checksum: sha256:9634396bb211afb3bace22e1129b069fa1634afb7762d2dfe3f9a04a8be01650
+    size: 4736778
+    checksum: sha256:44b6e31f03449efa2123c82b6ba9d70c81688fb47c95503156f129c4078963cc
     name: dpdk-devel
-    evr: 2:24.11.3-1.el9_7
-    sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/d/dpdk-tools-24.11.3-1.el9_7.aarch64.rpm
+    evr: 2:25.11-1.el9
+    sourcerpm: dpdk-25.11-1.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/aarch64/appstream/os/Packages/d/dpdk-tools-25.11-1.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 32703
-    checksum: sha256:7b36848940060c43f3719dfa6eb26c3446db895a8c77b8bc3a97fc33969eff80
+    size: 39599
+    checksum: sha256:8f01db83adeb82c6d1095854fd39028a0a059441f0fc0fd6033e9acfa2fddcdb
     name: dpdk-tools
-    evr: 2:24.11.3-1.el9_7
-    sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-9.el9_7.aarch64.rpm
+    evr: 2:25.11-1.el9
+    sourcerpm: dpdk-25.11-1.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-9.el9_7.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 140297
     checksum: sha256:9893d432cfe6974d567edde0567acf616807fab1186a54da96f12d16618dd7c0
     name: libarchive-devel
     evr: 3.5.3-9.el9_7
     sourcerpm: libarchive-3.5.3-9.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/appstream/os/Packages/r/rpm-plugin-systemd-inhibit-4.16.1.3-39.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 15579
-    checksum: sha256:170b96da84e4de4abf0b47bb3fadd1677d07efb5f33f322a4e0a47fb7c2f81f9
-    name: rpm-plugin-systemd-inhibit
-    evr: 4.16.1.3-39.el9
-    sourcerpm: rpm-4.16.1.3-39.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/l/libfdisk-2.37.4-21.el9_7.aarch64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/aarch64/baseos/os/Packages/r/rdma-core-61.0-2.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 156277
-    checksum: sha256:c3373716e1a6bd9f4efeacb66b11dfe8c96e8b988462a61fbb2426a608e32bb4
-    name: libfdisk
-    evr: 2.37.4-21.el9_7
-    sourcerpm: util-linux-2.37.4-21.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/o/openssl-3.5.1-7.el9_7.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 1541274
-    checksum: sha256:fa672afb8e31cda4d155929f0e84efba28a925134fd3edacf822802c04e35b8d
-    name: openssl
-    evr: 1:3.5.1-7.el9_7
-    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/p/python3-rpm-4.16.1.3-39.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 65490
-    checksum: sha256:7c5752358e1088e44b3931e9cbfbcacf74be8f7d357851a69d06b23b621b08ce
-    name: python3-rpm
-    evr: 4.16.1.3-39.el9
-    sourcerpm: rpm-4.16.1.3-39.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/r/rdma-core-57.0-2.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 64388
-    checksum: sha256:adb5d5a22dfd77d9cc529454fa28240b0cf049f202424690606cb70bfcc1dc5e
+    size: 79500
+    checksum: sha256:abc4cc96a6cca1c4cbaed849e1539579a8e36d697f8a4ecc292bae7d0fc4b5cd
     name: rdma-core
-    evr: 57.0-2.el9
-    sourcerpm: rdma-core-57.0-2.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/r/rpm-build-libs-4.16.1.3-39.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 87057
-    checksum: sha256:b961a494d25ae5ea7a9904c1329aedc6c7b7b95ea25dd8aee7ada2a81581d1ff
-    name: rpm-build-libs
-    evr: 4.16.1.3-39.el9
-    sourcerpm: rpm-4.16.1.3-39.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/r/rpm-sign-libs-4.16.1.3-39.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 19390
-    checksum: sha256:d1333a2de3b2c50e9eb3eb88fb9c9ef4af900d86459b45a126ca2407d0c4a1e1
-    name: rpm-sign-libs
-    evr: 4.16.1.3-39.el9
-    sourcerpm: rpm-4.16.1.3-39.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/s/systemd-252-55.el9_7.9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 4147290
-    checksum: sha256:0ac9d0ee79310caa05632d661fcfd731cf2248066f17cd4f544d45821eb05725
-    name: systemd
-    evr: 252-55.el9_7.9
-    sourcerpm: systemd-252-55.el9_7.9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/s/systemd-pam-252-55.el9_7.9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 262425
-    checksum: sha256:115779ce143108e3d919de59dabdc02c386b8c50755a786323932f8b10ee5a57
-    name: systemd-pam
-    evr: 252-55.el9_7.9
-    sourcerpm: systemd-252-55.el9_7.9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-55.el9_7.9.noarch.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 55804
-    checksum: sha256:5947436f19719e51830f02d8a0b419df64a6cba03ecf59127f17c15517cb54b7
-    name: systemd-rpm-macros
-    evr: 252-55.el9_7.9
-    sourcerpm: systemd-252-55.el9_7.9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/u/util-linux-2.37.4-21.el9_7.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 2388428
-    checksum: sha256:00ec97a5869f54e74f5c2187739954ad807d528a6e9f7a9079271d34e5890b53
-    name: util-linux
-    evr: 2.37.4-21.el9_7
-    sourcerpm: util-linux-2.37.4-21.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/aarch64/baseos/os/Packages/u/util-linux-core-2.37.4-21.el9_7.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 472668
-    checksum: sha256:6c64ae44f7b363099c14c54e6baf8fbeec666818bd60d3fea6ff247df1420370
-    name: util-linux-core
-    evr: 2.37.4-21.el9_7
-    sourcerpm: util-linux-2.37.4-21.el9_7.src.rpm
+    evr: 61.0-2.el9
+    sourcerpm: rdma-core-61.0-2.el9.src.rpm
   source: []
   module_metadata: []
 - arch: x86_64
@@ -1835,6 +1779,13 @@ arches:
     name: rdma-core-devel
     evr: 61.0-2.el9
     sourcerpm: rdma-core-61.0-2.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/r/rpm-plugin-systemd-inhibit-4.16.1.3-40.el9.x86_64.rpm
+    repoid: ubi-9-for-x86_64-appstream-rpms
+    size: 15696
+    checksum: sha256:03fe41683496012133d597880c97fc8a900a185db61dad9093b29da012e501f2
+    name: rpm-plugin-systemd-inhibit
+    evr: 4.16.1.3-40.el9
+    sourcerpm: rpm-4.16.1.3-40.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/s/scl-utils-2.0.3-4.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-appstream-rpms
     size: 42223
@@ -1919,13 +1870,6 @@ arches:
     name: dnf
     evr: 4.14.0-34.el9_8
     sourcerpm: dnf-4.14.0-34.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/d/dnf-data-4.14.0-34.el9_8.noarch.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 46730
-    checksum: sha256:233dc00ab022eab660d5db4bd87643241cd9a865456ea9b2bef30f8b1e7ab097
-    name: dnf-data
-    evr: 4.14.0-34.el9_8
-    sourcerpm: dnf-4.14.0-34.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/e/elfutils-debuginfod-client-0.194-1.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 43826
@@ -1968,13 +1912,6 @@ arches:
     name: expat
     evr: 2.5.0-6.el9
     sourcerpm: expat-2.5.0-6.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/f/findutils-4.8.0-7.el9.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 563531
-    checksum: sha256:a6328afea0a11647b7fb5c48436f0af6c795407bac0650676d3196dd47070de6
-    name: findutils
-    evr: 1:4.8.0-7.el9
-    sourcerpm: findutils-4.8.0-7.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/gettext-0.21-8.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 1193150
@@ -1989,34 +1926,6 @@ arches:
     name: gettext-libs
     evr: 0.21-8.el9
     sourcerpm: gettext-0.21-8.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-2.34-266.el9_8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 2084456
-    checksum: sha256:2200fa33e81c8bfa4a950921a514ac2d69519b6e49b4008c2161cd542302342d
-    name: glibc
-    evr: 2.34-266.el9_8
-    sourcerpm: glibc-2.34-266.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-common-2.34-266.el9_8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 322160
-    checksum: sha256:1525acdb6c5158b733f681add995e23bd3c23a35ea68fa351987ab8555c88d2e
-    name: glibc-common
-    evr: 2.34-266.el9_8
-    sourcerpm: glibc-2.34-266.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-266.el9_8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 684653
-    checksum: sha256:1c0ff8966ea74c38f1505ab57c3d5bcfd2c813f4d0b9e4ee6358695e66b36eb7
-    name: glibc-langpack-en
-    evr: 2.34-266.el9_8
-    sourcerpm: glibc-2.34-266.el9_8.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-266.el9_8.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 31497
-    checksum: sha256:b94847fa875085690877a6ed9019229a32c1af7039bfc04622e7dd973229c38d
-    name: glibc-minimal-langpack
-    evr: 2.34-266.el9_8
-    sourcerpm: glibc-2.34-266.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/g/groff-base-1.22.4-10.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 1133828
@@ -2108,13 +2017,6 @@ arches:
     name: libdb
     evr: 5.3.28-57.el9_6
     sourcerpm: libdb-5.3.28-57.el9_6.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libdnf-0.69.0-18.el9.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 687074
-    checksum: sha256:9983ebfa9466a9e16e90d419fbbec4650ba6b9d308147673243ddf139f1b39b8
-    name: libdnf
-    evr: 0.69.0-18.el9
-    sourcerpm: libdnf-0.69.0-18.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libeconf-0.4.1-5.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 26622
@@ -2129,6 +2031,13 @@ arches:
     name: libedit
     evr: 3.1-39.20210216cvs.el9
     sourcerpm: libedit-3.1-39.20210216cvs.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libfdisk-2.37.4-25.el9.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 161769
+    checksum: sha256:1b861f267752e718ce696a80dcc06ef1dde8e9aa73fa2abed3775626d719c124
+    name: libfdisk
+    evr: 2.37.4-25.el9
+    sourcerpm: util-linux-2.37.4-25.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libfido2-1.13.0-2.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 102746
@@ -2136,13 +2045,6 @@ arches:
     name: libfido2
     evr: 1.13.0-2.el9
     sourcerpm: libfido2-1.13.0-2.el9.src.rpm
-  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libgcc-11.5.0-14.el9.x86_64.rpm
-    repoid: ubi-9-for-x86_64-baseos-rpms
-    size: 87280
-    checksum: sha256:77c66827ffc14df2f43612b26128b1fd58d5c9597d4d4e564aa239b161272872
-    name: libgcc
-    evr: 11.5.0-14.el9
-    sourcerpm: gcc-11.5.0-14.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/l/libgomp-11.5.0-14.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 263723
@@ -2262,6 +2164,13 @@ arches:
     name: openssh-clients
     evr: 9.9p1-7.el9_8
     sourcerpm: openssh-9.9p1-7.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/o/openssl-3.5.5-2.el9_8.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 1563757
+    checksum: sha256:26055bafcbb940413352fefaf53c3944b95f9420474bf33670be625a01b7b70e
+    name: openssl
+    evr: 1:3.5.5-2.el9_8
+    sourcerpm: openssl-3.5.5-2.el9_8.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/pam-1.5.1-28.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 637912
@@ -2374,6 +2283,13 @@ arches:
     name: python3-pip-wheel
     evr: 21.3.1-2.el9_8
     sourcerpm: python-pip-21.3.1-2.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-rpm-4.16.1.3-40.el9.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 65754
+    checksum: sha256:3307fc46a6e8c0f4f7a0c5b2945f1894b1a2b91592ffd84001b9eddef58b4580
+    name: python3-rpm
+    evr: 4.16.1.3-40.el9
+    sourcerpm: rpm-4.16.1.3-40.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/p/python3-setuptools-wheel-53.0.0-15.el9.noarch.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 479203
@@ -2381,6 +2297,20 @@ arches:
     name: python3-setuptools-wheel
     evr: 53.0.0-15.el9
     sourcerpm: python-setuptools-53.0.0-15.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/r/rpm-build-libs-4.16.1.3-40.el9.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 90328
+    checksum: sha256:a3e2d382655cb0f88b17edae395d87c5bf07f867cd86bbffb90b549259d08a0b
+    name: rpm-build-libs
+    evr: 4.16.1.3-40.el9
+    sourcerpm: rpm-4.16.1.3-40.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/r/rpm-sign-libs-4.16.1.3-40.el9.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 20018
+    checksum: sha256:83e183909321d7cef201aea42974c7c3cf4598454d46f3a776d660491fdb16c2
+    name: rpm-sign-libs
+    evr: 4.16.1.3-40.el9
+    sourcerpm: rpm-4.16.1.3-40.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/r/rsync-3.2.5-7.el9_8.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 424707
@@ -2388,6 +2318,27 @@ arches:
     name: rsync
     evr: 3.2.5-7.el9_8
     sourcerpm: rsync-3.2.5-7.el9_8.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/s/systemd-252-67.el9_8.2.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 4397848
+    checksum: sha256:fa993eb11a345c8082b75bd989b7f81d9c15232c4424892256ca479f65bbaee1
+    name: systemd
+    evr: 252-67.el9_8.2
+    sourcerpm: systemd-252-67.el9_8.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/s/systemd-pam-252-67.el9_8.2.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 277510
+    checksum: sha256:8595b54b71be77fafbbbfd5f40d8afd26d489094955979c0cad486e809f99667
+    name: systemd-pam
+    evr: 252-67.el9_8.2
+    sourcerpm: systemd-252-67.el9_8.2.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-67.el9_8.2.noarch.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 60014
+    checksum: sha256:40414d69836b9e6b409c63ff8fa3b443321bfe5f5074e1ca90367d215f9b5afc
+    name: systemd-rpm-macros
+    evr: 252-67.el9_8.2
+    sourcerpm: systemd-252-67.el9_8.2.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/t/tar-1.34-11.el9.x86_64.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 913256
@@ -2416,6 +2367,20 @@ arches:
     name: unzip
     evr: 6.0-60.el9
     sourcerpm: unzip-6.0-60.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/u/util-linux-2.37.4-25.el9.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 2382511
+    checksum: sha256:35e0b73e574a7d8e93af0adf54adb2303f03423fd5761e357df86288f59d7933
+    name: util-linux
+    evr: 2.37.4-25.el9
+    sourcerpm: util-linux-2.37.4-25.el9.src.rpm
+  - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/u/util-linux-core-2.37.4-25.el9.x86_64.rpm
+    repoid: ubi-9-for-x86_64-baseos-rpms
+    size: 476811
+    checksum: sha256:5575c8fc753d5a81022786dac33e172a6d1602ef41d247a58465754d3f952726
+    name: util-linux-core
+    evr: 2.37.4-25.el9
+    sourcerpm: util-linux-2.37.4-25.el9.src.rpm
   - url: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/os/Packages/v/vim-filesystem-8.2.2637-26.el9_8.4.noarch.rpm
     repoid: ubi-9-for-x86_64-baseos-rpms
     size: 21472
@@ -2444,117 +2409,40 @@ arches:
     name: yum
     evr: 4.14.0-34.el9_8
     sourcerpm: dnf-4.14.0-34.el9_8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/d/dpdk-24.11.3-1.el9_7.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/x86_64/appstream/os/Packages/d/dpdk-25.11-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 4162619
-    checksum: sha256:7afb5e637754168473195def2e3f5f258e6486f0aed12484dbbbb5d8a6981de2
+    size: 4260458
+    checksum: sha256:8ff78e109d3981387442f9f02f33324f666379b83be3dbc7dd05421e3b32a00f
     name: dpdk
-    evr: 2:24.11.3-1.el9_7
-    sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/d/dpdk-devel-24.11.3-1.el9_7.x86_64.rpm
+    evr: 2:25.11-1.el9
+    sourcerpm: dpdk-25.11-1.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/x86_64/appstream/os/Packages/d/dpdk-devel-25.11-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 4561202
-    checksum: sha256:42ca91918aead9e409dd7be51c353ed407c13a2f22308025fc2d448c6aca8663
+    size: 4751631
+    checksum: sha256:2ace040d24d26e45c94be4507590e7e70caa48ea0b3a16df4fae0ae61f2b91a7
     name: dpdk-devel
-    evr: 2:24.11.3-1.el9_7
-    sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/d/dpdk-tools-24.11.3-1.el9_7.x86_64.rpm
+    evr: 2:25.11-1.el9
+    sourcerpm: dpdk-25.11-1.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/x86_64/appstream/os/Packages/d/dpdk-tools-25.11-1.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 32735
-    checksum: sha256:f05d37eb766cb9d761813b6c64259379df028d250a24f709dfc5dbb851882319
+    size: 39631
+    checksum: sha256:5cfb5306049236c979cb3b37278ddbc325eaef6f657837b01c82865a6c0a74e4
     name: dpdk-tools
-    evr: 2:24.11.3-1.el9_7
-    sourcerpm: dpdk-24.11.3-1.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-9.el9_7.x86_64.rpm
+    evr: 2:25.11-1.el9
+    sourcerpm: dpdk-25.11-1.el9.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-9.el9_7.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 140328
     checksum: sha256:5a38404a61d53f4ba386c21187ae26b592a1b34e64582801ad5369c3ec4ce9ec
     name: libarchive-devel
     evr: 3.5.3-9.el9_7
     sourcerpm: libarchive-3.5.3-9.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/appstream/os/Packages/r/rpm-plugin-systemd-inhibit-4.16.1.3-39.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 15662
-    checksum: sha256:705f1003633a7afda0912e3be7cb87cea2f4ea3a294f61f253baa5d1184e75b1
-    name: rpm-plugin-systemd-inhibit
-    evr: 4.16.1.3-39.el9
-    sourcerpm: rpm-4.16.1.3-39.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/l/libfdisk-2.37.4-21.el9_7.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel9/9.8/x86_64/baseos/os/Packages/r/rdma-core-61.0-2.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 161481
-    checksum: sha256:833ea0e100e0404affc6d103db64b8aa685e73886f2651c4073d0f3cd35a42e0
-    name: libfdisk
-    evr: 2.37.4-21.el9_7
-    sourcerpm: util-linux-2.37.4-21.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/o/openssl-3.5.1-7.el9_7.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 1565197
-    checksum: sha256:efc3eb2f303047d5244a0f717a13615820d0de977c62d58bbe6d04ce35df8c6e
-    name: openssl
-    evr: 1:3.5.1-7.el9_7
-    sourcerpm: openssl-3.5.1-7.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/p/python3-rpm-4.16.1.3-39.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 65738
-    checksum: sha256:966d97d2beb26ea4c8dfa32f5a8dd093da4d19aecea973d4c1ce2d530e8e0c19
-    name: python3-rpm
-    evr: 4.16.1.3-39.el9
-    sourcerpm: rpm-4.16.1.3-39.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/r/rdma-core-57.0-2.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 64615
-    checksum: sha256:b03324e85949c08fcd89e7c75c8d5b3fd774c202020f845cd0306f9c4e503219
+    size: 79573
+    checksum: sha256:d95b6af3b0e26781aed8312ec880a156dc5420ddd03627091c0c4549e1849135
     name: rdma-core
-    evr: 57.0-2.el9
-    sourcerpm: rdma-core-57.0-2.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/r/rpm-build-libs-4.16.1.3-39.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 90277
-    checksum: sha256:6c123b0927b49bd170d8fd24e6b5b8f58422697ae1bff790cf39355754ae48a1
-    name: rpm-build-libs
-    evr: 4.16.1.3-39.el9
-    sourcerpm: rpm-4.16.1.3-39.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/r/rpm-sign-libs-4.16.1.3-39.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 19989
-    checksum: sha256:f1edcc945ca57c73c4cb088243b99443bff9c6c69ffe3113c36023e28bb21e5c
-    name: rpm-sign-libs
-    evr: 4.16.1.3-39.el9
-    sourcerpm: rpm-4.16.1.3-39.el9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/s/systemd-252-55.el9_7.9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 4396633
-    checksum: sha256:cda660e51919a1fabc7f59badc12eaf66050e205970f89de8e0b495740292bb2
-    name: systemd
-    evr: 252-55.el9_7.9
-    sourcerpm: systemd-252-55.el9_7.9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/s/systemd-pam-252-55.el9_7.9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 274003
-    checksum: sha256:52daf8ab50d37e8ac8a769ef317f594da85a15661a8bf8aae8994574cece4c36
-    name: systemd-pam
-    evr: 252-55.el9_7.9
-    sourcerpm: systemd-252-55.el9_7.9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-55.el9_7.9.noarch.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 55804
-    checksum: sha256:5947436f19719e51830f02d8a0b419df64a6cba03ecf59127f17c15517cb54b7
-    name: systemd-rpm-macros
-    evr: 252-55.el9_7.9
-    sourcerpm: systemd-252-55.el9_7.9.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/u/util-linux-2.37.4-21.el9_7.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 2382589
-    checksum: sha256:35bdc67c40e276a8b775be673a55b24862755ad9c6a8a8d685c2543431711e9d
-    name: util-linux
-    evr: 2.37.4-21.el9_7
-    sourcerpm: util-linux-2.37.4-21.el9_7.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.7/x86_64/baseos/os/Packages/u/util-linux-core-2.37.4-21.el9_7.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 475071
-    checksum: sha256:ac86e01cb061c529b3becdb824e7f62d5ca70f6984f7f775f5355ec13dcbc087
-    name: util-linux-core
-    evr: 2.37.4-21.el9_7
-    sourcerpm: util-linux-2.37.4-21.el9_7.src.rpm
+    evr: 61.0-2.el9
+    sourcerpm: rdma-core-61.0-2.el9.src.rpm
   source: []
   module_metadata: []
