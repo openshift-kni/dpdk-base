@@ -417,13 +417,13 @@ arches:
     name: iproute
     evr: 6.2.0-6.el8_10
     sourcerpm: iproute-6.2.0-6.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.132.1.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.134.1.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 12519584
-    checksum: sha256:1f0b2ebd68656dfe83554bcc21dfcac98562e9a0b58fd9fb540a3a8634e49381
+    size: 12520708
+    checksum: sha256:2b1c8c3a880a8376ff67149375c6e977b800efddcf3cedf31244bc6ba8b8a3fb
     name: kernel-headers
-    evr: 4.18.0-553.132.1.el8_10
-    sourcerpm: kernel-4.18.0-553.132.1.el8_10.src.rpm
+    evr: 4.18.0-553.134.1.el8_10
+    sourcerpm: kernel-4.18.0-553.134.1.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kmod-25-20.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 129356
@@ -1089,13 +1089,13 @@ arches:
     name: rpm-plugin-systemd-inhibit
     evr: 4.14.3-32.el8_10
     sourcerpm: rpm-4.14.3-32.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/r/rsync-3.1.3-25.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/r/rsync-3.1.3-27.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 421432
-    checksum: sha256:9fb4ac09b7640363c24edae1f1ef2826898721961575de795b487a31e654e944
+    size: 427140
+    checksum: sha256:035fdb2795e3dcebaaf18c89ccdaec6784514e5ad6753afa50d5862ec1a2024a
     name: rsync
-    evr: 3.1.3-25.el8_10
-    sourcerpm: rsync-3.1.3-25.el8_10.src.rpm
+    evr: 3.1.3-27.el8_10
+    sourcerpm: rsync-3.1.3-27.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/s/shadow-utils-4.6-23.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 1292212
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/9d278b01065efc249c9fb8b6e3cc2388bc7f874eb9a995a058a722b88d7173b7-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/da995b97e5c6cce17a668b3ca3008dffcab764eed08b846333f2f19193070577-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 814928
-    checksum: sha256:9d278b01065efc249c9fb8b6e3cc2388bc7f874eb9a995a058a722b88d7173b7
+    size: 816275
+    checksum: sha256:da995b97e5c6cce17a668b3ca3008dffcab764eed08b846333f2f19193070577
