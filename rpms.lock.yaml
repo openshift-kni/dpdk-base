@@ -53,20 +53,6 @@ arches:
     name: git-core-doc
     evr: 2.47.3-1.el9_6
     sourcerpm: git-2.47.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.24.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 561564
-    checksum: sha256:775e17a2f79a700ba9c3f2407e6a55b2a356b31ff3484581eb7f5086b2e0bee8
-    name: glibc-devel
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/g/glibc-locale-source-2.34-168.el9_6.24.aarch64.rpm
-    repoid: rhel-9-for-aarch64-appstream-rpms
-    size: 4355311
-    checksum: sha256:fcedbae36b54e29cf12e318856686d8497d5909ab8b3b0a1af7035cbc6ffd2ef
-    name: glibc-locale-source
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/appstream/os/Packages/i/infiniband-diags-54.0-2.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-rpms
     size: 338564
@@ -1117,6 +1103,20 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_6
     sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.25.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms
+    size: 558834
+    checksum: sha256:8cba414c88e447d770f4f6b7487ed277d574815a7ba6f248f5ae2d7735915c55
+    name: glibc-devel
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/g/glibc-locale-source-2.34-168.el9_6.25.aarch64.rpm
+    repoid: rhel-9-for-aarch64-appstream-eus-rpms
+    size: 4352413
+    checksum: sha256:829a14ef9d23a6ff3c904cc84a0130810b7c6452e97e8985f96dbb38161c3762
+    name: glibc-locale-source
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.123.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 3805213
@@ -1159,6 +1159,34 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/g/glibc-2.34-168.el9_6.25.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 1783976
+    checksum: sha256:33dd11e9169667fe7983c8f68535923744e2eb42686b77f5865161bc24ac4b4d
+    name: glibc
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.25.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 295890
+    checksum: sha256:1d3f3b9c9a0070fe13dd2e4a906ab634ee30939ce629f590999ce7d026f90d63
+    name: glibc-common
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.25.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 668154
+    checksum: sha256:e3f524ef363b6f11cefa2ba0019773baa340d37e68b9af8b158ff1d5dffd49bc
+    name: glibc-langpack-en
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.25.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 14453
+    checksum: sha256:e4dba772ba42f2bf217dfc47d13bb3b4a37feeb08f4e2c6e85f959bc28a21ed1
+    name: glibc-minimal-langpack
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.3.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 457294
@@ -1289,27 +1317,6 @@ arches:
     name: git-core-doc
     evr: 2.47.3-1.el9_6
     sourcerpm: git-2.47.3-1.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.24.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 32863
-    checksum: sha256:1f4a3d941a70190d74933edd9ee129763c79e1a4166fb11d114ff81d3d699a68
-    name: glibc-devel
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.24.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 551823
-    checksum: sha256:831461d20fcbda28624406dab6f601142c12b870ca07aea95d1c604b1eb82f84
-    name: glibc-headers
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-locale-source-2.34-168.el9_6.24.x86_64.rpm
-    repoid: rhel-9-for-x86_64-appstream-rpms
-    size: 4355181
-    checksum: sha256:3bdb36bb928dc6e3005aa8ab4509106a6cd4668a20a41b1aaaf00d2a1bdc4671
-    name: glibc-locale-source
-    evr: 2.34-168.el9_6.24
-    sourcerpm: glibc-2.34-168.el9_6.24.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/appstream/os/Packages/i/infiniband-diags-54.0-2.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-rpms
     size: 340878
@@ -2353,6 +2360,27 @@ arches:
     name: dpdk-tools
     evr: 2:24.11.3-1.el9_6
     sourcerpm: dpdk-24.11.3-1.el9_6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-devel-2.34-168.el9_6.25.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 30053
+    checksum: sha256:aedd909138d513c49135de71129a7ed5b0bf8db91b56197483f245bfae12b977
+    name: glibc-devel
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-headers-2.34-168.el9_6.25.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 549061
+    checksum: sha256:edd471f70b078798585dbe7196d77d6cc76e9b58b593088eaec950b41c7d5a4e
+    name: glibc-headers
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/g/glibc-locale-source-2.34-168.el9_6.25.x86_64.rpm
+    repoid: rhel-9-for-x86_64-appstream-eus-rpms
+    size: 4352535
+    checksum: sha256:1c42a0cf3cd3fce92eab1468bd42e7dfe2fb7acbf566002eed7f02e8f25bf287
+    name: glibc-locale-source
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.123.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 3844205
@@ -2395,6 +2423,34 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/g/glibc-2.34-168.el9_6.25.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 2048324
+    checksum: sha256:7292c5065c4fc64e1c2a21ca8f79ce236b538d2a6aaa65b4d732eb3a338062d1
+    name: glibc
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/g/glibc-common-2.34-168.el9_6.25.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 306129
+    checksum: sha256:689cbea1ec23b746a9a85c424f0041dba325341fcf0a970aaa60d812594946b6
+    name: glibc-common
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.34-168.el9_6.25.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 668151
+    checksum: sha256:805fc5297494c54e0dfbe8a161144a2d7fb11cffe432feb207bc77d8611e170f
+    name: glibc-langpack-en
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.34-168.el9_6.25.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 14485
+    checksum: sha256:964947194eab4a85ddb120405d0178f75fe135b204db9eafb4b64fc9215b5091
+    name: glibc-minimal-langpack
+    evr: 2.34-168.el9_6.25
+    sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.3.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 468389
