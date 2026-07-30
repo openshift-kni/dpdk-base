@@ -627,20 +627,20 @@ arches:
     name: numactl-libs
     evr: 2.0.16-4.el8
     sourcerpm: numactl-2.0.16-4.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssh-8.0p1-29.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssh-8.0p1-30.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 539712
-    checksum: sha256:02ac6c13de471fdf5b40015759a40ca8b3c23b6d82bb44dad8275f456aafb68d
+    size: 540012
+    checksum: sha256:62eb712706e61115febfe496648c5016974f2f5edaf1a9c34d11dcc6ccd79cd7
     name: openssh
-    evr: 8.0p1-29.el8_10
-    sourcerpm: openssh-8.0p1-29.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssh-clients-8.0p1-29.el8_10.x86_64.rpm
+    evr: 8.0p1-30.el8_10
+    sourcerpm: openssh-8.0p1-30.el8_10.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssh-clients-8.0p1-30.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 663008
-    checksum: sha256:e63150148cf1b904c93073231c8094cac675fc02695f9be351a5b2d7eb6def82
+    size: 663200
+    checksum: sha256:73a53770beb99ceb67edca69eb3b1fd02ef45c81305ec9c2fb27e059a79e78bb
     name: openssh-clients
-    evr: 8.0p1-29.el8_10
-    sourcerpm: openssh-8.0p1-29.el8_10.src.rpm
+    evr: 8.0p1-30.el8_10
+    sourcerpm: openssh-8.0p1-30.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-1.1.1k-17.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 727856
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/07f34e054a1d7e2824f93980a65ac04bf100b9767afab2f000f4854181a26233-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/a43e4107dab2f30ebafc6978985830d03b32495fde83071995df089bfc3d1a85-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 835783
-    checksum: sha256:07f34e054a1d7e2824f93980a65ac04bf100b9767afab2f000f4854181a26233
+    size: 845357
+    checksum: sha256:a43e4107dab2f30ebafc6978985830d03b32495fde83071995df089bfc3d1a85
