@@ -1208,27 +1208,27 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9_6.1
     sourcerpm: rsync-3.2.5-3.el9_6.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-252-51.el9_6.4.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-252-51.el9_6.6.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
-    size: 4153453
-    checksum: sha256:b5aea886e072ba7cc1c575c99117ccc777e616d0731406f61e7cb0efd50c3daf
+    size: 4127313
+    checksum: sha256:6d9d3235f31b1e5ebcf9a03b0e4233742e9129f39082d39e7e42ba377d27af69
     name: systemd
-    evr: 252-51.el9_6.4
-    sourcerpm: systemd-252-51.el9_6.4.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.4.aarch64.rpm
+    evr: 252-51.el9_6.6
+    sourcerpm: systemd-252-51.el9_6.6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.6.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
-    size: 269426
-    checksum: sha256:18637605d736e22b70341b2baa8d578d56a92301eee2d237dd898278f8ea1d05
+    size: 244709
+    checksum: sha256:483cff034fbe30eb4a3370a1314fa79605c3810f3034afe2b5a9008af64204b6
     name: systemd-pam
-    evr: 252-51.el9_6.4
-    sourcerpm: systemd-252-51.el9_6.4.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.4.noarch.rpm
+    evr: 252-51.el9_6.6
+    sourcerpm: systemd-252-51.el9_6.6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.6.noarch.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
-    size: 62787
-    checksum: sha256:96fa8cf07e84e172156c7229a95cb74de5f1980389730d8fa5c4ef4113fe4ded
+    size: 38075
+    checksum: sha256:0090c40c0da8c20f60fe2c4cfd4fb61b26867e6a63888b47bc69d660509bdabd
     name: systemd-rpm-macros
-    evr: 252-51.el9_6.4
-    sourcerpm: systemd-252-51.el9_6.4.src.rpm
+    evr: 252-51.el9_6.6
+    sourcerpm: systemd-252-51.el9_6.6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/t/tar-1.34-7.el9_6.2.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 897893
@@ -2444,27 +2444,27 @@ arches:
     name: rsync
     evr: 3.2.5-3.el9_6.1
     sourcerpm: rsync-3.2.5-3.el9_6.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-252-51.el9_6.4.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-252-51.el9_6.6.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 4399245
-    checksum: sha256:15f33c171629a004c1efd2b7262461864b324226c2629b53087cc8f0642c7328
+    size: 4374165
+    checksum: sha256:4be1e0b2448205d0c857308d338cadff25a4c14fd5f4e852f4e5326c4072b514
     name: systemd
-    evr: 252-51.el9_6.4
-    sourcerpm: systemd-252-51.el9_6.4.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.4.x86_64.rpm
+    evr: 252-51.el9_6.6
+    sourcerpm: systemd-252-51.el9_6.6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-pam-252-51.el9_6.6.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 279893
-    checksum: sha256:1627696029f24cfb429859d6d85db8eebc9fa91ae0a9635ce2623f9afc75b0a6
+    size: 255196
+    checksum: sha256:5a1906689b539895a57daff9272e93ae323e818e8f2402c14e67f3a36bb2b0a8
     name: systemd-pam
-    evr: 252-51.el9_6.4
-    sourcerpm: systemd-252-51.el9_6.4.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.4.noarch.rpm
+    evr: 252-51.el9_6.6
+    sourcerpm: systemd-252-51.el9_6.6.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/s/systemd-rpm-macros-252-51.el9_6.6.noarch.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 62787
-    checksum: sha256:96fa8cf07e84e172156c7229a95cb74de5f1980389730d8fa5c4ef4113fe4ded
+    size: 38075
+    checksum: sha256:0090c40c0da8c20f60fe2c4cfd4fb61b26867e6a63888b47bc69d660509bdabd
     name: systemd-rpm-macros
-    evr: 252-51.el9_6.4
-    sourcerpm: systemd-252-51.el9_6.4.src.rpm
+    evr: 252-51.el9_6.6
+    sourcerpm: systemd-252-51.el9_6.6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/t/tar-1.34-7.el9_6.2.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 906275
