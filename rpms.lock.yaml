@@ -1124,13 +1124,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-168.el9_6.25
     sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.131.1.el9_6.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/k/kernel-headers-5.14.0-570.132.1.el9_6.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
-    size: 3818205
-    checksum: sha256:51c7f18acda89c3646b3888373ce22b47b7f4020b2c812d2bc231acb5071c49e
+    size: 3821897
+    checksum: sha256:3fdfd2572fd3f5f0ebfb8b2d0288a47ccd2d14b279db1286bacd00dd29d1a86d
     name: kernel-headers
-    evr: 5.14.0-570.131.1.el9_6
-    sourcerpm: kernel-5.14.0-570.131.1.el9_6.src.rpm
+    evr: 5.14.0-570.132.1.el9_6
+    sourcerpm: kernel-5.14.0-570.132.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/appstream/os/Packages/l/libarchive-devel-3.5.3-7.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-appstream-eus-rpms
     size: 133095
@@ -2360,13 +2360,13 @@ arches:
     name: glibc-locale-source
     evr: 2.34-168.el9_6.25
     sourcerpm: glibc-2.34-168.el9_6.25.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.131.1.el9_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/k/kernel-headers-5.14.0-570.132.1.el9_6.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
-    size: 3857197
-    checksum: sha256:c2937a2b8eada8937b8e7728aff7e1654e8f73f6a0ffde868789763fe96191dd
+    size: 3860929
+    checksum: sha256:3d249cae5f789156ecc640e403265e245e112f5180236097b8c978e08ca908aa
     name: kernel-headers
-    evr: 5.14.0-570.131.1.el9_6
-    sourcerpm: kernel-5.14.0-570.131.1.el9_6.src.rpm
+    evr: 5.14.0-570.132.1.el9_6
+    sourcerpm: kernel-5.14.0-570.132.1.el9_6.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/appstream/os/Packages/l/libarchive-devel-3.5.3-7.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-appstream-eus-rpms
     size: 133120
