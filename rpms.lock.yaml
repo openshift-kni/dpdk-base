@@ -221,20 +221,6 @@ arches:
     name: gettext-libs
     evr: 0.19.8.1-17.el8
     sourcerpm: gettext-0.19.8.1-17.el8.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/g/glibc-2.28-189.13.el8_6.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 2305388
-    checksum: sha256:3d38dc14cb40a114c91fb0600b573699aae27b9aa92e8a5a2d0ed188a729a9f4
-    name: glibc
-    evr: 2.28-189.13.el8_6
-    sourcerpm: glibc-2.28-189.13.el8_6.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/g/glibc-common-2.28-189.13.el8_6.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 1345156
-    checksum: sha256:fde42248b91aeebb4a6500fb5f2ddf1ef87e499ca3c27d6512a8e2d4c3417eb9
-    name: glibc-common
-    evr: 2.28-189.13.el8_6
-    sourcerpm: glibc-2.28-189.13.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/g/glibc-devel-2.28-189.13.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 81588
@@ -261,13 +247,6 @@ arches:
     size: 4410764
     checksum: sha256:0b2f9b43c02767d7a8425bc137a433212fd3ce68fd9b76c8de608da2d8481369
     name: glibc-locale-source
-    evr: 2.28-189.13.el8_6
-    sourcerpm: glibc-2.28-189.13.el8_6.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.28-189.13.el8_6.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 63008
-    checksum: sha256:6d02d23ac94f3c016f0f833bb35878399827dfc73a886ac1edfc35495ac1f8d8
-    name: glibc-minimal-langpack
     evr: 2.28-189.13.el8_6
     sourcerpm: glibc-2.28-189.13.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/g/groff-base-1.22.3-18.el8.x86_64.rpm
@@ -438,13 +417,13 @@ arches:
     name: openssh-clients
     evr: 8.0p1-15.el8_6.5
     sourcerpm: openssh-8.0p1-15.el8_6.5.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/o/openssl-1.1.1k-15.el8_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/o/openssl-1.1.1k-17.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 727444
-    checksum: sha256:494eba79b38e02a26c6da8e68f638ce36101374596bbcbbf5f616e13d3597791
+    size: 727856
+    checksum: sha256:d2e8518509c5900095c9811c7663a614b9ef44648e24e61dde954ca07328ad27
     name: openssl
-    evr: 1:1.1.1k-15.el8_6
-    sourcerpm: openssl-1.1.1k-15.el8_6.src.rpm
+    evr: 1:1.1.1k-17.el8_6
+    sourcerpm: openssl-1.1.1k-17.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/p/pciutils-3.7.0-1.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 107612
