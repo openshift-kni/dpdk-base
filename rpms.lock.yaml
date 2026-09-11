@@ -1159,20 +1159,20 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.3.aarch64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.4.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
-    size: 457294
-    checksum: sha256:01d1ede18433793c9e889db4fb413d2f851eef8fc9e42b59db7a00ad7d45773a
+    size: 456765
+    checksum: sha256:3534b08fc922286c6cda29719390db41ddf7822f6fbfa246f892cdea0dff98df
     name: openssh
-    evr: 8.7p1-45.el9_6.3
-    sourcerpm: openssh-8.7p1-45.el9_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-clients-8.7p1-45.el9_6.3.aarch64.rpm
+    evr: 8.7p1-45.el9_6.4
+    sourcerpm: openssh-8.7p1-45.el9_6.4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssh-clients-8.7p1-45.el9_6.4.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
-    size: 699700
-    checksum: sha256:a713e5442d91533a08021c68c29b9c29f0639d3758cf73577fffb3f2aa2aefea
+    size: 699364
+    checksum: sha256:e944accee643c03db938dcba977e694b216d89ba86da80dc7a289b76a06cab52
     name: openssh-clients
-    evr: 8.7p1-45.el9_6.3
-    sourcerpm: openssh-8.7p1-45.el9_6.3.src.rpm
+    evr: 8.7p1-45.el9_6.4
+    sourcerpm: openssh-8.7p1-45.el9_6.4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/o/openssl-3.2.2-7.el9_6.2.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 1384462
@@ -2395,20 +2395,20 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.3.x86_64.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-8.7p1-45.el9_6.4.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 468389
-    checksum: sha256:0a6bab6f52576526094dfcb521190ed5911190a7764a89b7cb2d2503cf249271
+    size: 467908
+    checksum: sha256:e4eeb264f72d5fa7ecd3a11d37342e333d8329cbd178181885d95ef2d43b4607
     name: openssh
-    evr: 8.7p1-45.el9_6.3
-    sourcerpm: openssh-8.7p1-45.el9_6.3.src.rpm
-  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-clients-8.7p1-45.el9_6.3.x86_64.rpm
+    evr: 8.7p1-45.el9_6.4
+    sourcerpm: openssh-8.7p1-45.el9_6.4.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssh-clients-8.7p1-45.el9_6.4.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
-    size: 730072
-    checksum: sha256:5f0a83bbc6c97522b8ccf7127702a39900d699709d860ad392c82f16f47d206b
+    size: 730299
+    checksum: sha256:a679af014e014ac1654aeaf37644bd2166d7b1fa3f4924e4d8874a92943f95c8
     name: openssh-clients
-    evr: 8.7p1-45.el9_6.3
-    sourcerpm: openssh-8.7p1-45.el9_6.3.src.rpm
+    evr: 8.7p1-45.el9_6.4
+    sourcerpm: openssh-8.7p1-45.el9_6.4.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/o/openssl-3.2.2-7.el9_6.2.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 1406687
