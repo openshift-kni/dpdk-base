@@ -277,13 +277,13 @@ arches:
     name: iproute
     evr: 5.15.0-4.el8_6.1
     sourcerpm: iproute-5.15.0-4.el8_6.1.src.rpm
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-372.216.1.el8_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-372.217.1.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
-    size: 10083052
-    checksum: sha256:56c9aa45d2dd8c58a68869d58774efe22e8a274fe7177a9548459bef5f94b514
+    size: 10083252
+    checksum: sha256:781624d9aaef3d5f744ba40daf452ce0b5a7dff3c6c1ee79dd2c8accc12fceba
     name: kernel-headers
-    evr: 4.18.0-372.216.1.el8_6
-    sourcerpm: kernel-4.18.0-372.216.1.el8_6.src.rpm
+    evr: 4.18.0-372.217.1.el8_6
+    sourcerpm: kernel-4.18.0-372.217.1.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/baseos/os/Packages/k/kmod-25-19.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-aus-rpms
     size: 129212
@@ -762,7 +762,7 @@ arches:
     sourcerpm: xz-5.2.4-4.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/1a1737091cba5e64b9aa439a054460e712e34fae257f9c82303e0b24dfdf3bae-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/20477615435cf85fdb9566a7249fb752f48e3a8f421e36e135edfe287c49904a-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
     size: 584966
-    checksum: sha256:1a1737091cba5e64b9aa439a054460e712e34fae257f9c82303e0b24dfdf3bae
+    checksum: sha256:20477615435cf85fdb9566a7249fb752f48e3a8f421e36e135edfe287c49904a
