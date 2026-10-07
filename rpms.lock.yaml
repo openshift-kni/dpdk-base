@@ -417,13 +417,13 @@ arches:
     name: iproute
     evr: 6.2.0-6.el8_10
     sourcerpm: iproute-6.2.0-6.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.170.1.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.171.1.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 12561504
-    checksum: sha256:c5abaf24519553eb62f5c73bdc64621603416c12a94b3f22dbb813f4893481de
+    size: 12566880
+    checksum: sha256:ca77a1f4dec57ad1ec7a03a158bb3c13d3957580e48803d492485105aab9ba20
     name: kernel-headers
-    evr: 4.18.0-553.170.1.el8_10
-    sourcerpm: kernel-4.18.0-553.170.1.el8_10.src.rpm
+    evr: 4.18.0-553.171.1.el8_10
+    sourcerpm: kernel-4.18.0-553.171.1.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kmod-25-20.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 129356
@@ -487,13 +487,6 @@ arches:
     name: libfdisk
     evr: 2.32.1-48.el8_10
     sourcerpm: util-linux-2.32.1-48.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libgcc-8.5.0-29.el8_10.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 83344
-    checksum: sha256:002ed24aeae74ef14bfae779b7278051b949decf83815a17421dadb1b6702454
-    name: libgcc
-    evr: 8.5.0-29.el8_10
-    sourcerpm: gcc-8.5.0-29.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libgomp-8.5.0-29.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 212800
@@ -1189,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/9765e4f373dfb0774e2fbe32f432029888773eb85043785b6419458c15088ab0-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/808db65f52e65b47f5b39958f7669660db0ffaf92d40c1c1251827a0296d5e3e-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 866587
-    checksum: sha256:9765e4f373dfb0774e2fbe32f432029888773eb85043785b6419458c15088ab0
+    size: 866991
+    checksum: sha256:808db65f52e65b47f5b39958f7669660db0ffaf92d40c1c1251827a0296d5e3e
