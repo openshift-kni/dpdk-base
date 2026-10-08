@@ -354,20 +354,6 @@ arches:
     name: gettext-libs
     evr: 0.19.8.1-17.el8
     sourcerpm: gettext-0.19.8.1-17.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-2.28-251.el8_10.43.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 2309156
-    checksum: sha256:fb36fb3adf1050f11fc85572c84082a994b899a3e851d330cb0eb382f007c58b
-    name: glibc
-    evr: 2.28-251.el8_10.43
-    sourcerpm: glibc-2.28-251.el8_10.43.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-common-2.28-251.el8_10.43.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 1054640
-    checksum: sha256:a8d7a53b67c6448a7e981b76af3ffdcef4454858f0e2b7c05f6fc4247e931390
-    name: glibc-common
-    evr: 2.28-251.el8_10.43
-    sourcerpm: glibc-2.28-251.el8_10.43.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-devel-2.28-251.el8_10.43.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 93516
@@ -382,25 +368,11 @@ arches:
     name: glibc-headers
     evr: 2.28-251.el8_10.43
     sourcerpm: glibc-2.28-251.el8_10.43.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-langpack-en-2.28-251.el8_10.43.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 854872
-    checksum: sha256:8f4a82074eb410a822f8c1a0500b344f0f1ab572ce06ba803d8a2f490d9afe43
-    name: glibc-langpack-en
-    evr: 2.28-251.el8_10.43
-    sourcerpm: glibc-2.28-251.el8_10.43.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-locale-source-2.28-251.el8_10.43.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 4421192
     checksum: sha256:a6f8d039e9b4b4dbc7fe2b9094b78ecc6d1152ac1c5c0d7f0ddce58a4f8421d0
     name: glibc-locale-source
-    evr: 2.28-251.el8_10.43
-    sourcerpm: glibc-2.28-251.el8_10.43.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-minimal-langpack-2.28-251.el8_10.43.x86_64.rpm
-    repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 75104
-    checksum: sha256:9aef342517c0f2c7cb5e0295c27183f626a4e4775fa052b3953014ddeb6b9baf
-    name: glibc-minimal-langpack
     evr: 2.28-251.el8_10.43
     sourcerpm: glibc-2.28-251.el8_10.43.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/groff-base-1.22.3-18.el8.x86_64.rpm
@@ -445,13 +417,13 @@ arches:
     name: iproute
     evr: 6.2.0-6.el8_10
     sourcerpm: iproute-6.2.0-6.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.171.1.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.172.1.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 12566880
-    checksum: sha256:ca77a1f4dec57ad1ec7a03a158bb3c13d3957580e48803d492485105aab9ba20
+    size: 12567776
+    checksum: sha256:81a295e567f87ab772d1fdae52033d5fcbdba4e432ca2f48a78d537acbd79568
     name: kernel-headers
-    evr: 4.18.0-553.171.1.el8_10
-    sourcerpm: kernel-4.18.0-553.171.1.el8_10.src.rpm
+    evr: 4.18.0-553.172.1.el8_10
+    sourcerpm: kernel-4.18.0-553.172.1.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kmod-25-20.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 129356
@@ -1210,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/88bc905f81781daf286286c2cba7c73f3efc5ea431b0118a4389119077d83224-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/b9118a1be0864ddcc03b3b0c6cc9e7d26d540fcfa58dbc22262c38a787bbaaa0-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 866991
-    checksum: sha256:88bc905f81781daf286286c2cba7c73f3efc5ea431b0118a4389119077d83224
+    size: 867284
+    checksum: sha256:b9118a1be0864ddcc03b3b0c6cc9e7d26d540fcfa58dbc22262c38a787bbaaa0
