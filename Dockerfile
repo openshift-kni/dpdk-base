@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel9-6-els/rhel-minimal:9.6-1790750145
+FROM registry.redhat.io/rhel9-6-els/rhel-minimal:9.6-1791443184
 
 LABEL com.redhat.component="dpdk-base-container" \
     name="openshift4/dpdk-base-rhel9" \
