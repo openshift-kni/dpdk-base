@@ -858,13 +858,13 @@ arches:
     name: perl-Time-Local
     evr: 1:1.280-1.el8
     sourcerpm: perl-Time-Local-1.280-1.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/perl-URI-1.73-3.el8.noarch.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/perl-URI-1.73-4.el8_10.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 118948
-    checksum: sha256:dd6a948e5a656701156c618e202c0b6defd11ba6f162b6790cbb42cea15141ae
+    size: 118476
+    checksum: sha256:6fa3940b15d2795fda5dbf1c5751cfdd8f984fe8db4820351a11bd4fb37db4cb
     name: perl-URI
-    evr: 1.73-3.el8
-    sourcerpm: perl-URI-1.73-3.el8.src.rpm
+    evr: 1.73-4.el8_10
+    sourcerpm: perl-URI-1.73-4.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/perl-Unicode-Normalize-1.25-396.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 83844
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/cc3be2e68a342fe4e34330ecb3c7645780a37b32c3ba98599d9aac8d26cf8bbf-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/7d24ab10b94f53a50eeb52ae92666f8ef0ca85675358549829b1c31c1ff25589-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 869820
-    checksum: sha256:cc3be2e68a342fe4e34330ecb3c7645780a37b32c3ba98599d9aac8d26cf8bbf
+    size: 872509
+    checksum: sha256:7d24ab10b94f53a50eeb52ae92666f8ef0ca85675358549829b1c31c1ff25589
