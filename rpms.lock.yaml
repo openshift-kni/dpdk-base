@@ -762,7 +762,7 @@ arches:
     sourcerpm: xz-5.2.4-4.el8_6.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/6ce44e0f50d48dad3dd8697a71ce9eb6b872cbfaaba8d66cd4242c9c2db8dcd7-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/aus/rhel8/8.6/x86_64/appstream/os/repodata/eb441079904c6f818f5384a1764cfe87068f3d7c3c2bb1696c989ef4c83520c5-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-aus-rpms
     size: 586176
-    checksum: sha256:6ce44e0f50d48dad3dd8697a71ce9eb6b872cbfaaba8d66cd4242c9c2db8dcd7
+    checksum: sha256:eb441079904c6f818f5384a1764cfe87068f3d7c3c2bb1696c989ef4c83520c5
