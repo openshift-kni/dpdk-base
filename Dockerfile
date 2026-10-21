@@ -1,4 +1,48 @@
-FROM registry.access.redhat.com/ubi9/ubi-minimal:latest@sha256:c4c285d42941ebb2bd4da878479008e1e4536bb599aad1dbe568f89de9053661
+FROM registry.access.redhat.com/ubi9/ubi-micro:latest@sha256:5be877a2a280ae36eb9ab80ca4efb28bbf77c57abbba38137cdc37a03b8465e6 AS micro
+
+# Install into Micro's filesystem using tools from the build stage. Konflux
+# mounts its prefetched RPM repositories in /etc/yum.repos.d in this stage.
+FROM registry.access.redhat.com/ubi9/ubi:latest@sha256:16e9e43d99e181463513cc84a514859b1abb9460f1c4d9e208da4b4e51cd5cc3 AS rootfs
+
+COPY --from=micro / /mnt/rootfs/
+
+# Keep the S2I development tools (including yum) for existing consumers.
+# rpm and shadow-utils were previously supplied by UBI Minimal.
+RUN INSTALL_PKGS="bsdtar \
+  findutils \
+  groff-base \
+  glibc-locale-source \
+  glibc-minimal-langpack \
+  gettext \
+  rsync \
+  scl-utils \
+  tar \
+  unzip \
+  xz \
+  yum \
+  dpdk \
+  dpdk-devel \
+  dpdk-tools \
+  make \
+  rdma-core \
+  libibverbs \
+  git \
+  gcc \
+  which \
+  expect \
+  rpm \
+  shadow-utils" && \
+  rpm --root /mnt/rootfs --import /etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release && \
+  dnf --installroot=/mnt/rootfs --releasever=9 \
+    --setopt=reposdir=/etc/yum.repos.d \
+    --setopt=tsflags=nodocs -y install $INSTALL_PKGS && \
+  rpm --root /mnt/rootfs -V $INSTALL_PKGS && \
+  dnf --installroot=/mnt/rootfs --releasever=9 \
+    --setopt=reposdir=/etc/yum.repos.d -y clean all
+
+FROM micro AS final
+
+COPY --from=rootfs /mnt/rootfs/ /
 
 LABEL com.redhat.component="dpdk-base-container" \
     name="openshift5/dpdk-base-rhel9" \
@@ -27,33 +71,8 @@ ENV RTE_TARGET=x86_64-default-linux-gcc
 ENV RTE_EXEC_ENV=linux
 ENV RTE_SDK=${DPDK_DIR}
 
-RUN INSTALL_PKGS="bsdtar \
-  findutils \
-  groff-base \
-  glibc-locale-source \
-  glibc-minimal-langpack \
-  gettext \
-  rsync \
-  scl-utils \
-  tar \
-  unzip \
-  xz \
-  yum \
-  dpdk \
-  dpdk-devel \
-  dpdk-tools \
-  make \
-  rdma-core \
-  libibverbs \
-  git \
-  gcc \
-  which \
-  expect" && \
-  mkdir -p ${HOME}/.pki/nssdb && \
-  chown -R 1001:0 ${HOME}/.pki && \
-  microdnf --setopt=tsflags=nodocs -y install $INSTALL_PKGS && \
-  rpm -V $INSTALL_PKGS && \
-  microdnf -y clean all --enablerepo='*'
+RUN mkdir -p ${HOME}/.pki/nssdb && \
+  chown -R 1001:0 ${HOME}/.pki
 
 # in dpdk 20.11 the testpmd bin changed to dpdk-testpmd
 # for backport support we add a symlink
@@ -86,4 +105,3 @@ RUN usermod -aG hugetlbfs default
 USER default
 
 CMD ["/usr/libexec/s2i/usage"]
-

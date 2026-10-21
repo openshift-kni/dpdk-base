@@ -2,24 +2,32 @@ contentOrigin:
   repos:
     - repoid: ubi-9-for-$basearch-baseos-rpms
       baseurl: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/$basearch/baseos/os
-      varsFromContainerfile: Dockerfile
+      varsFromContainerfile:
+        file: Dockerfile
+        stageName: micro
       sslverify: 1
       priority: 1
     - repoid: ubi-9-for-$basearch-appstream-rpms
       baseurl: https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/$basearch/appstream/os
-      varsFromContainerfile: Dockerfile
+      varsFromContainerfile:
+        file: Dockerfile
+        stageName: micro
       sslverify: 1
       priority: 1
     - repoid: rhel-9-for-$basearch-baseos-rpms
       baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/baseos/os
-      varsFromContainerfile: Dockerfile
+      varsFromContainerfile:
+        file: Dockerfile
+        stageName: micro
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
       sslclientkey: $SSL_CLIENT_KEY
       sslclientcert: $SSL_CLIENT_CERT
     - repoid: rhel-9-for-$basearch-appstream-rpms
       baseurl: https://cdn.redhat.com/content/dist/rhel9/{version}/$basearch/appstream/os
-      varsFromContainerfile: Dockerfile
+      varsFromContainerfile:
+        file: Dockerfile
+        stageName: micro
       sslverify: 1
       sslcacert: /etc/rhsm/ca/redhat-uep.pem
       sslclientkey: $SSL_CLIENT_KEY
@@ -48,10 +56,14 @@ packages:
   - gcc
   - which
   - expect
+  - rpm
+  - shadow-utils
 
 arches:
   - x86_64
   - aarch64
 
 context:
-    containerfile: Dockerfile
+    containerfile:
+      file: Dockerfile
+      stageName: micro
