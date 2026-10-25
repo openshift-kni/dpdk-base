@@ -417,13 +417,13 @@ arches:
     name: iproute
     evr: 6.2.0-6.el8_10
     sourcerpm: iproute-6.2.0-6.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.177.1.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.178.1.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 12578392
-    checksum: sha256:0ae741329d9f126e5cd149b7f9a96609ae75461bd1869b33dc67cd7262332f8b
+    size: 12580464
+    checksum: sha256:5c53e287c429c4625a3409351ee5a4cafcdf5ad15d35dfbd99d4c4f94896596d
     name: kernel-headers
-    evr: 4.18.0-553.177.1.el8_10
-    sourcerpm: kernel-4.18.0-553.177.1.el8_10.src.rpm
+    evr: 4.18.0-553.178.1.el8_10
+    sourcerpm: kernel-4.18.0-553.178.1.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kmod-25-20.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 129356
@@ -641,13 +641,13 @@ arches:
     name: openssh-clients
     evr: 8.0p1-34.el8_10
     sourcerpm: openssh-8.0p1-34.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-1.1.1k-17.el8_6.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/o/openssl-1.1.1k-18.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 727856
-    checksum: sha256:d2e8518509c5900095c9811c7663a614b9ef44648e24e61dde954ca07328ad27
+    size: 728096
+    checksum: sha256:076e01a683a03aeff268e659d8532b7be6aa3609c9569ae6dedb8c908980ae0c
     name: openssl
-    evr: 1:1.1.1k-17.el8_6
-    sourcerpm: openssl-1.1.1k-17.el8_6.src.rpm
+    evr: 1:1.1.1k-18.el8_6
+    sourcerpm: openssl-1.1.1k-18.el8_6.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/p/pam-1.3.1-40.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 767072
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/20089564e6d2b6df7e2549d036884508f413d93bdc9ff5e3b667bd94e57b4d48-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/1689d4ebd3daf0df2c45e1557584de5774d5993676e4ac22a070ede8887ed16b-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 882498
-    checksum: sha256:20089564e6d2b6df7e2549d036884508f413d93bdc9ff5e3b667bd94e57b4d48
+    checksum: sha256:1689d4ebd3daf0df2c45e1557584de5774d5993676e4ac22a070ede8887ed16b
