@@ -291,13 +291,13 @@ arches:
     name: elfutils-libs
     evr: 0.190-2.el8
     sourcerpm: elfutils-0.190-2.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/e/emacs-filesystem-26.1-15.el8_10.2.noarch.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/e/emacs-filesystem-26.1-15.el8_10.4.noarch.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 71664
-    checksum: sha256:118f99c4089f398fb4a7bbbb051e5dca22d3c1dc058e79f8ce785fff3506f179
+    size: 71968
+    checksum: sha256:e4eaa29550ea9dffae3fa28d36e3d89d37b586caeb7634138be9766a02d19178
     name: emacs-filesystem
-    evr: 1:26.1-15.el8_10.2
-    sourcerpm: emacs-26.1-15.el8_10.2.src.rpm
+    evr: 1:26.1-15.el8_10.4
+    sourcerpm: emacs-26.1-15.el8_10.4.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/e/environment-modules-4.5.2-5.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 431208
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/b4cc598ff20263bdaad4ff63f51f5588d67250a7ce291059aba897d1f91357d0-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/c24e08de278c4ec7b60dfee6a25c21724707cc83836492ce2afae1a3e48b731b-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 883725
-    checksum: sha256:b4cc598ff20263bdaad4ff63f51f5588d67250a7ce291059aba897d1f91357d0
+    size: 885825
+    checksum: sha256:c24e08de278c4ec7b60dfee6a25c21724707cc83836492ce2afae1a3e48b731b
