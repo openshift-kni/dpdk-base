@@ -11,20 +11,20 @@ arches:
     name: cpp
     evr: 8.5.0-30.el8_10
     sourcerpm: gcc-8.5.0-30.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/d/dpdk-23.11-2.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/d/dpdk-23.11-3.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 4253860
-    checksum: sha256:afd49b74f1e78ee116a2e95f05d94864e1ef88a1309c833349bf0f44e999790e
+    size: 4249988
+    checksum: sha256:9c1817e55b80d8c391d332ef4779fe535a1f600cb9d1cf0f5b1ec97baa667eb2
     name: dpdk
-    evr: 23.11-2.el8_10
-    sourcerpm: dpdk-23.11-2.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/d/dpdk-tools-23.11-2.el8_10.x86_64.rpm
+    evr: 23.11-3.el8_10
+    sourcerpm: dpdk-23.11-3.el8_10.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/d/dpdk-tools-23.11-3.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 45992
-    checksum: sha256:e89f92e1d1ec9cb9f5edc7c5942e0a79045e96e796e149d967cc48307934b68b
+    size: 45168
+    checksum: sha256:f5ff5b03140203555e8d73fcd6a28b038ef016f936d34704cd8218147a9d0842
     name: dpdk-tools
-    evr: 23.11-2.el8_10
-    sourcerpm: dpdk-23.11-2.el8_10.src.rpm
+    evr: 23.11-3.el8_10
+    sourcerpm: dpdk-23.11-3.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/g/gcc-8.5.0-30.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 24574188
@@ -354,27 +354,27 @@ arches:
     name: gettext-libs
     evr: 0.19.8.1-17.el8
     sourcerpm: gettext-0.19.8.1-17.el8.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-devel-2.28-251.el8_10.48.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-devel-2.28-251.el8_10.53.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 94268
-    checksum: sha256:e001f1be8ff367608783d0094567ae7e548825223b4a6835d8e3c1fc1a95b928
+    size: 90108
+    checksum: sha256:ddcf190ba76d39d6b62c71f277cc9459f098da30e3b38ad870b193217534b032
     name: glibc-devel
-    evr: 2.28-251.el8_10.48
-    sourcerpm: glibc-2.28-251.el8_10.48.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-headers-2.28-251.el8_10.48.x86_64.rpm
+    evr: 2.28-251.el8_10.53
+    sourcerpm: glibc-2.28-251.el8_10.53.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-headers-2.28-251.el8_10.53.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 509016
-    checksum: sha256:fab0c989df4b0691facd7838ab5ec6ed8221fe8cd1635e1e4c341c1fb80ae646
+    size: 509664
+    checksum: sha256:0ad54918ffcf2bdd7c07c589a066f9a90fcbf10b02d7de86ae07effb06728229
     name: glibc-headers
-    evr: 2.28-251.el8_10.48
-    sourcerpm: glibc-2.28-251.el8_10.48.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-locale-source-2.28-251.el8_10.48.x86_64.rpm
+    evr: 2.28-251.el8_10.53
+    sourcerpm: glibc-2.28-251.el8_10.53.src.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/glibc-locale-source-2.28-251.el8_10.53.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 4421960
-    checksum: sha256:a7fdcfc80bc02e9cbb32a75ac30b0e421a99f6a0ace5076dd85ac8235763b9f4
+    size: 4422476
+    checksum: sha256:1ffc94f1182afebdeb4ca98eaab4b9f2703891dce858ce07fca5c42404ad7377
     name: glibc-locale-source
-    evr: 2.28-251.el8_10.48
-    sourcerpm: glibc-2.28-251.el8_10.48.src.rpm
+    evr: 2.28-251.el8_10.53
+    sourcerpm: glibc-2.28-251.el8_10.53.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/g/groff-base-1.22.3-18.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 1069536
@@ -480,13 +480,13 @@ arches:
     name: libevent
     evr: 2.1.8-11.el8_10
     sourcerpm: libevent-2.1.8-11.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libfdisk-2.32.1-48.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libfdisk-2.32.1-50.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 259376
-    checksum: sha256:59733655dc4a424ab2314895e5c2f7e274180bb092b65167cbf23e5634662a0a
+    size: 260444
+    checksum: sha256:56632cba87b189c418fc4ec89f6d5606eb34d1308cdbcded0c5216236f34c7d1
     name: libfdisk
-    evr: 2.32.1-48.el8_10
-    sourcerpm: util-linux-2.32.1-48.el8_10.src.rpm
+    evr: 2.32.1-50.el8_10
+    sourcerpm: util-linux-2.32.1-50.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libgomp-8.5.0-30.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 213084
@@ -1145,13 +1145,13 @@ arches:
     name: unzip
     evr: 6.0-48.el8_10
     sourcerpm: unzip-6.0-48.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/u/util-linux-2.32.1-48.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/u/util-linux-2.32.1-50.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 2597936
-    checksum: sha256:16f51c38ab76c0a1bfb1c9da94d48946a48d94367096ef855343db11574f5aca
+    size: 2616276
+    checksum: sha256:18aabdec071be4b176c83612e13ea40eb2b783d511f27bc900524eeabc718ee1
     name: util-linux
-    evr: 2.32.1-48.el8_10
-    sourcerpm: util-linux-2.32.1-48.el8_10.src.rpm
+    evr: 2.32.1-50.el8_10
+    sourcerpm: util-linux-2.32.1-50.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/x/xz-5.2.4-4.el8_6.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 156884
@@ -1166,13 +1166,13 @@ arches:
     name: yum
     evr: 4.7.0-21.el8_10
     sourcerpm: dnf-4.7.0-21.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/codeready-builder/os/Packages/d/dpdk-devel-23.11-2.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/codeready-builder/os/Packages/d/dpdk-devel-23.11-3.el8_10.x86_64.rpm
     repoid: codeready-builder-for-rhel-8-x86_64-rpms
-    size: 3026180
-    checksum: sha256:5ef1f4a1d83ae1163eddeb0489cd6fcdd63d7cf826f3a66bb3cfce25a75283e4
+    size: 3025432
+    checksum: sha256:5cf23087d35d2d53f239005daffd7e0b71d1bcdc88b53127331e0588089b7606
     name: dpdk-devel
-    evr: 23.11-2.el8_10
-    sourcerpm: dpdk-23.11-2.el8_10.src.rpm
+    evr: 23.11-3.el8_10
+    sourcerpm: dpdk-23.11-3.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/codeready-builder/os/Packages/l/libarchive-devel-3.3.3-7.el8_10.x86_64.rpm
     repoid: codeready-builder-for-rhel-8-x86_64-rpms
     size: 134156
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/755e803b601d1b0e18d8343a9606cf6609bc1835f743ef9e6436bc9f6f36f0bb-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/f45022b975a8f71b1c1384517764817de2c3f11f1c49c6b0d93eef0d0ac808d7-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 887387
-    checksum: sha256:755e803b601d1b0e18d8343a9606cf6609bc1835f743ef9e6436bc9f6f36f0bb
+    size: 887839
+    checksum: sha256:f45022b975a8f71b1c1384517764817de2c3f11f1c49c6b0d93eef0d0ac808d7
