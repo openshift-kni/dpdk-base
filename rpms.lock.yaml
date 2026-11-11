@@ -753,13 +753,6 @@ arches:
     name: libdb
     evr: 5.3.28-57.el9_6
     sourcerpm: libdb-5.3.28-57.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/l/libeconf-0.4.1-4.el9.aarch64.rpm
-    repoid: rhel-9-for-aarch64-baseos-rpms
-    size: 29577
-    checksum: sha256:b6f435b6b79b8a62729f581edead46542dc61fe7276117b2354c324c44ba8309
-    name: libeconf
-    evr: 0.4.1-4.el9
-    sourcerpm: libeconf-0.4.1-4.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/aarch64/baseos/os/Packages/l/libedit-3.1-38.20210216cvs.el9.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-rpms
     size: 107505
@@ -1138,6 +1131,13 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/l/libeconf-0.4.1-4.el9_6.1.aarch64.rpm
+    repoid: rhel-9-for-aarch64-baseos-eus-rpms
+    size: 25692
+    checksum: sha256:54b1e27919be6775e273cb464ca7af557c7e3653a087f838436d864c9c3470cd
+    name: libeconf
+    evr: 0.4.1-4.el9_6.1
+    sourcerpm: libeconf-0.4.1-4.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/aarch64/baseos/os/Packages/l/libfdisk-2.37.4-21.el9_6.1.aarch64.rpm
     repoid: rhel-9-for-aarch64-baseos-eus-rpms
     size: 149191
@@ -1982,13 +1982,6 @@ arches:
     name: libdb
     evr: 5.3.28-57.el9_6
     sourcerpm: libdb-5.3.28-57.el9_6.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/l/libeconf-0.4.1-4.el9.x86_64.rpm
-    repoid: rhel-9-for-x86_64-baseos-rpms
-    size: 30371
-    checksum: sha256:f7998382ca1be7836f6af05d42dc03f88799abcb10aa7a761e16f74058598012
-    name: libeconf
-    evr: 0.4.1-4.el9
-    sourcerpm: libeconf-0.4.1-4.el9.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel9/9.6/x86_64/baseos/os/Packages/l/libedit-3.1-38.20210216cvs.el9.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-rpms
     size: 109330
@@ -2374,6 +2367,13 @@ arches:
     name: expat
     evr: 2.5.0-5.el9_6.1
     sourcerpm: expat-2.5.0-5.el9_6.1.src.rpm
+  - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/l/libeconf-0.4.1-4.el9_6.1.x86_64.rpm
+    repoid: rhel-9-for-x86_64-baseos-eus-rpms
+    size: 26522
+    checksum: sha256:ec17d8e733f2a923a160895dbfcd4d4dcb329693bd54b6f63ca1a09200643b6e
+    name: libeconf
+    evr: 0.4.1-4.el9_6.1
+    sourcerpm: libeconf-0.4.1-4.el9_6.1.src.rpm
   - url: https://cdn.redhat.com/content/eus/rhel9/9.6/x86_64/baseos/os/Packages/l/libfdisk-2.37.4-21.el9_6.1.x86_64.rpm
     repoid: rhel-9-for-x86_64-baseos-eus-rpms
     size: 154288
