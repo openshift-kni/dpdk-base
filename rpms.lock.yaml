@@ -4,13 +4,13 @@ lockfileVendor: redhat
 arches:
 - arch: x86_64
   packages:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/c/cpp-8.5.0-30.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/c/cpp-8.5.0-31.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 10925500
-    checksum: sha256:6e29b455366b2c2a65f8fc045d37cae84260cef1570eebbac2db84026c2d3cc6
+    size: 10928904
+    checksum: sha256:f1d15b9aa9ef6cd9574064ea925f5ae2156ab6e12bc19ff66c3302ba4a68b445
     name: cpp
-    evr: 8.5.0-30.el8_10
-    sourcerpm: gcc-8.5.0-30.el8_10.src.rpm
+    evr: 8.5.0-31.el8_10
+    sourcerpm: gcc-8.5.0-31.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/d/dpdk-23.11-3.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 4249988
@@ -25,13 +25,13 @@ arches:
     name: dpdk-tools
     evr: 23.11-3.el8_10
     sourcerpm: dpdk-23.11-3.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/g/gcc-8.5.0-30.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/g/gcc-8.5.0-31.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 24574188
-    checksum: sha256:eb922aeb153de4cd847bc973aa033652e36154952b001c906f489aab65ea3c2b
+    size: 24581684
+    checksum: sha256:707df07bbd4310e3ec6529b9aa50677e22e09986b5671ed07e9aa51f67d6d290
     name: gcc
-    evr: 8.5.0-30.el8_10
-    sourcerpm: gcc-8.5.0-30.el8_10.src.rpm
+    evr: 8.5.0-31.el8_10
+    sourcerpm: gcc-8.5.0-31.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/Packages/g/git-2.43.7-1.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-appstream-rpms
     size: 94884
@@ -417,13 +417,13 @@ arches:
     name: iproute
     evr: 6.2.0-6.el8_10
     sourcerpm: iproute-6.2.0-6.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.184.1.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kernel-headers-4.18.0-553.186.1.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 12583580
-    checksum: sha256:393cde7325c21a031646ce61ea910d766fea48b2ae3cd5eda695264b82b6903e
+    size: 12586804
+    checksum: sha256:07e832da5283ab1c49349c2254a11829d7d0f50f60124645c1f5afdcad61192c
     name: kernel-headers
-    evr: 4.18.0-553.184.1.el8_10
-    sourcerpm: kernel-4.18.0-553.184.1.el8_10.src.rpm
+    evr: 4.18.0-553.186.1.el8_10
+    sourcerpm: kernel-4.18.0-553.186.1.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/k/kmod-25-20.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 129356
@@ -487,13 +487,13 @@ arches:
     name: libfdisk
     evr: 2.32.1-50.el8_10
     sourcerpm: util-linux-2.32.1-50.el8_10.src.rpm
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libgomp-8.5.0-30.el8_10.x86_64.rpm
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libgomp-8.5.0-31.el8_10.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
-    size: 213084
-    checksum: sha256:373427d7444ee05f7250e6ec823ae6f51614373471700ecfcb61cc5dfbb666d2
+    size: 213020
+    checksum: sha256:2814b0205c3a253fd635689673781959753b26b9cb6304aa9d87b4b62fded635
     name: libgomp
-    evr: 8.5.0-30.el8_10
-    sourcerpm: gcc-8.5.0-30.el8_10.src.rpm
+    evr: 8.5.0-31.el8_10
+    sourcerpm: gcc-8.5.0-31.el8_10.src.rpm
   - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/baseos/os/Packages/l/libibumad-48.0-1.el8.x86_64.rpm
     repoid: rhel-8-for-x86_64-baseos-rpms
     size: 34748
@@ -1182,7 +1182,7 @@ arches:
     sourcerpm: libarchive-3.3.3-7.el8_10.src.rpm
   source: []
   module_metadata:
-  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/f45022b975a8f71b1c1384517764817de2c3f11f1c49c6b0d93eef0d0ac808d7-modules.yaml.gz
+  - url: https://cdn.redhat.com/content/dist/rhel8/8/x86_64/appstream/os/repodata/8716468b93391af7a0a87b335ae91ee3cbc407971a564289c61fb43ea52d203d-modules.yaml.gz
     repoid: rhel-8-for-x86_64-appstream-rpms
-    size: 887839
-    checksum: sha256:f45022b975a8f71b1c1384517764817de2c3f11f1c49c6b0d93eef0d0ac808d7
+    size: 890465
+    checksum: sha256:8716468b93391af7a0a87b335ae91ee3cbc407971a564289c61fb43ea52d203d
